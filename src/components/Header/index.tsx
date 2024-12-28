@@ -1,7 +1,15 @@
 import {Link} from "react-router";
+import {useState} from "react";
 
 
 export default function Header() {
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const handleToggle = () => {
+        setIsDarkMode((prev) => !prev);
+        // Optionally, you can add logic here to change a global theme (e.g., Tailwind's `data-theme` attribute)
+        document.documentElement.setAttribute("data-theme", isDarkMode ? "light" : "dark");
+    };
     return (
         <header>
             <div className="navbar bg-accent">
