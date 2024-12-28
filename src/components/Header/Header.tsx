@@ -50,7 +50,10 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                    <Link to="/"><a className="btn btn-ghost text-xl">Portfolio</a></Link>
+                    <Link to="/">
+                        <a className="btn btn-ghost text-xl text-white">Portfolio</a>
+                    </Link>
+
 
                 </div>
 
@@ -58,16 +61,24 @@ export default function Header() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/"
+                                  className="hover:text-white focus:text-white active:text-white"
+                            >Home</Link>
                         </li>
                         <li>
-                            <Link to="/projects">Projects</Link>
+                            <Link to="/projects"
+                                  className="hover:text-white focus:text-white active:text-white"
+                            >Projects</Link>
                         </li>
                         <li>
-                            <Link to="/skills">Skills</Link>
+                            <Link to="/skills"
+                                  className="hover:text-white focus:text-white active:text-white"
+                            >Skills</Link>
                         </li>
                         <li>
-                            <Link to="/aboutme">About Me</Link>
+                            <Link to="/aboutme"
+                                  className="hover:text-white focus:text-white active:text-white"
+                            >About Me</Link>
                         </li>
                     </ul>
                 </div>
