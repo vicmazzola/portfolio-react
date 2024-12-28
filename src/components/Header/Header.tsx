@@ -50,7 +50,8 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Portfolio</a>
+                    <Link to="/"><a className="btn btn-ghost text-xl">Portfolio</a></Link>
+
                 </div>
 
                 {/* Navbar Center */}
