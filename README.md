@@ -1,4 +1,4 @@
-# My New Portfolio: React + TailwindCSS + TypeScript + DaisyUI
+# My New Portfolio: <br> React + TailwindCSS + TypeScript + DaisyUI
 
 This project is a complete overhaul of my portfolio, built using modern web development tools. It highlights my transition from static development to dynamic, scalable solutions. Here's the journey:
 
