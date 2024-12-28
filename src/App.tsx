@@ -1,12 +1,13 @@
 import {Route, Routes} from 'react-router';
 import './App.css'
 import {BrowserRouter} from "react-router";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Header from "./components/Header/Header.tsx";
+import Home from "./components/Home/Home.tsx";
+import Footer from "./components/Footer/Footer.tsx";
+import AboutMe from "./components/AboutMe/AboutMe.tsx";
+import Projects from "./components/Projects/Project.tsx";
 import Skills from "./components/Skills";
+import Background from "./components/Background/Background.tsx";
 
 
 
@@ -18,6 +19,7 @@ function Main() {
         <>
 
             <BrowserRouter>
+                <Background/>
                 <Header/>
                 <Routes>
                     <Route index element={<Home/>}/>
