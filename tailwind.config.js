@@ -7,5 +7,7 @@ export default {
   plugins: [
     require('daisyui'),
   ],
+  mode: 'jit',
+
 }
 
