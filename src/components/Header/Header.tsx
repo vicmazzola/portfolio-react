@@ -51,7 +51,7 @@ export default function Header() {
                         </ul>
                     </div>
                     <Link to="/">
-                        <a className="btn btn-ghost text-xl text-white">Portfolio</a>
+                        <a className="btn btn-ghost text-3xl md:text-5xl text-start font-semibold text-white tracking-wide leading-tight">Portfolio</a>
                     </Link>
 
 
