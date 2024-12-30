@@ -62,22 +62,22 @@ export default function Header() {
                     <ul className="menu menu-horizontal px-1">
                         <li>
                             <Link to="/"
-                                  className="hover:text-white focus:text-white active:text-white"
+                                  className="text-xl hover:text-white focus:text-white active:text-white"
                             >Home</Link>
                         </li>
                         <li>
                             <Link to="/projects"
-                                  className="hover:text-white focus:text-white active:text-white"
+                                  className="text-xl hover:text-white focus:text-white active:text-white"
                             >Projects</Link>
                         </li>
                         <li>
                             <Link to="/skills"
-                                  className="hover:text-white focus:text-white active:text-white"
+                                  className="text-xl hover:text-white focus:text-white active:text-white"
                             >Skills</Link>
                         </li>
                         <li>
                             <Link to="/aboutme"
-                                  className="hover:text-white focus:text-white active:text-white"
+                                  className="text-xl hover:text-white focus:text-white active:text-white"
                             >About Me</Link>
                         </li>
                     </ul>
