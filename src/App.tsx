@@ -6,7 +6,7 @@ import Home from "./components/Home/Home.tsx";
 import Footer from "./components/Footer/Footer.tsx";
 import AboutMe from "./components/AboutMe/AboutMe.tsx";
 import Projects from "./components/Projects/Project.tsx";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills.tsx";
 import Background from "./components/Background/Background.tsx";
 
 

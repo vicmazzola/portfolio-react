@@ -51,7 +51,7 @@ export default function Header() {
                         </ul>
                     </div>
                     <Link to="/">
-                        <a className="btn btn-ghost text-xl sm:text-1xl md:text-3xl lg:text-4xl text-start font-semibold text-white tracking-wide leading-tight">Mazz Code</a>
+                        <a className="btn btn-ghost text-xl sm:text-1xl md:text-3xl lg:text-4xl text-start ml- font-semibold text-white tracking-wide leading-tight">Mazz Code</a>
                     </Link>
 
 

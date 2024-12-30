@@ -1,11 +1,11 @@
 @keyframes typing {
-    from { max-width: 0; }
-    to { max-width: 100%; }
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 @keyframes erasing {
-    from { max-width: 100%; }
-    to { max-width: 0; }
+    from { width: 100%; }
+    to { width: 0; }
 }
 
 @keyframes blink {
@@ -17,10 +17,9 @@
     white-space: nowrap;
     border-right: 2px solid;
     display: inline-block;
-    max-width: 0; /* Ensure the width starts from 0 */
+    width: 0;
     animation:
-            typing 3s steps(30, end) alternate,
-            erasing 3s steps(30, end) alternate,
-            blink 0.5s step-end infinite;
-    animation-iteration-count: infinite;
+            typing 3s steps(17, end) forwards,
+            erasing 3s steps(17, end) forwards 3s,
+            blink 0.5s step-end infinite 6s;
 }
