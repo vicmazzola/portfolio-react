@@ -1,5 +1,6 @@
 import {Link} from "react-router";
 import {useState} from "react";
+import styles from "./Header.module.css"
 
 
 export default function Header() {
@@ -51,7 +52,8 @@ export default function Header() {
                         </ul>
                     </div>
                     <Link to="/">
-                        <a className="btn btn-ghost text-xl sm:text-1xl md:text-3xl lg:text-4xl text-start ml- font-semibold text-white tracking-wide leading-tight">Mazz Code</a>
+                        <a className={`btn btn-ghost text-start ml-0 font-semibold text-white tracking-wide leading-tight whitespace-nowrap ${styles.title}`}>Crafting
+                            the web with Victor</a>
                     </Link>
 
 
@@ -84,7 +86,6 @@ export default function Header() {
                 </div>
 
 
-
                 {/* Navbar End */}
                 <div className="navbar-end">
                     <label className="grid cursor-pointer place-items-center">
@@ -105,8 +106,9 @@ export default function Header() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                         >
-                            <circle cx="12" cy="12" r="5" />
-                            <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+                            <circle cx="12" cy="12" r="5"/>
+                            <path
+                                d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>
                         </svg>
                         <svg
                             className="stroke-base-100 fill-base-100 col-start-2 row-start-1"

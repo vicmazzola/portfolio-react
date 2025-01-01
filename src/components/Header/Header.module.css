@@ -1,0 +1,39 @@
+/* Default font size for iPhone SE (375px width) */
+.title {
+    font-size: 16px; /* Slightly smaller for very small screens */
+}
+
+/* Font size for iPhone 12 Pro and XR (390px and 414px width respectively) */
+@media (min-width: 390px) {
+    .title {
+        font-size: 18px; /* Equivalent to text-base */
+    }
+}
+
+/* Font size for iPhone 14 Pro Max (430px width) */
+@media (min-width: 430px) {
+    .title {
+        font-size: 20px; /* Equivalent to text-lg */
+    }
+}
+
+/* Font size for screens ≥ 640px (sm) */
+@media (min-width: 640px) {
+    .title {
+        font-size: 20px; /* Slightly larger for medium-small screens */
+    }
+}
+
+/* Font size for screens ≥ 768px (md) */
+@media (min-width: 768px) {
+    .title {
+        font-size: 24px; /* Equivalent to text-3xl */
+    }
+}
+
+/* Font size for screens ≥ 1024px (lg) */
+@media (min-width: 1024px) {
+    .title {
+        font-size: 32px; /* Equivalent to text-4xl */
+    }
+}

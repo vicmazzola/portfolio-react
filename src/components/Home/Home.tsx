@@ -17,7 +17,7 @@ export default function Home() {
                         <Type />
                     </div>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-white opacity-40 text-lg md:text-xl px-8 py-2 hover:scale-105 transition-transform">
+                        <button className="btn btn-white text-white bg-transparent text-lg md:text-xl px-8 py-2 hover:scale-105 transition-transform">
                             About Me
                         </button>
                     </div>
