@@ -1,7 +1,14 @@
 {
   "translation": {
-    "header": "Crafting the web with Victor",
-    "home": "Home",
+    "home": {
+      "header": "Home",
+      "hello":  "Hello there!",
+      "name": "I am Victor Mazzola",
+      "roles": {
+        "developer": "Software Developer",
+        "helpdesk": "IT Helpdesk Intern"
+      }
+    },
     "aboutMe": "About Me",
     "projects": "Projects",
     "skills": "Skills"

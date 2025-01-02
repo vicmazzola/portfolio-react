@@ -1,18 +1,10 @@
 import {Link} from "react-router";
-import {useState} from "react";
 import {useTranslation} from "react-i18next";
-import styles from "./Header.module.css"
 
 
 export default function Header() {
-    const [isDarkMode, setIsDarkMode] = useState(false);
     const { t, i18n } = useTranslation();
 
-    const handleToggle = () => {
-        setIsDarkMode((prev) => !prev);
-        // Optionally, you can add logic here to change a global theme (e.g., Tailwind's `data-theme` attribute)
-        document.documentElement.setAttribute("data-theme", isDarkMode ? "light" : "dark");
-    };
 
     const handleLanguageChange = () => {
         const newLanguage = i18n.language === "en" ? "pt" : "en";
@@ -46,7 +38,7 @@ export default function Header() {
                             className="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
                         >
                             <li>
-                                <Link to="/">{t("home")}</Link>
+                                <Link to="/">{t("home.header")}</Link>
                             </li>
                             <li>
                                 <Link to="/projects">{t("projects")}</Link>
@@ -59,10 +51,6 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                    <Link to="/">
-                        <a className={`btn btn-ghost text-start ml-0 font-semibold text-white tracking-wide leading-tight whitespace-nowrap ${styles.title}`}>{t("header")}</a>
-                    </Link>
-
 
                 </div>
 
@@ -70,25 +58,27 @@ export default function Header() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <Link to="/" className="text-xl hover:text-white">
-                                {t("home")}
+                            <Link to="/" className="text-xl hover:text-white focus:text-white active:text-white">
+                                {t("home.header")}
                             </Link>
                         </li>
                         <li>
-                            <Link to="/projects" className="text-xl hover:text-white">
+                            <Link to="/projects"
+                                  className="text-xl hover:text-white focus:text-white active:text-white">
                                 {t("projects")}
                             </Link>
                         </li>
                         <li>
-                            <Link to="/skills" className="text-xl hover:text-white">
+                            <Link to="/skills" className="text-xl hover:text-white focus:text-white active:text-white">
                                 {t("skills")}
                             </Link>
                         </li>
                         <li>
-                            <Link to="/aboutme" className="text-xl hover:text-white">
+                            <Link to="/aboutme" className="text-xl hover:text-white focus:text-white active:text-white">
                                 {t("aboutMe")}
                             </Link>
                         </li>
+
                     </ul>
                 </div>
 

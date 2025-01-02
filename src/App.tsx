@@ -10,11 +10,7 @@ import Skills from "./components/Skills/Skills.tsx";
 import Background from "./components/Background/Background.tsx";
 
 
-
-
-
 function Main() {
-
 
     return (
         <>
