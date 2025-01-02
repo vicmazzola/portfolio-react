@@ -2,12 +2,14 @@
   "translation": {
     "home": {
       "header": "Home",
-      "hello":  "Hello there!",
+      "hello": "Hello there!",
       "name": "I am Victor Mazzola",
       "roles": {
         "developer": "Software Developer",
         "helpdesk": "IT Helpdesk Intern"
-      }
+      },
+      "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone"
+
     },
     "aboutMe": "About Me",
     "projects": "Projects",
