@@ -2,14 +2,16 @@ import { motion, Variants } from "framer-motion";
 
 const cardVariants: Variants = {
     offscreen: {
-        y: 200, // Starts offscreen below
+        y: 200,
+        opacity: 0,// Starts offscreen below
     },
     onscreen: {
-        y: 0, // Moves into view
+        y: 0,
+        opacity: 1,// Moves into view
         transition: {
-            type: "spring",
-            bounce: 0.4,
-            duration: 0.8,
+            type: "tween",
+            ease: "easeInOut",
+            duration: 1.2,
         },
     },
 };
