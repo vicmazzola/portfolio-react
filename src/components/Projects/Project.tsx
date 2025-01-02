@@ -1,89 +1,42 @@
-import { motion, Variants } from "framer-motion";
+import Card from "../Card/Card.tsx"
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
-    const cardVariants: Variants = {
-        offscreen: {
-            y: 300, // Starts offscreen below
+
+    const { t } = useTranslation();
+
+    const cards = [
+        {
+            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            title: t("projects.card1.title"), // Translated title
+            description: t("projects.card1.description"), // Translated description
+            buttonText: t("projects.card1.button"), // Translated button text
         },
-        onscreen: {
-            y: 0, // Moves into view
-            transition: {
-                type: "spring",
-                bounce: 0.4,
-                duration: 0.8,
-            },
+        {
+            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            title: t("projects.card2.title"),
+            description: t("projects.card2.description"),
+            buttonText: t("projects.card2.button"),
         },
-    };
+        {
+            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            title: t("projects.card3.title"),
+            description: t("projects.card3.description"),
+            buttonText: t("projects.card3.button"),
+        },
+    ];
 
     return (
-        <div className="flex flex-col items-center gap-8 py-12">
-            {/* First DaisyUI Card with Animation */}
-            <motion.div
-                className="card bg-base-100 shadow-xl w-96"
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ amount: 0.2}} // Trigger when 20% of card is visible
-                variants={cardVariants}
-            >
-                <figure>
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes"
-                    />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes, whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </motion.div>
-
-            {/* Second DaisyUI Card with Animation */}
-            <motion.div
-                className="card bg-base-100 shadow-xl w-96"
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ amount: 0.2 }} // Trigger when 20% of card is visible
-                variants={cardVariants}
-            >
-                <figure>
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes"
-                    />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">More Shoes!</h2>
-                    <p>Find your perfect pair in our exclusive collection.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </motion.div>
-            {/* Third DaisyUI Card with Animation */}
-            <motion.div
-                className="card bg-base-100 shadow-xl w-96"
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ amount: 0.2 }} // Trigger when 20% of card is visible
-                variants={cardVariants}
-            >
-                <figure>
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes"
-                    />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">More Shoes!</h2>
-                    <p>Find your perfect pair in our exclusive collection.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </motion.div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 mx-6 my-2">
+            {cards.map((card, index) => (
+                <Card
+                    key={index}
+                    image={card.image}
+                    title={card.title}
+                    description={card.description}
+                    buttonText={card.buttonText}
+                />
+            ))}
         </div>
     );
 }

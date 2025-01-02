@@ -8,10 +8,30 @@
         "developer": "Desenvolvedor de Software",
         "helpdesk": "Estagiário de Helpdesk"
       },
-      "text": "Sempre buscando aprimorar meu entendimento sobre desenvolvimento para entregar soluções inovadoras para todos"
+      "text": "Sempre buscando aprimorar meu entendimento sobre desenvolvimento para entregar soluções inovadoras para todos",
+      "skills": "Habilidades"
     },
     "aboutMe": "Sobre Mim",
-    "projects": "Projetos",
+    "projects": {
+      "header": "Projetos",
+      "card1": {
+        "title": "Card1!",
+        "description": "Se um cachorro mastiga sapatos, de quem são os sapatos?",
+        "button": "Compre Agora"
+      },
+      "card2": {
+        "title": "Card2!",
+        "description": "Encontre o par perfeito em nossa coleção exclusiva.",
+        "button": "Comprar"
+      },
+      "card3": {
+        "title": "Card3!",
+        "description": "Melhore seu estilo com nossos calçados premium.",
+        "button": "Explorar"
+      }
+    },
+
+
     "skills": "Habilidades"
   }
 }

@@ -24,6 +24,9 @@ export default function Home() {
             <p className="text-2xl text-white text-center mx-3 my-12">
                 {t("home.text")}
             </p>
+            <p className="text-3xl text-white text-center mx-3 my-12">
+                {t("home.skills")}
+            </p>
 
         </>
     );

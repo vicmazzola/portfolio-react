@@ -8,11 +8,29 @@
         "developer": "Software Developer",
         "helpdesk": "IT Helpdesk Intern"
       },
-      "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone"
-
+      "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone",
+      "skills": "Skills"
     },
+
     "aboutMe": "About Me",
-    "projects": "Projects",
-    "skills": "Skills"
+
+    "projects": {
+      "header": "Projects",
+      "card1": {
+        "title": "Card1!",
+        "description": "If a dog chews shoes, whose shoes does he choose?",
+        "button": "Buy Now"
+      },
+      "card2": {
+        "title": "Card2!",
+        "description": "Find your perfect pair in our exclusive collection.",
+        "button": "Shop Now"
+      },
+      "card3": {
+        "title": "Card3!",
+        "description": "Step up your game with our premium footwear.",
+        "button": "Explore"
+      }
+    }
   }
 }
