@@ -44,9 +44,6 @@ export default function Header() {
                                 <Link to="/projects">{t("projects.header")}</Link>
                             </li>
                             <li>
-                                <Link to="/skills">{t("skills")}</Link>
-                            </li>
-                            <li>
                                 <Link to="/aboutme">{t("aboutMe")}</Link>
                             </li>
                         </ul>
@@ -66,11 +63,6 @@ export default function Header() {
                             <Link to="/projects"
                                   className="text-xl hover:text-white focus:text-white active:text-white">
                                 {t("projects.header")}
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/skills" className="text-xl hover:text-white focus:text-white active:text-white">
-                                {t("skills")}
                             </Link>
                         </li>
                         <li>
