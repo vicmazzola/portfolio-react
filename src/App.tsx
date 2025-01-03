@@ -6,7 +6,6 @@ import Home from "./components/Home/Home.tsx";
 import Footer from "./components/Footer/Footer.tsx";
 import AboutMe from "./components/AboutMe/AboutMe.tsx";
 import Projects from "./components/Projects/Projects.tsx";
-import Skills from "./components/Skills/Skills.tsx";
 import Background from "./components/Background/Background.tsx";
 
 
@@ -22,7 +21,6 @@ function Main() {
                     <Route index element={<Home/>}/>
                     <Route path="/aboutme" element={<AboutMe/>}/>
                     <Route path="/projects" element={<Projects/>}/>
-                    <Route path="/skills" element={<Skills/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>

@@ -61,7 +61,21 @@ export default function Home() {
                 {t("home.skills")}
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-8 py-12 px-4 sm:px-6 lg:px-8">
+            {/*// MOBILE */}
+            <div className="flex flex-col lg:flex-row gap-4 py-12 px-4 lg:hidden">
+                {skillsArray.map((skill, index) => (
+                    <Skill
+                        key={index}
+                        props={skill}
+
+                    />
+                    // <div className="divider"></div>
+                ))}
+
+            </div>
+
+            {/*// DESKTOP */}
+            <div className="flex-col lg:flex-row gap-4 py-12 px-4 hidden lg:flex">
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}
