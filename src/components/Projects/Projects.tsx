@@ -1,11 +1,11 @@
-import Card from "../Card/Card.tsx"
+import Card, {CardProps} from "../Card/Card.tsx"
 import {useTranslation} from "react-i18next";
 
 export default function Projects() {
 
     const {t} = useTranslation();
 
-    const cards = [
+    const cards: CardProps[] = [
         {
             image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
             title: t("projects.card1.title"),

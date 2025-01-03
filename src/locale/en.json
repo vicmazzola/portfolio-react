@@ -16,8 +16,6 @@
 
     "projects": {
       "header": "Projects",
-      "projects": {
-        "header": "Projects",
         "card1": {
           "title": "Card1!",
           "description": "If a dog chews shoes, whose shoes does he choose?",
@@ -83,4 +81,4 @@
 
     }
   }
-}
+
