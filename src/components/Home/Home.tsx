@@ -76,21 +76,36 @@ export default function Home() {
                         <div className="w-52 rounded-full">
                             <img
                                 src={avatar}
-                                />
+                            />
                         </div>
                     </div>
 
                     <div className="text px-10">
-                        <h1 className="text-5xl font-semibold">{t("home.hello")}</h1>
-                        <h1 className="text-3xl font-semibold">{t("home.name")}</h1>
-                        <div className="py-6 text-center">
+                        <h1 className="text-center lg:text-left text-3xl my-6 font-semibold">{t("home.hello")}</h1>
+                        <h1 className="text-center lg:text-left text-3xl font-semibold">{t("home.name")}</h1>
+
+                        {/*MOBILE*/}
+
+                        <div className="p-6 text-xl text-center lg:hidden">
                             <Type
-                            strings={[
-                                t("home.roles.developer"),
-                                t("home.roles.helpdesk"),
-                            ]}
-                        /></div>
-                        <p className="py-6">{t("home.text")}</p>
+                                strings={[
+                                    t("home.roles.developer"),
+                                    t("home.roles.helpdesk"),
+                                ]}
+                            />
+                        </div>
+
+                        {/*DESKTOP*/}
+
+                        <div className="py-6 text-3xl hidden lg:flex">
+                            <Type
+                                strings={[
+                                    t("home.roles.developer"),
+                                    t("home.roles.helpdesk"),
+                                ]}
+                            />
+                        </div>
+                        <p className="bg-black opacity-80 rounded-lg text-xl font-semibold p-6">{t("home.text")}</p>
 
                     </div>
                 </div>
@@ -102,7 +117,7 @@ export default function Home() {
             </p>
 
             {/*// SKILLS MOBILE */}
-            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
+            <div className="grid grid-cols-2 lg:flex-row gap-4 pt-12 px-8 mx-8 lg:hidden">
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}
@@ -133,7 +148,7 @@ export default function Home() {
 
 
             {/*// TOOLS MOBILE */}
-            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
+            <div className="grid grid-cols-2 lg:flex-row gap-4 pt-12 px-8 mx-8 lg:hidden">
                 {toolsArray.map((skill, index) => (
                     <Tools
                         key={index}
@@ -165,7 +180,7 @@ export default function Home() {
             </p>
 
             {/*// LANGUAGES MOBILE */}
-            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-4 mx-8 lg:hidden">
+            <div className="grid grid-cols-2 lg:flex-row gap-4 pt-12 px-4 mx-8 lg:hidden">
                 {languagesArray.map((language, index) => (
                     <Languages key={index} props={language}/>
                 ))}
