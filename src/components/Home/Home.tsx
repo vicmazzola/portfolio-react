@@ -4,11 +4,12 @@ import Skill, {SkillProps} from "./Skill/Skill.tsx";
 import Tools, {ToolsProps} from "./Tools/Tools.tsx";
 import Languages, {LanguageProps} from "./Languages/Languages.tsx";
 import {Icons} from "../../lib/icons.ts";
+import avatar from "../../assets/avatar.jpg";
 
 
 export default function Home() {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { t, i18n } = useTranslation();
+    const {t, i18n} = useTranslation();
+    console.log("Language selected:", i18n.language);
     const skillsArray: SkillProps[] = [
         new SkillProps(
             Icons.react,
@@ -69,23 +70,33 @@ export default function Home() {
 
     return (
         <>
-            <p className="text-3xl text-white text-center my-6">
-                {t("home.hello")}
-            </p>
-            <p className="text-2xl text-white text-center my-12">
-                {t("home.name")}
-            </p>
-            <div className="text-2xl text-white text-center">
-                <Type
-                    strings={[
-                        t("home.roles.developer"),
-                        t("home.roles.helpdesk"),
-                    ]}
-                />
+            <div className="hero rounded text-white">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="avatar">
+                        <div className="w-52 rounded-full">
+                            <img
+                                src={avatar}
+                                />
+                        </div>
+                    </div>
+
+                    <div className="text px-10">
+                        <h1 className="text-5xl font-semibold">{t("home.hello")}</h1>
+                        <h1 className="text-3xl font-semibold">{t("home.name")}</h1>
+                        <div className="py-6 text-center">
+                            <Type
+                            strings={[
+                                t("home.roles.developer"),
+                                t("home.roles.helpdesk"),
+                            ]}
+                        /></div>
+                        <p className="py-6">{t("home.text")}</p>
+
+                    </div>
+                </div>
             </div>
-            <p className="text-2xl text-white text-center mx-3 my-12">
-                {t("home.text")}
-            </p>
+
+
             <p className="text-3xl text-white text-center mx-3 my-12">
                 {t("home.skills")}
             </p>
@@ -156,7 +167,7 @@ export default function Home() {
             {/*// LANGUAGES MOBILE */}
             <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-4 mx-8 lg:hidden">
                 {languagesArray.map((language, index) => (
-                    <Languages key={index} props={language} />
+                    <Languages key={index} props={language}/>
                 ))}
 
             </div>
@@ -164,7 +175,7 @@ export default function Home() {
             {/*// LANGUAGES DESKTOP */}
             <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
                 {languagesArray.map((language, index) => (
-                    <Languages key={index} props={language} />
+                    <Languages key={index} props={language}/>
                 ))}
 
             </div>
