@@ -2,16 +2,26 @@
   "translation": {
     "home": {
       "header": "Home",
-      "hello":  "Olá!",
+      "hello": "Olá!",
       "name": "Sou o Victor Mazzola",
       "roles": {
         "developer": "Desenvolvedor de Software",
         "helpdesk": "Estagiário de Helpdesk"
       },
       "text": "Sempre buscando aprimorar meu entendimento sobre desenvolvimento para entregar soluções inovadoras para todos",
-      "skills": "Habilidades",
+      "skills": "Habilidades Profissionais",
       "tools": "Ferramentas que uso",
-      "languages": "Linguas"
+      "languages": {
+        "header": "Línguas",
+        "native": "Nativo",
+        "advanced": "Fluente",
+        "intermediate": "Intermediário",
+        "basic": "Básico",
+        "pt": "Português",
+        "uk": "Inglês",
+        "it": "Italiano",
+        "de": "Alemão"
+      }
     },
     "aboutMe": "Sobre Mim",
     "projects": {
@@ -77,9 +87,7 @@
         "button": "Veja Mais"
       }
     },
-
-
-
     "skills": "Habilidades"
   }
 }
+

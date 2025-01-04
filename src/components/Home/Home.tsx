@@ -7,6 +7,7 @@ import {Icons} from "../../lib/icons.ts";
 
 
 export default function Home() {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { t, i18n } = useTranslation();
     const skillsArray: SkillProps[] = [
         new SkillProps(
@@ -59,22 +60,10 @@ export default function Home() {
     ];
 
     const languagesArray: LanguageProps[] = [
-        new ToolsProps(
-            Icons.github,
-            "Github",
-        ),
-        new ToolsProps(
-            Icons.webstorm,
-            "WebStorm",
-        ),
-        new ToolsProps(
-            Icons.vscode,
-            "VS Code",
-        ),
-        new ToolsProps(
-            Icons.intellij,
-            "IntelliJ IDEA",
-        )
+        new LanguageProps("brazil", t("home.languages.native")),
+        new LanguageProps("uk", t("home.languages.advanced")),
+        new LanguageProps("italy", t("home.languages.intermediate")),
+        new LanguageProps("germany", t("home.languages.basic"))
     ];
 
 
@@ -135,7 +124,7 @@ export default function Home() {
             {/*// TOOLS MOBILE */}
             <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
                 {toolsArray.map((skill, index) => (
-                    <Skill
+                    <Tools
                         key={index}
                         props={skill}
 
@@ -148,7 +137,7 @@ export default function Home() {
             {/*// TOOLS DESKTOP */}
             <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
                 {toolsArray.map((skill, index) => (
-                    <Skill
+                    <Tools
                         key={index}
                         props={skill}
 
@@ -160,31 +149,22 @@ export default function Home() {
 
 
             <p className="text-3xl text-white text-center mx-3 my-12">
-                {t("home.languages")}
+                {t("home.languages.header")}
+
             </p>
 
             {/*// LANGUAGES MOBILE */}
-            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
-                {languagesArray.map((skill, index) => (
-                    <Skill
-                        key={index}
-                        props={skill}
-
-                    />
-                    // <div className="divider"></div>
+            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-4 mx-8 lg:hidden">
+                {languagesArray.map((language, index) => (
+                    <Languages key={index} props={language} />
                 ))}
 
             </div>
 
             {/*// LANGUAGES DESKTOP */}
             <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
-                {skillsArray.map((skill, index) => (
-                    <Skill
-                        key={index}
-                        props={skill}
-
-                    />
-                    // <div className="divider"></div>
+                {languagesArray.map((language, index) => (
+                    <Languages key={index} props={language} />
                 ))}
 
             </div>

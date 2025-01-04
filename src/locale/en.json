@@ -9,78 +9,85 @@
         "helpdesk": "IT Helpdesk Intern"
       },
       "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone",
-      "skills": "Skills",
+      "skills": "Professional Skills",
       "tools": "Tools I use",
-      "languages": "Languages"
+      "languages": {
+        "header": "Languages I speak",
+        "native": "Native",
+        "advanced": "Advanced",
+        "intermediate": "Intermediate",
+        "basic": "Basic",
+        "pt": "Portuguese",
+        "uk": "English",
+        "it": "Italian",
+        "de": "German"
+      }
     },
-
     "aboutMe": "About Me",
-
     "projects": {
       "header": "Projects",
-        "card1": {
-          "title": "Card1!",
-          "description": "If a dog chews shoes, whose shoes does he choose?",
-          "button": "Buy Now"
-        },
-        "card2": {
-          "title": "Card2!",
-          "description": "Find your perfect pair in our exclusive collection.",
-          "button": "Shop Now"
-        },
-        "card3": {
-          "title": "Card3!",
-          "description": "Step up your game with our premium footwear.",
-          "button": "Explore"
-        },
-        "card4": {
-          "title": "Card4!",
-          "description": "Discover new styles with our exclusive collection.",
-          "button": "Check Now"
-        },
-        "card5": {
-          "title": "Card5!",
-          "description": "Unleash your style with our vibrant range of footwear.",
-          "button": "Discover More"
-        },
-        "card6": {
-          "title": "Card6!",
-          "description": "Find elegance and comfort in every step.",
-          "button": "Get Yours"
-        },
-        "card7": {
-          "title": "Card7!",
-          "description": "Step into the future of fashion with our modern designs.",
-          "button": "Order Now"
-        },
-        "card8": {
-          "title": "Card8!",
-          "description": "Crafted for those who value quality and style.",
-          "button": "Shop Today"
-        },
-        "card9": {
-          "title": "Card9!",
-          "description": "Experience the difference with our premium collection.",
-          "button": "Learn More"
-        },
-        "card10": {
-          "title": "Card10!",
-          "description": "Step up your game with shoes that match your ambition.",
-          "button": "Find Out More"
-        },
-        "card11": {
-          "title": "Card11!",
-          "description": "Achieve your goals with the perfect fit.",
-          "button": "Start Now"
-        },
-        "card12": {
-          "title": "Card12!",
-          "description": "Elevate your footwear game with exclusive styles.",
-          "button": "See More"
-        }
+      "card1": {
+        "title": "Card1!",
+        "description": "If a dog chews shoes, whose shoes does he choose?",
+        "button": "Buy Now"
+      },
+      "card2": {
+        "title": "Card2!",
+        "description": "Find your perfect pair in our exclusive collection.",
+        "button": "Shop Now"
+      },
+      "card3": {
+        "title": "Card3!",
+        "description": "Step up your game with our premium footwear.",
+        "button": "Explore"
+      },
+      "card4": {
+        "title": "Card4!",
+        "description": "Discover new styles with our exclusive collection.",
+        "button": "Check Now"
+      },
+      "card5": {
+        "title": "Card5!",
+        "description": "Unleash your style with our vibrant range of footwear.",
+        "button": "Discover More"
+      },
+      "card6": {
+        "title": "Card6!",
+        "description": "Find elegance and comfort in every step.",
+        "button": "Get Yours"
+      },
+      "card7": {
+        "title": "Card7!",
+        "description": "Step into the future of fashion with our modern designs.",
+        "button": "Order Now"
+      },
+      "card8": {
+        "title": "Card8!",
+        "description": "Crafted for those who value quality and style.",
+        "button": "Shop Today"
+      },
+      "card9": {
+        "title": "Card9!",
+        "description": "Experience the difference with our premium collection.",
+        "button": "Learn More"
+      },
+      "card10": {
+        "title": "Card10!",
+        "description": "Step up your game with shoes that match your ambition.",
+        "button": "Find Out More"
+      },
+      "card11": {
+        "title": "Card11!",
+        "description": "Achieve your goals with the perfect fit.",
+        "button": "Start Now"
+      },
+      "card12": {
+        "title": "Card12!",
+        "description": "Elevate your footwear game with exclusive styles.",
+        "button": "See More"
       }
-
-
     }
   }
+}
+
 
