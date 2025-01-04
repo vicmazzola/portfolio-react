@@ -4,6 +4,7 @@ import {TbBrandTypescript, TbBrandVite} from "react-icons/tb";
 import {RiBootstrapLine, RiTailwindCssFill} from "react-icons/ri";
 import {VscVscode} from "react-icons/vsc";
 import {SiIntellijidea, SiWebstorm} from "react-icons/si";
+import {MdLanguage} from "react-icons/md";
 
 export const Icons = {
     react : FaReact,
@@ -17,8 +18,7 @@ export const Icons = {
     webstorm: SiWebstorm,
     vscode: VscVscode,
     intellij: SiIntellijidea,
-
-
+    language: MdLanguage,
 
 
 }

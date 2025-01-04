@@ -1,15 +1,17 @@
 import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
+import {Icons} from "../../lib/icons.ts";
 
 
 export default function Header() {
-    const { t, i18n } = useTranslation();
+    const {t, i18n} = useTranslation();
 
-
-    const handleLanguageChange = () => {
-        const newLanguage = i18n.language === "en" ? "pt" : "en";
-        i18n.changeLanguage(newLanguage);
+    const handleLanguageChange = (selectedLanguage: "en" | "pt") => {
+        // const newLanguage = i18n.language === "en" ? "pt" : "en";
+        i18n.changeLanguage(selectedLanguage);
     };
+
+    const LanguageIcon = Icons.language;
 
     return (
         <header>
@@ -77,9 +79,30 @@ export default function Header() {
 
                 {/* Navbar End */}
                 <div className="navbar-end">
-                    <button className="btn" onClick={handleLanguageChange}>
-                        {i18n.language === "en" ? "PT" : "EN"}
-                    </button>
+                    <div className="dropdown dropdown-end">
+                        <div tabIndex={0} role="button" className="btn bg-transparent text-2xl text-white m-1">
+                            <LanguageIcon/></div>
+                        <ul tabIndex={0}
+                            className="dropdown-content menu bg-base-100 text-black rounded-box z-[1] w-52 p-2 shadow">
+                            <li>
+                                <a onClick={() => handleLanguageChange("en")}
+                                   className={i18n.language === "en" ? "font-bold" : ""}
+                                >
+                                    English
+                                </a>
+
+                            </li>
+                            <li>
+                                <a onClick={() => handleLanguageChange("pt")}
+                                   className={i18n.language === "pt" ? "font-bold" : ""}
+                                >
+                                    Português
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
                 </div>
 
             </div>
