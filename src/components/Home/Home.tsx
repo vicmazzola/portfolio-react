@@ -1,6 +1,8 @@
 import Type from "../Type/Type.tsx";
 import {useTranslation} from "react-i18next";
 import Skill, {SkillProps} from "./Skill/Skill.tsx";
+import Tools, {ToolsProps} from "./Tools/Tools.tsx";
+import Languages, {LanguageProps} from "./Languages/Languages.tsx";
 import {Icons} from "../../lib/icons.ts";
 
 
@@ -37,6 +39,44 @@ export default function Home() {
         )
     ];
 
+    const toolsArray: ToolsProps[] = [
+        new ToolsProps(
+            Icons.github,
+            "Github",
+        ),
+        new ToolsProps(
+            Icons.webstorm,
+            "WebStorm",
+        ),
+        new ToolsProps(
+            Icons.vscode,
+            "VS Code",
+        ),
+        new ToolsProps(
+            Icons.intellij,
+            "IntelliJ IDEA",
+        )
+    ];
+
+    const languagesArray: LanguageProps[] = [
+        new ToolsProps(
+            Icons.github,
+            "Github",
+        ),
+        new ToolsProps(
+            Icons.webstorm,
+            "WebStorm",
+        ),
+        new ToolsProps(
+            Icons.vscode,
+            "VS Code",
+        ),
+        new ToolsProps(
+            Icons.intellij,
+            "IntelliJ IDEA",
+        )
+    ];
+
 
     return (
         <>
@@ -61,8 +101,8 @@ export default function Home() {
                 {t("home.skills")}
             </p>
 
-            {/*// MOBILE */}
-            <div className="flex flex-col lg:flex-row gap-4 py-12 px-4 lg:hidden">
+            {/*// SKILLS MOBILE */}
+            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}
@@ -74,8 +114,70 @@ export default function Home() {
 
             </div>
 
-            {/*// DESKTOP */}
-            <div className="flex-col lg:flex-row gap-4 py-12 px-4 hidden lg:flex">
+            {/*// SKILLS DESKTOP */}
+            <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
+                {skillsArray.map((skill, index) => (
+                    <Skill
+                        key={index}
+                        props={skill}
+
+                    />
+                    // <div className="divider"></div>
+                ))}
+
+            </div>
+
+            <p className="text-3xl text-white text-center mx-3 my-12">
+                {t("home.tools")}
+            </p>
+
+
+            {/*// TOOLS MOBILE */}
+            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
+                {toolsArray.map((skill, index) => (
+                    <Skill
+                        key={index}
+                        props={skill}
+
+                    />
+                    // <div className="divider"></div>
+                ))}
+
+            </div>
+
+            {/*// TOOLS DESKTOP */}
+            <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
+                {toolsArray.map((skill, index) => (
+                    <Skill
+                        key={index}
+                        props={skill}
+
+                    />
+                    // <div className="divider"></div>
+                ))}
+
+            </div>
+
+
+            <p className="text-3xl text-white text-center mx-3 my-12">
+                {t("home.languages")}
+            </p>
+
+            {/*// LANGUAGES MOBILE */}
+            <div className="grid grid-cols-2 lg:flex-row gap-4 py-12 px-8 mx-8 lg:hidden">
+                {languagesArray.map((skill, index) => (
+                    <Skill
+                        key={index}
+                        props={skill}
+
+                    />
+                    // <div className="divider"></div>
+                ))}
+
+            </div>
+
+            {/*// LANGUAGES DESKTOP */}
+            <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}
