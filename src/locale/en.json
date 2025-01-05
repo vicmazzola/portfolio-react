@@ -29,7 +29,8 @@
       "card1": {
         "title": "Card1!",
         "description": "If a dog chews shoes, whose shoes does he choose?",
-        "button": "Buy Now"
+        "button": "Buy Now",
+        "modalContent": "Test"
       },
       "card2": {
         "title": "Card2!",
