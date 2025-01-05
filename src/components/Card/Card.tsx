@@ -5,7 +5,9 @@ export type CardProps = {
     title: string;
     description: string;
     buttonText: string;
-    modalContent?: string; // Optional property for modal content
+    modalContent?: string;
+    githubRepo?: string;
+    liveDemo?: string;
 };
 
 export default function Card(props: CardProps) {
@@ -38,6 +40,7 @@ export default function Card(props: CardProps) {
                 </div>
             </div>
 
+
             {/* Modal */}
             {isModalOpen && (
                 <div className="modal modal-open" role="dialog" aria-labelledby="modal-title"
@@ -45,6 +48,22 @@ export default function Card(props: CardProps) {
                     <div className="modal-box">
                         <h3 id="modal-title" className="text-lg font-bold">{props.title}</h3>
                         <p className="py-4">{props.modalContent || props.description}</p>
+                        {props.githubRepo && (
+                            <p className="py-2">
+                                <a href={props.githubRepo} target="_blank" rel="noopener noreferrer"
+                                   className="text-blue-500 underline">
+                                    GitHub Repository
+                                </a>
+                            </p>
+                        )}
+                        {props.liveDemo && (
+                            <p className="py-2">
+                                <a href={props.liveDemo} target="_blank" rel="noopener noreferrer"
+                                   className="text-blue-500 underline">
+                                    Live Demo
+                                </a>
+                            </p>
+                        )}
                         <div className="modal-actions">
                             <button className="btn" onClick={handleModalToggle}>
                                 Close

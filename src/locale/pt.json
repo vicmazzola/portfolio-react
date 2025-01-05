@@ -26,11 +26,13 @@
     "aboutMe": "Sobre Mim",
     "projects": {
       "header": "Projetos",
-      "card1": {
-        "title": "Cartão1!",
-        "description": "Se um cachorro mastiga sapatos, de quem são os sapatos?",
-        "button": "Compre Agora",
-        "modalContent": "Teste"
+      "portfolio": {
+        "title": "Portfólio",
+        "description": "Meu portfólio feito com React, TypeScript, Tailwind e Vite",
+        "button": "Ver Agora",
+        "modalContent": "Meu portfólio feito com React, TypeScript, Tailwind e Vite",
+        "githubRepo": "https://github.com/vicmazzola/portfolio-react",
+        "liveDemo": "https://your-live-demo-url"
       },
       "card2": {
         "title": "Cartão2!",

@@ -10,10 +10,12 @@ export default function Projects() {
     const cards: CardProps[] = [
         {
             image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-            title: t("projects.card1.title"),
-            description: t("projects.card1.description"),
-            buttonText: t("projects.card1.button"),
-            modalContent: t("projects.card1.modalContent"),
+            title: t("projects.portfolio.title"),
+            description: t("projects.portfolio.description"),
+            buttonText: t("projects.portfolio.button"),
+            modalContent: t("projects.portfolio.modalContent"),
+            githubRepo: t("projects.portfolio.githubRepo"),
+            liveDemo: t("projects.portfolio.liveDemo")
         },
         {
             image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
@@ -106,6 +108,8 @@ export default function Projects() {
                     description={card.description}
                     buttonText={card.buttonText}
                     modalContent={card.modalContent}
+                    githubRepo={card.githubRepo}
+                    liveDemo={card.liveDemo}
                 />
             ))}
         </div>
