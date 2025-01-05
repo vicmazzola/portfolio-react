@@ -19,10 +19,12 @@ export default function Projects() {
         },
         {
             image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-            title: t("projects.card2.title"),
-            description: t("projects.card2.description"),
-            buttonText: t("projects.card2.button"),
-            modalContent: t("projects.card2.modalContent"),
+            title: t("projects.calculator.title"),
+            description: t("projects.calculator.description"),
+            buttonText: t("projects.calculator.button"),
+            modalContent: t("projects.calculator.modalContent"),
+            githubRepo: t("projects.calculator.githubRepo"),
+            liveDemo: t("projects.calculator.liveDemo")
         },
         {
             image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",

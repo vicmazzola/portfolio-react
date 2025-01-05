@@ -34,10 +34,13 @@
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
         "liveDemo": "https://your-live-demo-url"
       },
-      "card2": {
-        "title": "Card2!",
-        "description": "Find your perfect pair in our exclusive collection.",
-        "button": "Shop Now"
+      "calculator": {
+        "title": "Calculator",
+        "description": "Calculator made using React.",
+        "button": "Check Now",
+        "modalContent": "Calculator made using React.",
+        "githubRepo": "https://github.com/vicmazzola/react-calc-app",
+        "liveDemo": "https://react-calc-app-seven.vercel.app/"
       },
       "card3": {
         "title": "Card3!",

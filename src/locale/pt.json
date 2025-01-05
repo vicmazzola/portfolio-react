@@ -29,15 +29,18 @@
       "portfolio": {
         "title": "Portfólio",
         "description": "Meu portfólio feito com React, TypeScript, Tailwind e Vite",
-        "button": "Ver Agora",
+        "button": "Confira Agora",
         "modalContent": "Meu portfólio feito com React, TypeScript, Tailwind e Vite",
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
         "liveDemo": "https://your-live-demo-url"
       },
-      "card2": {
-        "title": "Cartão2!",
-        "description": "Encontre o par perfeito em nossa coleção exclusiva.",
-        "button": "Compre Já"
+      "calculator": {
+        "title": "Calculadora",
+        "description": "Calculadora feita usando React.",
+        "button": "Confira Agora",
+        "modalContent": "Calculadora feita usando React.",
+        "githubRepo": "https://github.com/vicmazzola/react-calc-app",
+        "liveDemo": "https://react-calc-app-seven.vercel.app/"
       },
       "card3": {
         "title": "Cartão3!",
