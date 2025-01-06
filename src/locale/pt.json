@@ -36,9 +36,9 @@
       },
       "calculator": {
         "title": "Calculadora",
-        "description": "Calculadora criada usando React.",
-        "button": "Ver Agora",
-        "modalContent": "Calculadora criada usando React.",
+        "description": "Um aplicativo de calculadora moderno desenvolvido com React e Vite, com suporte offline graças à funcionalidade PWA. Responsivo, rápido e fácil de usar.",
+        "button": "Confira Agora",
+        "modalContent": "Calculadora desenvolvida com React e Vite. Inclui operações básicas para o dia a dia, funcionalidade Progressive Web App (PWA) para uso offline e instalação, além de um design responsivo para uso perfeito em qualquer dispositivo. Alimentada pelo React para uma interface modular e Vite para desempenho ultrarrápido.",
         "githubRepo": "https://github.com/vicmazzola/react-calc-app",
         "liveDemo": "https://react-calc-app-seven.vercel.app/"
       },

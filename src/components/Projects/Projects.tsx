@@ -1,7 +1,7 @@
 import Card, {CardProps} from "../Card/Card.tsx"
 import {useTranslation} from "react-i18next";
-import calculator from "../../assets/calculator.png";
-import portfolio from "../../assets/portfolio.png"
+import images from "../Card/CardImages.tsx"
+
 
 
 export default function Projects() {
@@ -11,7 +11,7 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
-            image: portfolio,
+            image: images.portfolio,
             title: t("projects.portfolio.title"),
             description: t("projects.portfolio.description"),
             buttonText: t("projects.portfolio.button"),
@@ -20,7 +20,7 @@ export default function Projects() {
             liveDemo: t("projects.portfolio.liveDemo")
         },
         {
-            image: calculator,
+            image: images.calculator,
             title: t("projects.calculator.title"),
             description: t("projects.calculator.description"),
             buttonText: t("projects.calculator.button"),
@@ -29,7 +29,7 @@ export default function Projects() {
             liveDemo: t("projects.calculator.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.shoppingList,
             title: t("projects.shopping-list.title"),
             description: t("projects.shopping-list.description"),
             buttonText: t("projects.shopping-list.button"),
