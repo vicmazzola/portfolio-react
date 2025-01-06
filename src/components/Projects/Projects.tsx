@@ -38,7 +38,7 @@ export default function Projects() {
             liveDemo: t("projects.shopping-list.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.teamFlow,
             title: t("projects.teamflow.title"),
             description: t("projects.teamflow.description"),
             buttonText: t("projects.teamflow.button"),
@@ -47,7 +47,7 @@ export default function Projects() {
             liveDemo: t("projects.teamflow.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.codeConnect,
             title: t("projects.codeconnect.title"),
             description: t("projects.codeconnect.description"),
             buttonText: t("projects.codeconnect.button"),
@@ -56,7 +56,7 @@ export default function Projects() {
             liveDemo: t("projects.codeconnect.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.codeConnectLogin,
             title: t("projects.codeconnect-login.title"),
             description: t("projects.codeconnect-login.description"),
             buttonText: t("projects.codeconnect-login.button"),
@@ -65,7 +65,7 @@ export default function Projects() {
             liveDemo: t("projects.codeconnect-login.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.codeConnectPost,
             title: t("projects.codeconnect-post.title"),
             description: t("projects.codeconnect-post.description"),
             buttonText: t("projects.codeconnect-post.button"),
@@ -74,7 +74,7 @@ export default function Projects() {
             liveDemo: t("projects.codeconnect-post.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.devDragons,
             title: t("projects.dev-dragons.title"),
             description: t("projects.dev-dragons.description"),
             buttonText: t("projects.dev-dragons.button"),
@@ -83,7 +83,7 @@ export default function Projects() {
             liveDemo: t("projects.dev-dragons.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.fokus,
             title: t("projects.fokus.title"),
             description: t("projects.fokus.description"),
             buttonText: t("projects.fokus.button"),
@@ -92,7 +92,7 @@ export default function Projects() {
             liveDemo: t("projects.fokus.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.iFood,
             title: t("projects.ifood.title"),
             description: t("projects.ifood.description"),
             buttonText: t("projects.ifood.button"),
@@ -101,7 +101,7 @@ export default function Projects() {
             liveDemo: t("projects.ifood.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.aboutGames,
             title: t("projects.about-games.title"),
             description: t("projects.about-games.description"),
             buttonText: t("projects.about-games.button"),
@@ -110,7 +110,7 @@ export default function Projects() {
             liveDemo: t("projects.about-games.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.mazzolaPlay,
             title: t("projects.mazzola-play.title"),
             description: t("projects.mazzola-play.description"),
             buttonText: t("projects.mazzola-play.button"),
@@ -119,7 +119,7 @@ export default function Projects() {
             liveDemo: t("projects.mazzola-play.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.fintech,
             title: t("projects.fintech.title"),
             description: t("projects.fintech.description"),
             buttonText: t("projects.fintech.button"),
@@ -128,7 +128,7 @@ export default function Projects() {
             liveDemo: t("projects.fintech.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.aluraBooks,
             title: t("projects.alurabooks.title"),
             description: t("projects.alurabooks.description"),
             buttonText: t("projects.alurabooks.button"),
@@ -137,7 +137,7 @@ export default function Projects() {
             liveDemo: t("projects.alurabooks.liveDemo")
         },
         {
-            image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+            image: images.guess,
             title: t("projects.guess.title"),
             description: t("projects.guess.description"),
             buttonText: t("projects.guess.button"),
