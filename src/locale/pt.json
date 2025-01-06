@@ -46,23 +46,23 @@
         "title": "Lista de Compras",
         "description": "Gerencie itens de compras dinamicamente com HTML, CSS, JavaScript e SweetAlert2.",
         "button": "Explorar",
-        "modalContent": "Um aplicativo dinâmico para gerenciar sua lista de compras com recursos como adicionar, editar e organizar itens.",
+        "modalContent": "Shopping List simplifica o gerenciamento de compras. Adicione, edite, exclua e marque itens como comprados, com datas de criação exibidas. Feito com HTML, CSS, JavaScript e SweetAlert2, é responsivo e fácil de usar.",
         "githubRepo": "https://github.com/vicmazzola/shopping-list",
         "liveDemo": "https://shopping-list-wine-eta.vercel.app/"
       },
       "teamflow": {
         "title": "TeamFlow",
-        "description": "Gerenciamento colaborativo de tarefas usando React com componentes dinâmicos e reutilizáveis.",
+        "description": "Um app React com componentes reutilizáveis, gerenciamento de estado e design responsivo. Criado com Vite e implantado no Vercel.",
         "button": "Ver Agora",
-        "modalContent": "Um app React para gerenciamento colaborativo de tarefas, usando componentes reutilizáveis e configuração com Vite.",
+        "modalContent": "Gerencie equipes com cards, dropdowns e formulários em uma interface dinâmica e responsiva.",
         "githubRepo": "https://github.com/vicmazzola/TeamFlow",
         "liveDemo": "https://team-flow-tan.vercel.app/"
       },
       "codeconnect": {
         "title": "CodeConnect",
-        "description": "Uma plataforma social para desenvolvedores com componentes dinâmicos e hooks.",
+        "description": "Um projeto React com componentes dinâmicos, gerenciamento de estado e hooks. Criado com Vite para desenvolvimento rápido.",
         "button": "Descubra Mais",
-        "modalContent": "Uma plataforma social para desenvolvedores com componentes reutilizáveis, gerenciamento de estado e configuração com Vite.",
+        "modalContent": "Crie navegação, busca, filtros e cards com componentes React dinâmicos e gerenciamento eficiente de estado.",
         "githubRepo": "https://github.com/vicmazzola/codeconnect",
         "liveDemo": "https://codeconnect-feed-seven.vercel.app/"
       },
@@ -70,7 +70,7 @@
         "title": "CodeConnect Login",
         "description": "Módulo de login para CodeConnect, com componentes reutilizáveis e CSS modular.",
         "button": "Testar Agora",
-        "modalContent": "Sistema de login seguro para CodeConnect, utilizando React, JSX, hooks e estilos modulares.",
+        "modalContent": "Crie formulários, inputs e botões dinamicamente com componentes React e estado. O CSS modular garante um layout limpo e responsivo.",
         "githubRepo": "https://github.com/vicmazzola/code-connect-react",
         "liveDemo": "https://code-connect-react-five.vercel.app/"
       },
@@ -82,14 +82,6 @@
         "githubRepo": "https://github.com/vicmazzola/dev-dragons",
         "liveDemo": "https://dev-dragons-chi.vercel.app/"
       },
-      "fokus": {
-        "title": "Fokus",
-        "description": "Timer Pomodoro com intervalos dinâmicos, feedback sonoro e botões interativos.",
-        "button": "Começar Foco",
-        "modalContent": "Um timer minimalista Pomodoro com estilos dinâmicos, interface responsiva e feedback sonoro integrado.",
-        "githubRepo": "https://github.com/vicmazzola/fokus",
-        "liveDemo": "https://fokus-tau-rouge.vercel.app/"
-      },
       "codeconnect-post": {
         "title": "CodeConnect Post",
         "description": "App para gerenciar posts com formulários dinâmicos e recursos assíncronos.",
@@ -97,6 +89,14 @@
         "modalContent": "Gerencie posts dinamicamente com upload de imagens, pré-visualizações ao vivo e validação de tags.",
         "githubRepo": "https://github.com/vicmazzola/code-connect",
         "liveDemo": "https://code-connect-ten-mu.vercel.app/"
+      },
+      "fokus": {
+        "title": "Fokus",
+        "description": "Timer Pomodoro com intervalos dinâmicos, feedback sonoro e botões interativos.",
+        "button": "Começar Foco",
+        "modalContent": "Um timer minimalista Pomodoro com estilos dinâmicos, interface responsiva e feedback sonoro integrado.",
+        "githubRepo": "https://github.com/vicmazzola/fokus",
+        "liveDemo": "https://fokus-tau-rouge.vercel.app/"
       },
       "ifood": {
         "title": "iFood Back-office",
