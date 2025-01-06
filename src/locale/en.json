@@ -28,9 +28,9 @@
       "header": "Projects",
       "portfolio": {
         "title": "Portfolio",
-        "description": "My portfolio made using React, TypeScript, Tailwind and Vite",
+        "description": "Showcasing my projects and skills using React, TypeScript, Tailwind, and Vite.",
         "button": "Check Now",
-        "modalContent": "My portfolio made using React, TypeScript, Tailwind and Vite",
+        "modalContent": "This portfolio showcases my growth as a developer. My first portfolio was built using HTML, CSS, and Bootstrap, but this new version applies my knowledge of React, TypeScript, Tailwind, and Vite.",
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
         "liveDemo": "https://your-live-demo-url"
       },
@@ -42,55 +42,109 @@
         "githubRepo": "https://github.com/vicmazzola/react-calc-app",
         "liveDemo": "https://react-calc-app-seven.vercel.app/"
       },
-      "card3": {
-        "title": "Card3!",
-        "description": "Step up your game with our premium footwear.",
-        "button": "Explore"
+      "shopping-list": {
+        "title": "Shopping List",
+        "description": "Manage shopping items dynamically using HTML, CSS, JavaScript, and SweetAlert2.",
+        "button": "Explore",
+        "modalContent": "A dynamic shopping list app with features like adding, editing, and organizing items effectively.",
+        "githubRepo": "https://github.com/vicmazzola/shopping-list",
+        "liveDemo": "https://shopping-list-wine-eta.vercel.app/"
       },
-      "card4": {
-        "title": "Card4!",
-        "description": "Discover new styles with our exclusive collection.",
-        "button": "Check Now"
+      "teamflow": {
+        "title": "TeamFlow",
+        "description": "Collaborative task management app built with React, showcasing reusable and dynamic components.",
+        "button": "Check Now",
+        "modalContent": "A React app demonstrating collaborative task management using reusable components and Vite setup.",
+        "githubRepo": "https://github.com/vicmazzola/TeamFlow",
+        "liveDemo": "https://team-flow-tan.vercel.app/"
       },
-      "card5": {
-        "title": "Card5!",
-        "description": "Unleash your style with our vibrant range of footwear.",
-        "button": "Discover More"
+      "codeconnect": {
+        "title": "CodeConnect",
+        "description": "A developer social platform built with React, using dynamic components and hooks.",
+        "button": "Discover More",
+        "modalContent": "A social platform for developers, featuring reusable components, state management, and Vite configuration.",
+        "githubRepo": "https://github.com/vicmazzola/codeconnect",
+        "liveDemo": "https://codeconnect-feed-seven.vercel.app/"
       },
-      "card6": {
-        "title": "Card6!",
-        "description": "Find elegance and comfort in every step.",
-        "button": "Get Yours"
+      "codeconnect-login": {
+        "title": "CodeConnect Login",
+        "description": "Login module for CodeConnect, showcasing reusable components and modular CSS styling.",
+        "button": "Try It Out",
+        "modalContent": "A secure login system for CodeConnect using React, JSX, hooks, and modular styles.",
+        "githubRepo": "https://github.com/vicmazzola/code-connect-react",
+        "liveDemo": "https://code-connect-react-five.vercel.app/"
       },
-      "card7": {
-        "title": "Card7!",
-        "description": "Step into the future of fashion with our modern designs.",
-        "button": "Order Now"
+      "dev-dragons": {
+        "title": "Dev Dragons",
+        "description": "RPG-themed app showcasing object-oriented principles like inheritance and dynamic rendering.",
+        "button": "Play Now",
+        "modalContent": "An RPG app with OOP concepts, dynamic character cards, and an interactive battle system.",
+        "githubRepo": "https://github.com/vicmazzola/dev-dragons",
+        "liveDemo": "https://dev-dragons-chi.vercel.app/"
       },
-      "card8": {
-        "title": "Card8!",
-        "description": "Crafted for those who value quality and style.",
-        "button": "Shop Today"
+      "fokus": {
+        "title": "Fokus",
+        "description": "A Pomodoro timer with dynamic intervals, audio feedback, and interactive buttons.",
+        "button": "Start Focusing",
+        "modalContent": "A minimalist Pomodoro timer with dynamic styles, responsive interface, and integrated audio feedback.",
+        "githubRepo": "https://github.com/vicmazzola/fokus",
+        "liveDemo": "https://fokus-tau-rouge.vercel.app/"
       },
-      "card9": {
-        "title": "Card9!",
-        "description": "Experience the difference with our premium collection.",
-        "button": "Learn More"
+      "codeconnect-post": {
+        "title": "CodeConnect Post",
+        "description": "A web app for managing posts with dynamic forms and async features.",
+        "button": "Check Posts",
+        "modalContent": "Manage posts dynamically with image uploads, live previews, tag validation, and responsive forms.",
+        "githubRepo": "https://github.com/vicmazzola/code-connect",
+        "liveDemo": "https://code-connect-ten-mu.vercel.app/"
       },
-      "card10": {
-        "title": "Card10!",
-        "description": "Step up your game with shoes that match your ambition.",
-        "button": "Find Out More"
+      "ifood": {
+        "title": "iFood Back-office Solution",
+        "description": "A back-office solution for financial management, built with React and secure features.",
+        "button": "Order Now",
+        "modalContent": "A project for iFood partners to manage digital transactions securely and efficiently.",
+        "githubRepo": "https://github.com/vicmazzola/challenge_ifood",
+        "liveDemo": "https://challengeifood-rosy.vercel.app/"
       },
-      "card11": {
-        "title": "Card11!",
-        "description": "Achieve your goals with the perfect fit.",
-        "button": "Start Now"
+      "about-games": {
+        "title": "About Games",
+        "description": "A simple site for practicing HTML, CSS, and Bootstrap skills effectively.",
+        "button": "Learn More",
+        "modalContent": "A practice project using HTML, CSS, and Bootstrap to improve layout and responsiveness.",
+        "githubRepo": "https://github.com/vicmazzola/projeto-ferias",
+        "liveDemo": "https://games-consoles.vercel.app/"
       },
-      "card12": {
-        "title": "Card12!",
-        "description": "Elevate your footwear game with exclusive styles.",
-        "button": "See More"
+      "mazzola-play": {
+        "title": "Mazzola's Play",
+        "description": "A basic webpage built using HTML, CSS, and responsive Flexbox layouts.",
+        "button": "Play Now",
+        "modalContent": "A simple webpage built as part of Flexbox learning with Alura, showcasing responsive designs.",
+        "githubRepo": "https://github.com/vicmazzola/mazzolas-play",
+        "liveDemo": "https://mazzolas-play.vercel.app/"
+      },
+      "fintech": {
+        "title": "FinPlus",
+        "description": "A fintech landing page built using HTML, CSS, and Bootstrap components.",
+        "button": "Explore",
+        "modalContent": "A single-page fintech solution designed with responsive layouts and Bootstrap for front-end class.",
+        "githubRepo": "https://github.com/vicmazzola/Fintech",
+        "liveDemo": "https://fintechfinplus.vercel.app/"
+      },
+      "alurabooks": {
+        "title": "AluraBooks",
+        "description": "An e-commerce platform showcasing books with advanced JavaScript filtering and sorting.",
+        "button": "Shop Now",
+        "modalContent": "An advanced e-commerce site with JavaScript array methods for filtering, sorting, and responsiveness.",
+        "githubRepo": "https://github.com/vicmazzola/alura-books-js",
+        "liveDemo": "https://alura-books-js-xi.vercel.app/"
+      },
+      "guess": {
+        "title": "Guess the Number",
+        "description": "A guessing game built with HTML, CSS, and JavaScript for practice.",
+        "button": "Play Now",
+        "modalContent": "An improved number guessing game featuring dynamic feedback and responsive design for fun interaction.",
+        "githubRepo": "https://github.com/vicmazzola/guess-the-number",
+        "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
       }
     }
   }
