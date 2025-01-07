@@ -1,12 +1,12 @@
+import Timeline from "./Timeline";
 
-export default function AboutMe() {
+const AboutMe: React.FC = () => {
     return (
-        <>
+        <section>
+            <p className="text-2xl text-white text-center">This section contains information about me...</p>
+            <Timeline />
+        </section>
+    );
+};
 
-            <h1>
-                AboutMe
-            </h1>
-
-        </>
-    )
-}
+export default AboutMe;
