@@ -23,7 +23,6 @@
         "de": "Alemão"
       }
     },
-    "aboutMe": "Sobre Mim",
     "projects": {
       "header": "Projetos",
       "portfolio": {
@@ -145,6 +144,46 @@
         "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
         "githubRepo": "https://github.com/vicmazzola/guess-the-number",
         "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+      }
+    },
+    "aboutme": {
+      "header": "Sobre Mim",
+      "job": {
+        "goldnet": {
+          "company": "Goldnet TI",
+          "location": "Jundiaí, São Paulo, Brasil",
+          "title": "Helpdesk TI",
+          "date": "Agosto 2024 - Presente",
+          "description": "A Goldnet TI é um fornecedor líder de serviços de TI, oferecendo soluções técnicas para empresas.\n\nComo Helpdesk TI, fui responsável por:\n\n· Suporte técnico presencial e remoto para resolução de problemas relacionados a sistemas e equipamentos.\n· Configuração, manutenção e suporte de impressoras.\n· Atendimento de suporte Help Desk de nível 1, auxiliando usuários na solução de problemas técnicos.\n· Gestão de criação, exclusão e ajuste de permissões em contas de sistemas internos.\n· Realização de primeiro atendimento, oferecendo suporte geral aos usuários."
+        },
+        "evolution": {
+          "company": "Evolution Gaming Group",
+          "location": "Birkirkara, Malta",
+          "title": "Shuffler",
+          "date": "Abril - Outubro 2023",
+          "description": "A Evolution é uma empresa líder em iGaming, renomada por oferecer experiências de jogos de alta qualidade.\n\nComo Shuffler, fui responsável por:\n\n· Fornecer cartas de forma eficiente para manter o fluxo do jogo.\n· Garantir uma jogabilidade envolvente e contínua para os jogadores.\n· Contribuir para uma experiência de jogo ininterrupta e imersiva."
+        },
+        "vilaromana": {
+          "company": "Vila Romana",
+          "location": "Itupeva, São Paulo, Brasil",
+          "title": "Vendedor",
+          "date": "Janeiro - Julho 2021",
+          "description": "A Vila Romana é uma loja especializada em roupas de negócios, incluindo camisas, calças, ternos e acessórios.\n\nComo Vendedor, minhas responsabilidades incluíam:\n\n· Auxiliar clientes na escolha e compra de roupas e acessórios de negócios.\n· Fornecer informações detalhadas sobre os produtos e recomendações baseadas nas necessidades dos clientes.\n· Desenvolver habilidades de comunicação e a capacidade de interagir de forma eficaz com uma clientela diversificada.\n· Manter o estoque da loja e garantir um alto padrão de atendimento ao cliente."
+        },
+        "ambev": {
+          "company": "Ambev (parte da AB InBev)",
+          "location": "Jundiaí, São Paulo, Brasil",
+          "title": "Jovem Aprendiz",
+          "date": "Abril 2017 - Março 2018",
+          "description": "A Ambev é uma grande empresa brasileira de cervejaria com presença em diversos países.\n\nComo Jovem Aprendiz, minhas responsabilidades incluíam:\n\n· Auxílio na preparação dos treinamentos dos funcionários e análise dos resultados pós-treinamento.\n· Assistência aos gerentes da área de embalagem.\n· Utilização de ferramentas do pacote Microsoft Office, como Excel, para controle de produção e treinamento de fábrica.\n\nComecei como aprendiz em Recursos Humanos e fui realocado para o setor de Embalagem. Adquiri experiência trabalhando tanto no escritório quanto na produção/armazém, desenvolvendo a habilidade de interagir com todos os níveis da empresa, desde trabalhadores da fábrica até gerentes."
+        },
+        "adoniroladeira": {
+          "company": "Escola Estadual Professor Adoniro Ladeira",
+          "location": "Jundiaí, São Paulo, Brasil",
+          "title": "Aprendiz",
+          "date": "2013",
+          "description": "A Escola Estadual Professor Adoniro Ladeira é uma instituição educacional que oferece ensino de qualidade para estudantes do ensino fundamental e médio.\n\nComo Aprendiz, minhas responsabilidades incluíam:\n\n· Auxiliar estudantes do ensino médio e superior em suas aulas de informática.\n· Assistir os professores na preparação de apresentações.\n\nEssa experiência permitiu que eu desenvolvesse minha paixão por computadores."
+        }
       }
     }
   }

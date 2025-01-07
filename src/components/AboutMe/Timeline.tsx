@@ -1,44 +1,46 @@
-interface TimelineItem {
-    year: string;
-    title: string;
-    description: string;
-}
-
-const timelineData: TimelineItem[] = [
-    {
-        year: "2015",
-        title: "Apple Watch",
-        description:
-            "The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities.",
-    },
-    {
-        year: "2007",
-        title: "iPhone",
-        description:
-            "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
-    },
-    {
-        year: "2001",
-        title: "iPod",
-        description:
-            "The iPod is a discontinued series of portable media players designed and marketed by Apple Inc.",
-    },
-    {
-        year: "1998",
-        title: "iMac",
-        description:
-            "iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc.",
-    },
-    {
-        year: "1984",
-        title: "First Macintosh computer",
-        description:
-            "The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh personal computer.",
-    },
-];
-
+import { useTranslation } from "react-i18next";
 
 const Timeline: React.FC = () => {
+    const { t } = useTranslation();
+
+    const timelineData = [
+        {
+            company: t("aboutme.job.goldnet.company"),
+            location: t("aboutme.job.goldnet.location"),
+            title: t("aboutme.job.goldnet.title"),
+            date: t("aboutme.job.goldnet.date"),
+            description: t("aboutme.job.goldnet.description"),
+        },
+        {
+            company: t("aboutme.job.evolution.company"),
+            location: t("aboutme.job.evolution.location"),
+            title: t("aboutme.job.evolution.title"),
+            date: t("aboutme.job.evolution.date"),
+            description: t("aboutme.job.evolution.description"),
+        },
+        {
+            company: t("aboutme.job.vilaromana.company"),
+            location: t("aboutme.job.vilaromana.location"),
+            title: t("aboutme.job.vilaromana.title"),
+            date: t("aboutme.job.vilaromana.date"),
+            description: t("aboutme.job.vilaromana.description"),
+        },
+        {
+            company: t("aboutme.job.ambev.company"),
+            location: t("aboutme.job.ambev.location"),
+            title: t("aboutme.job.ambev.title"),
+            date: t("aboutme.job.ambev.date"),
+            description: t("aboutme.job.ambev.description"),
+        },
+        {
+            company: t("aboutme.job.adoniroladeira.company"),
+            location: t("aboutme.job.adoniroladeira.location"),
+            title: t("aboutme.job.adoniroladeira.title"),
+            date: t("aboutme.job.adoniroladeira.date"),
+            description: t("aboutme.job.adoniroladeira.description"),
+        },
+    ];
+
     return (
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white">
             {timelineData.map((item, index) => (
@@ -58,10 +60,10 @@ const Timeline: React.FC = () => {
                         </svg>
                     </div>
                     <div className={`timeline-${index % 2 === 0 ? "start" : "end"} mb-10`}>
-                        <time className="font-mono italic" dateTime={item.year}>
-                            {item.year}
-                        </time>
-                        <div className="text-lg font-black">{item.title}</div>
+                        <div className="font-bold text-xl">{item.company}</div>
+                        <div className="italic">{item.location}</div>
+                        <div className="font-semibold">{item.title}</div>
+                        <time className="font-mono italic block">{item.date}</time>
                         <p>{item.description}</p>
                     </div>
                     <hr />

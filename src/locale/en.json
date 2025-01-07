@@ -23,7 +23,6 @@
         "de": "German"
       }
     },
-    "aboutMe": "About Me",
     "projects": {
       "header": "Projects",
       "portfolio": {
@@ -146,8 +145,47 @@
         "githubRepo": "https://github.com/vicmazzola/guess-the-number",
         "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
       }
+    },
+    "aboutme": {
+      "header": "About Me",
+      "job": {
+        "goldnet": {
+          "company": "Goldnet TI",
+          "location": "Jundiaí, São Paulo, Brazil",
+          "title": "Helpdesk IT",
+          "date": "August 2024 - Present",
+          "description": "Goldnet TI is a leading IT services provider offering technical solutions for businesses.\n\nAs a Helpdesk IT, I was responsible for:\n\n· On-site and remote technical support for system and equipment issues.\n· Configuration, maintenance, and support of printers.\n· Level 1 Help Desk support, assisting users with technical issues.\n· Management of account creation, deletion, and permission adjustments in internal systems.\n· First-line support, providing general user assistance."
+        },
+        "evolution": {
+          "company": "Evolution Gaming Group",
+          "location": "Birkirkara, Malta",
+          "title": "Shuffler",
+          "date": "April - October 2023",
+          "description": "Evolution is a leading iGaming company renowned for delivering high-quality gaming experiences.\n\nAs a Shuffler, I was responsible for:\n\n· Efficiently managing and shuffling cards to maintain the flow of the game.\n· Ensuring uninterrupted and engaging gameplay for players.\n· Contributing to an uninterrupted and immersive gaming experience."
+        },
+        "vilaromana": {
+          "company": "Vila Romana",
+          "location": "Itupeva, São Paulo, Brazil",
+          "title": "Salesperson",
+          "date": "January - July 2021",
+          "description": "Vila Romana is a store specializing in business attire, including shirts, pants, suits, and accessories.\n\nAs a Salesperson, my responsibilities included:\n\n· Assisting customers in selecting and purchasing business clothing and accessories.\n· Providing detailed product information and recommendations based on customer needs.\n· Developing strong communication skills and the ability to interact effectively with a diverse clientele.\n· Maintaining store inventory and ensuring a high standard of customer service."
+        },
+        "ambev": {
+          "company": "Ambev (part of AB InBev)",
+          "location": "Jundiaí, São Paulo, Brazil",
+          "title": "Apprentice",
+          "date": "April 2017 - March 2018",
+          "description": "Ambev is a major Brazilian brewing company with a presence in numerous countries.\n\nAs an Apprentice, my responsibilities included:\n\n· Helping with the preparation of employee trainings and the analysis of the post results.\n· Assisting the packaging area managers.\n· Utilizing Microsoft Office Package Tools, such as Excel, for production control and factory training.\n\nI started as an apprentice in Human Resources and was later relocated to Packing. I gained experience working in both the office and production/warehouse environments, developing the ability to interact with every level of the company, from factory workers to managers."
+        },
+        "adoniroladeira": {
+          "company": "Professor Adoniro Ladeira State School",
+          "location": "Jundiaí, São Paulo, Brazil",
+          "title": "Apprentice",
+          "date": "2013",
+          "description": "Professor Adoniro Ladeira State School is an educational institution providing quality education to middle and high school students.\n\nAs an Apprentice, my responsibilities included:\n\n· Assisting students from middle school and high school with their computer classes.\n· Helping teachers in the preparation of presentations.\n\nThis experience allowed me to develop my passion for computers."
+        }
+      }
     }
   }
 }
-
 

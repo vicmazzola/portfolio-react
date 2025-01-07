@@ -1,5 +1,6 @@
 import Timeline from "./Timeline";
 
+
 const AboutMe: React.FC = () => {
     return (
         <section>
