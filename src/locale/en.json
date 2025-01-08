@@ -159,14 +159,6 @@
         }
       },
       "certificates": {
-        "alura": {
-          "title": "Alura",
-          "description": "teste",
-          "button": "teste",
-          "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
-          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
-          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
-        },
         "javascriptConcurrentOOP": {
           "title": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming",
           "description": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming.",
@@ -267,11 +259,6 @@
           "githubRepo": null,
           "liveDemo": null
         }
-
-
-
-
-
 
 
       },

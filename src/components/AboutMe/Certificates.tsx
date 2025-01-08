@@ -9,14 +9,6 @@ export default function Certificates() {
 
     const cards: CardProps[] = [
         {
-            image: images.alura,
-            title: t("aboutme.certificates.alura.title"),
-            description: t("aboutme.certificates.alura.description"),
-            modalContent: t("aboutme.certificates.alura.modalContent"),
-            githubRepo: t("aboutme.certificates.alura.githubRepo"),
-            liveDemo: t("aboutme.certificates.alura.liveDemo")
-        },
-        {
             image: images.javascriptConcurrentOOP, // Replace with the correct image import name
             title: t("aboutme.certificates.javascriptConcurrentOOP.title"),
             description: t("aboutme.certificates.javascriptConcurrentOOP.description"),
@@ -25,7 +17,7 @@ export default function Certificates() {
             liveDemo: t("aboutme.certificates.javascriptConcurrentOOP.liveDemo")
         },
         {
-            image: images.reactJSXHooks, // Replace with the correct image import name
+            image: images.alura, // Replace with the correct image import name
             title: t("aboutme.certificates.reactJSXHooks.title"),
             description: t("aboutme.certificates.reactJSXHooks.description"),
             modalContent: t("aboutme.certificates.reactJSXHooks.modalContent"),
@@ -33,7 +25,7 @@ export default function Certificates() {
             liveDemo: t("aboutme.certificates.reactJSXHooks.liveDemo")
         },
         {
-            image: images.javascriptFrontEnd, // Replace with the correct image name
+            image: images.alura, // Replace with the correct image name
             title: t("aboutme.certificates.javascriptFrontEnd.title"),
             description: t("aboutme.certificates.javascriptFrontEnd.description"),
             modalContent: t("aboutme.certificates.javascriptFrontEnd.modalContent"),
@@ -41,7 +33,7 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.fortinetFCF, // Replace with the correct image name
+            image: images.fortinetLogo, // Replace with the correct image name
             title: t("aboutme.certificates.fortinetFCF.title"),
             description: t("aboutme.certificates.fortinetFCF.description"),
             modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
@@ -73,7 +65,7 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.flexboxResponsive, // Replace with the correct image name
+            image: images.alura, // Replace with the correct image name
             title: t("aboutme.certificates.flexboxResponsive.title"),
             description: t("aboutme.certificates.flexboxResponsive.description"),
             modalContent: t("aboutme.certificates.flexboxResponsive.modalContent"),
@@ -81,7 +73,7 @@ export default function Certificates() {
             liveDemo: t("aboutme.certificates.flexboxResponsive.liveDemo")
         },
         {
-            image: images.figmaUnderstanding, // Replace with the correct image name
+            image: images.alura, // Replace with the correct image name
             title: t("aboutme.certificates.figmaUnderstanding.title"),
             description: t("aboutme.certificates.figmaUnderstanding.description"),
             modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
@@ -89,7 +81,7 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.pythonFirstApp, // Replace with the correct image name
+            image: images.alura, // Replace with the correct image name
             title: t("aboutme.certificates.pythonFirstApp.title"),
             description: t("aboutme.certificates.pythonFirstApp.description"),
             modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
@@ -105,7 +97,7 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.htmlCssFromScratch, // Replace with the correct image name
+            image: images.alura, // Replace with the correct image name
             title: t("aboutme.certificates.htmlCssFromScratch.title"),
             description: t("aboutme.certificates.htmlCssFromScratch.description"),
             modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
@@ -128,9 +120,6 @@ export default function Certificates() {
             githubRepo: null,
             liveDemo: null
         }
-
-
-
 
 
     ];

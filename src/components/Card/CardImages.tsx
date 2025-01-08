@@ -13,6 +13,11 @@ import mazzolaPlay from "../../assets/mazzola-play.png";
 import fintech from "../../assets/fintech.png";
 import aluraBooks from "../../assets/alurabooks.png";
 import guess from "../../assets/guess.png";
+import javascriptConcurrentOOP from "../../assets/javascriptConcurrentOOP.png";
+import alura from "../../assets/alura.png";
+import fortinetLogo from "../../assets/logo_fortinet.png";
+import fortinetFCF from "../../assets/icon-nse-fcf-fortinet.png";
+import fortinetFCA from "../../assets/icon-nse-fca-fortinet.png";
 
 const images = {
     portfolio,
@@ -29,7 +34,12 @@ const images = {
     mazzolaPlay,
     fintech,
     aluraBooks,
-    guess
+    guess,
+    javascriptConcurrentOOP,
+    alura,
+    fortinetLogo,
+    fortinetFCF,
+    fortinetFCA
 };
 
 export default images;
