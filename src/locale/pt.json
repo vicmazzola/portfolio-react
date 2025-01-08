@@ -157,7 +157,16 @@
           "description": "Cursando tecnólogo com foco no desenvolvimento de habilidades técnicas em programação, desenvolvimento de software e análise de sistemas. Este curso oferece uma base sólida para uma carreira em tecnologia e engenharia de software."
         }
       },
-
+      "certificates": {
+        "alura": {
+          "title": "Alura",
+          "description": "teste",
+          "button": "teste",
+          "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
+          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
+          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        }
+      },
       "job": {
         "goldnet": {
           "company": "Goldnet TI",

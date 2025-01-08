@@ -29,7 +29,7 @@ const images = {
     mazzolaPlay,
     fintech,
     aluraBooks,
-    guess,
+    guess
 };
 
 export default images;

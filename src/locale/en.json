@@ -157,6 +157,16 @@
           "description": "Pursuing an associate degree focused on developing technical skills in programming, software development, and systems analysis. This program provides a strong foundation for a career in technology and software engineering."
         }
       },
+      "certificates": {
+        "alura": {
+          "title": "Alura",
+          "description": "teste",
+          "button": "teste",
+          "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
+          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
+          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        }
+      },
       "job": {
         "goldnet": {
           "company": "Goldnet TI",
