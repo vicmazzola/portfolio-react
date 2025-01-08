@@ -1,13 +1,19 @@
 import Timeline from "./Timeline";
 import Certificates from "./Certificates.tsx";
+import { useTranslation } from "react-i18next";
 
 
 const AboutMe: React.FC = () => {
+    const { t } = useTranslation();
+
+
     return (
         <section>
-            <p className="text-2xl text-white text-center p-8">This section contains some informations about me...</p>
+            <p className="text-2xl text-white text-center p-8">
+                {t("aboutme.text")}
+            </p>
             <Timeline />
-            <Certificates/>
+            <Certificates />
         </section>
     );
 };

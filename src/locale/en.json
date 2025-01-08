@@ -148,6 +148,7 @@
     },
     "aboutme": {
       "header": "About Me",
+      "text": "This section contains some informations about me...",
       "school": {
         "fiap": {
           "company": "FIAP",
@@ -165,7 +166,114 @@
           "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
           "githubRepo": "https://github.com/vicmazzola/guess-the-number",
           "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        },
+        "javascriptConcurrentOOP": {
+          "title": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming",
+          "description": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming.",
+          "button": "Learn More",
+          "modalContent": "Completed the training 'Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming,' totaling 23 hours. This training allowed me to solidify my knowledge of JavaScript and Object-Oriented Programming (OOP).",
+          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
+          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        },
+        "reactJSXHooks": {
+          "title": "React: Develop Web Applications Using JSX and Hooks",
+          "description": "React: Develop Web Applications Using JSX and Hooks.",
+          "button": "Learn More",
+          "modalContent": "Completed the training 'React: Develop Web Applications Using JSX and Hooks,' with 58 hours of learning. I learned to build dynamic pages, manipulate the DOM, and create React components with JSX, as well as configure projects with Node.js and Vite.",
+          "githubRepo": "https://github.com/vicmazzola/react-project",
+          "liveDemo": "https://lnkd.in/dsSj84Ee"
+        },
+        "javascriptFrontEnd": {
+          "title": "Front-end Development: courses to create web applications with HTML, CSS and JavaScript",
+          "description": "Completed 8 courses, totaling 61 hours of learning.",
+          "modalContent": "I learned from DOM manipulation to CRUD implementation with HTTP, exploring advanced features like ES6+ and the Node.js environment.",
+          "githubRepo": "https://lnkd.in/dzHQXCpg",
+          "liveDemo": null
+        },
+        "fortinetFCF": {
+          "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
+          "description": "Certification that confirms mastery of cybersecurity fundamentals.",
+          "modalContent": "Covers the current digital threat landscape, strengthening essential skills in network security.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "fortinetFCA": {
+          "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
+          "description": "Certification that validates skills in advanced FortiGate operations.",
+          "modalContent": "Focuses on essential configuration and monitoring features, strengthening network security competencies.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "javaFundamentals": {
+          "title": "Enhancing the Fundamentals of Java",
+          "description": "Extra course at FIAP to deepen knowledge beyond graduation.",
+          "modalContent": "I learned about object-oriented programming and how to connect to a database, consolidating essential skills in Java.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "userExperience": {
+          "title": "User Experience Course at FIAP",
+          "description": "Enhancing knowledge in areas of interest beyond the degree.",
+          "modalContent": "I learned to create impactful experiences and apply UX fundamentals in future projects.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "flexboxResponsive": {
+          "title": "CSS: Flexbox and Responsive Layouts",
+          "description": "Completed the CSS: Flexbox and Responsive Layouts course on the Alura platform.",
+          "modalContent": "In the course, I learned about the power of Flexbox, creating responsive footers, implementing mobile-first and flexible menus, and how to use the flex-grow property in videos. I developed the Mazzola Play project, based on the Alura Play project, to continue improving my skills.",
+          "githubRepo": "https://lnkd.in/dYbKSsVy",
+          "liveDemo": "https://lnkd.in/dBKwz9NV"
+        },
+        "figmaUnderstanding": {
+          "title": "Figma: Understanding the Tool",
+          "description": "Course to learn and explore the fundamental tools of Figma.",
+          "modalContent": "I learned to organize projects and user interfaces (UI), use variables and styles, and consolidate essential knowledge in the Figma tool.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "pythonFirstApp": {
+          "title": "Python: Creating Your First Application",
+          "description": "Introductory course to create Python applications.",
+          "modalContent": "I learned string manipulation, modules and functions, lists and loops structures, exceptions, and dictionaries. This course consolidated essential Python development fundamentals.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "programmingLogic": {
+          "title": "Programming Logic (FIAP)",
+          "description": "Course from FIAP issued in March 2024.",
+          "modalContent": "I gained skills in logic programming, HTML, programming fundamentals, looping structures, code optimization, and function creation.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "htmlCssFromScratch": {
+          "title": "From Scratch: HTML and CSS for Web Projects",
+          "description": "Completed the Alura training to create web projects with HTML and CSS.",
+          "modalContent": "This course consolidated my knowledge in HTML and CSS to structure and style web projects from scratch. Thanks to Alura and Mônica Hillman for the excellent experience.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "uxDesignProcess": {
+          "title": "Start the UX Design Process: Empathize, Define, and Ideate (Google)",
+          "description": "Certification focused on empathy mapping, user journeys, and user experience.",
+          "modalContent": "This Google certification trained me in empathy mapping, defining, and ideating in the UX design process. I learned to develop user journeys and improve user-centered experiences.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "uxFoundations": {
+          "title": "Foundations of User Experience (UX) Design (Google)",
+          "description": "Certification focused on UX research, usability testing, and user-centered design.",
+          "modalContent": "I learned the foundations of UX design, including research, usability testing, user-centered design, and design thinking. This certification strengthened my skills in crafting impactful experiences.",
+          "githubRepo": null,
+          "liveDemo": null
         }
+
+
+
+
+
+
+
       },
       "job": {
         "goldnet": {

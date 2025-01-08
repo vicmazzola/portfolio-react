@@ -148,6 +148,7 @@
     },
     "aboutme": {
       "header": "Sobre Mim",
+      "text": "Aqui contém algumas informações sobre mim...",
       "school": {
         "fiap": {
           "company": "FIAP",
@@ -165,7 +166,115 @@
           "modalContent": "Jogo de adivinhação melhorado com feedback dinâmico e design responsivo para uma interação divertida.",
           "githubRepo": "https://github.com/vicmazzola/guess-the-number",
           "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        },
+        "javascriptConcurrentOOP": {
+          "title": "Desenvolva Aplicações Web em JavaScript com Tarefas Concorrentes e Orientadas a Objetos",
+          "description": "Desenvolva Aplicações Web em JavaScript com Tarefas Concorrentes e Orientadas a Objetos.",
+          "button": "Veja Mais",
+          "modalContent": "Concluí a formação 'Desenvolva Aplicações Web em JavaScript com Tarefas Concorrentes e Orientadas a Objetos,' totalizando 23 horas. Essa formação me permitiu consolidar meus conhecimentos em JavaScript e Programação Orientada a Objetos (POO).",
+          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
+          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+        },
+        "reactJSXHooks": {
+          "title": "React: Desenvolva Aplicações Web Usando JSX e Hooks",
+          "description": "React: Desenvolva Aplicações Web Usando JSX e Hooks.",
+          "button": "Veja Mais",
+          "modalContent": "Concluí a formação 'React: Desenvolva Aplicações Web Usando JSX e Hooks,' com 58 horas de aprendizado. Aprendi a construir páginas dinâmicas, manipular o DOM e criar componentes React com JSX, além de configurar projetos com Node.js e Vite.",
+          "githubRepo": "https://github.com/vicmazzola/react-project",
+          "liveDemo": "https://lnkd.in/dsSj84Ee"
+        },
+        "javascriptFrontEnd": {
+          "title": "Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript",
+          "description": "Concluí 8 cursos, totalizando 61 horas de aprendizado.",
+          "modalContent": "Aprendi desde a manipulação do DOM até a implementação de CRUDs com HTTP, explorando funcionalidades avançadas como ES6+ e o ambiente Node.js.",
+          "githubRepo": "https://lnkd.in/dzHQXCpg",
+          "liveDemo": null
+        },
+        "fortinetFCF": {
+          "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
+          "description": "Certificação que confirma o domínio dos fundamentos técnicos em cybersecurity.",
+          "modalContent": "Aborda o panorama atual das ameaças digitais, fortalecendo habilidades essenciais para segurança de redes.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "fortinetFCA": {
+          "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
+          "description": "Certificação que valida habilidades em operações avançadas com dispositivos FortiGate.",
+          "modalContent": "Foco em configurações e monitoramento de funcionalidades essenciais, fortalecendo competências em segurança de redes.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "javaFundamentals": {
+          "title": "Aprimorando os Fundamentos de Java",
+          "description": "Curso extra na FIAP para aprofundar conhecimentos além da graduação.",
+          "modalContent": "Aprendi sobre orientação a objetos e como conectar a um banco de dados, consolidando habilidades essenciais em Java.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "userExperience": {
+          "title": "Curso em User Experience na FIAP",
+          "description": "Aprimorando conhecimentos em áreas de interesse além da formação.",
+          "modalContent": "Aprendi a criar experiências impactantes e a aplicar fundamentos de UX em projetos futuros.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "flexboxResponsive": {
+          "title": "CSS: Flexbox e Layouts Responsivos",
+          "description": "Concluí o curso CSS: Flexbox e Layouts Responsivos na plataforma Alura.",
+          "modalContent": "No curso, aprendi sobre o poder do Flexbox, criação de rodapés responsivos, implementação de menus mobile-first e flexíveis, e como usar a propriedade flex-grow em vídeos. Desenvolvi o projeto Mazzola Play, com base no projeto Alura Play, para continuar aprimorando minhas habilidades.",
+          "githubRepo": "https://lnkd.in/dYbKSsVy",
+          "liveDemo": "https://lnkd.in/dBKwz9NV"
+        },
+        "figmaUnderstanding": {
+          "title": "Figma: Entendendo a Ferramenta",
+          "description": "Curso para conhecer e explorar as ferramentas fundamentais do Figma.",
+          "modalContent": "Aprendi a organizar projetos e interfaces de usuário (UI), utilizar variáveis e estilos, e consolidar conhecimentos essenciais na ferramenta Figma.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "pythonFirstApp": {
+          "title": "Python: Criando Sua Primeira Aplicação",
+          "description": "Curso introdutório para criar aplicações em Python.",
+          "modalContent": "Aprendi manipulação de strings, módulos e funções, estruturas de listas e loops, além de exceções e dicionários. Este curso consolidou os fundamentos essenciais para desenvolvimento em Python.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "programmingLogic": {
+          "title": "Lógica de Programação (FIAP)",
+          "description": "Curso da FIAP emitido em Março de 2024.",
+          "modalContent": "Adquiri habilidades como lógica de programação, HTML, fundamentos de programação, estruturas de repetição, otimização de código e criação de funções.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "htmlCssFromScratch": {
+          "title": "Do Zero: HTML e CSS para Projetos Web",
+          "description": "Concluí a formação na Alura para criar projetos web com HTML e CSS.",
+          "modalContent": "Este curso consolidou meus conhecimentos em HTML e CSS para estruturar e estilizar projetos web do zero. Agradeço à Alura e à Mônica Hillman pela excelente experiência.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "uxDesignProcess": {
+          "title": "Inicie o Processo de Design UX: Empatizar, Definir e Idear (Google)",
+          "description": "Certificação obtida com foco em mapeamento de empatia, jornadas do usuário e experiência do usuário.",
+          "modalContent": "Esta certificação da Google me capacitou em mapeamento de empatia, definição e ideação no processo de design de UX. Aprendi a desenvolver jornadas do usuário e aprimorar experiências centradas no usuário.",
+          "githubRepo": null,
+          "liveDemo": null
+        },
+        "uxFoundations": {
+          "title": "Fundamentos do Design de Experiência do Usuário (UX) (Google)",
+          "description": "Certificação obtida com foco em pesquisa de UX, testes de usabilidade e design centrado no usuário.",
+          "modalContent": "Aprendi os fundamentos do design de UX, incluindo pesquisa, testes de usabilidade, design centrado no usuário e pensamento de design. Esta certificação fortaleceu minhas habilidades em projetar experiências impactantes.",
+          "githubRepo": null,
+          "liveDemo": null
         }
+
+
+
+
+
+
+
+
       },
       "job": {
         "goldnet": {
@@ -201,10 +310,9 @@
           "location": "Jundiaí, São Paulo, Brasil",
           "title": "Aprendiz",
           "date": "2013",
-          "description": "A Escola Estadual Professor Adoniro Ladeira é uma instituição educacional que oferece ensino de qualidade para estudantes do ensino fundamental e médio.\n\nComo Aprendiz, minhas responsabilidades incluíam:\n\n· Auxiliar estudantes do ensino médio e superior em suas aulas de informática.\n· Assistir os professores na preparação de apresentações.\n\nEssa experiência permitiu que eu desenvolvesse minha paixão por computadores."
+          "description": "A Escola Estadual Professor Adoniro Ladeira é uma instituição educacional que oferece ensino de qualidade para estudantes do ensino fundamental e médio.\n\nComo Aprendiz, minhas responsabilidades incluíam:\n\n· Auxiliar estudantes do ensino médio e superior em suas aulas de informática.\n· Assistir os professores na preparação"
         }
       }
     }
   }
 }
-
