@@ -14,10 +14,19 @@ import fintech from "../../assets/fintech.png";
 import aluraBooks from "../../assets/alurabooks.png";
 import guess from "../../assets/guess.png";
 import javascriptConcurrentOOP from "../../assets/javascriptConcurrentOOP.png";
+import javascriptFrontEnd from "../../assets/javascriptFrontEnd.png";
+import figmaUnderstanding from "../../assets/figmaUnderstanding.png";
+import pythonFirstApp from "../../assets/pythonFirstApp.png";
+import htmlCssFromScratch from "../../assets/htmlCssFromScratch.png";
 import alura from "../../assets/alura.png";
-import fortinetLogo from "../../assets/logo_fortinet.png";
-import fortinetFCF from "../../assets/icon-nse-fcf-fortinet.png";
-import fortinetFCA from "../../assets/icon-nse-fca-fortinet.png";
+import reactJSXHooks from "../../assets/reactJSXHooks.png";
+import fortinetFCF from "../../assets/FCF.png";
+import fortinetFCA from "../../assets/FCA.png";
+import programmingLogic from "../../assets/programmingLogic.png";
+import userExperience from "../../assets/userExperience.png";
+import javaFundamentals from "../../assets/javaFundamentals.png";
+import uxDesignProcess from "../../assets/uxDesignProcess.jpeg";
+import uxFoundations from "../../assets/uxFoundations.png";
 
 const images = {
     portfolio,
@@ -37,9 +46,19 @@ const images = {
     guess,
     javascriptConcurrentOOP,
     alura,
-    fortinetLogo,
+    reactJSXHooks,
     fortinetFCF,
-    fortinetFCA
+    fortinetFCA,
+    javascriptFrontEnd,
+    figmaUnderstanding,
+    pythonFirstApp,
+    htmlCssFromScratch,
+    javaFundamentals,
+    userExperience,
+    programmingLogic,
+    uxDesignProcess,
+    uxFoundations
+
 };
 
 export default images;

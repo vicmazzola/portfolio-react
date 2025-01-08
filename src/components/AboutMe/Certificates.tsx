@@ -9,42 +9,35 @@ export default function Certificates() {
 
     const cards: CardProps[] = [
         {
-            image: images.javascriptConcurrentOOP, // Replace with the correct image import name
+            image: images.javascriptConcurrentOOP,
             title: t("aboutme.certificates.javascriptConcurrentOOP.title"),
             description: t("aboutme.certificates.javascriptConcurrentOOP.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javascriptConcurrentOOP.modalContent"),
-            githubRepo: t("aboutme.certificates.javascriptConcurrentOOP.githubRepo"),
-            liveDemo: t("aboutme.certificates.javascriptConcurrentOOP.liveDemo")
+            githubRepo:  t("aboutme.certificates.javascriptConcurrentOOP.githubRepo"),
+            liveDemo:  t("aboutme.certificates.javascriptConcurrentOOP.liveDemo"),
         },
         {
-            image: images.alura, // Replace with the correct image import name
+            image: images.reactJSXHooks, // Replace with the correct image import name
             title: t("aboutme.certificates.reactJSXHooks.title"),
             description: t("aboutme.certificates.reactJSXHooks.description"),
             modalContent: t("aboutme.certificates.reactJSXHooks.modalContent"),
-            githubRepo: t("aboutme.certificates.reactJSXHooks.githubRepo"),
-            liveDemo: t("aboutme.certificates.reactJSXHooks.liveDemo")
+            githubRepo: null,
+            liveDemo: null,
         },
         {
-            image: images.alura, // Replace with the correct image name
+            image: images.javascriptFrontEnd, // Replace with the correct image name
             title: t("aboutme.certificates.javascriptFrontEnd.title"),
             description: t("aboutme.certificates.javascriptFrontEnd.description"),
             modalContent: t("aboutme.certificates.javascriptFrontEnd.modalContent"),
-            githubRepo: t("aboutme.certificates.javascriptFrontEnd.githubRepo"),
-            liveDemo: null
-        },
-        {
-            image: images.fortinetLogo, // Replace with the correct image name
-            title: t("aboutme.certificates.fortinetFCF.title"),
-            description: t("aboutme.certificates.fortinetFCF.description"),
-            modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
             githubRepo: null,
-            liveDemo: null
+            liveDemo: "null"
         },
         {
-            image: images.fortinetFCA, // Replace with the correct image name
-            title: t("aboutme.certificates.fortinetFCA.title"),
-            description: t("aboutme.certificates.fortinetFCA.description"),
-            modalContent: t("aboutme.certificates.fortinetFCA.modalContent"),
+            image: images.htmlCssFromScratch, // Replace with the correct image name
+            title: t("aboutme.certificates.htmlCssFromScratch.title"),
+            description: t("aboutme.certificates.htmlCssFromScratch.description"),
+            modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
             githubRepo: null,
             liveDemo: null
         },
@@ -65,30 +58,6 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.alura, // Replace with the correct image name
-            title: t("aboutme.certificates.flexboxResponsive.title"),
-            description: t("aboutme.certificates.flexboxResponsive.description"),
-            modalContent: t("aboutme.certificates.flexboxResponsive.modalContent"),
-            githubRepo: t("aboutme.certificates.flexboxResponsive.githubRepo"),
-            liveDemo: t("aboutme.certificates.flexboxResponsive.liveDemo")
-        },
-        {
-            image: images.alura, // Replace with the correct image name
-            title: t("aboutme.certificates.figmaUnderstanding.title"),
-            description: t("aboutme.certificates.figmaUnderstanding.description"),
-            modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
-            githubRepo: null,
-            liveDemo: null
-        },
-        {
-            image: images.alura, // Replace with the correct image name
-            title: t("aboutme.certificates.pythonFirstApp.title"),
-            description: t("aboutme.certificates.pythonFirstApp.description"),
-            modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
-            githubRepo: null,
-            liveDemo: null
-        },
-        {
             image: images.programmingLogic, // Replace with the correct image name
             title: t("aboutme.certificates.programmingLogic.title"),
             description: t("aboutme.certificates.programmingLogic.description"),
@@ -97,10 +66,35 @@ export default function Certificates() {
             liveDemo: null
         },
         {
-            image: images.alura, // Replace with the correct image name
-            title: t("aboutme.certificates.htmlCssFromScratch.title"),
-            description: t("aboutme.certificates.htmlCssFromScratch.description"),
-            modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
+            image: images.fortinetFCF, // Replace with the correct image name
+            title: t("aboutme.certificates.fortinetFCF.title"),
+            description: t("aboutme.certificates.fortinetFCF.description"),
+            modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
+            githubRepo: null,
+            liveDemo: null
+        },
+        {
+            image: images.fortinetFCA,// Replace with the correct image name
+            title: t("aboutme.certificates.fortinetFCA.title"),
+            description: t("aboutme.certificates.fortinetFCA.description"),
+            modalContent: t("aboutme.certificates.fortinetFCA.modalContent"),
+            githubRepo: null,
+            liveDemo: null
+        },
+        {
+
+            image: images.figmaUnderstanding, // Replace with the correct image name
+            title: t("aboutme.certificates.figmaUnderstanding.title"),
+            description: t("aboutme.certificates.figmaUnderstanding.description"),
+            modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
+            githubRepo: null,
+            liveDemo: null
+        },
+        {
+            image: images.pythonFirstApp, // Replace with the correct image name
+            title: t("aboutme.certificates.pythonFirstApp.title"),
+            description: t("aboutme.certificates.pythonFirstApp.description"),
+            modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
             githubRepo: null,
             liveDemo: null
         },

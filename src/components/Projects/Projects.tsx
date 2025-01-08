@@ -3,7 +3,6 @@ import {useTranslation} from "react-i18next";
 import images from "../Card/CardImages.tsx"
 
 
-
 export default function Projects() {
 
     const {t} = useTranslation();

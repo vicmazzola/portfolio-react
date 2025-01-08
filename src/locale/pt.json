@@ -149,6 +149,7 @@
     "aboutme": {
       "header": "Sobre Mim",
       "text": "Aqui contém algumas informações sobre mim...",
+      "certificate": "Certificados",
       "school": {
         "fiap": {
           "company": "FIAP",
@@ -159,6 +160,7 @@
         }
       },
       "certificates": {
+        "button": "Check now!!!",
         "javascriptConcurrentOOP": {
           "title": "Desenvolva Aplicações Web em JavaScript com Tarefas Concorrentes e Orientadas a Objetos",
           "description": "Desenvolva Aplicações Web em JavaScript com Tarefas Concorrentes e Orientadas a Objetos.",

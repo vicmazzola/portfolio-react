@@ -12,8 +12,11 @@ const AboutMe: React.FC = () => {
             <p className="text-2xl text-white text-center p-8">
                 {t("aboutme.text")}
             </p>
-            <Timeline />
-            <Certificates />
+            <Timeline/>
+            <p className="text-2xl text-white text-center p-8">
+                {t("aboutme.certificate")}
+            </p>
+            <Certificates/>
         </section>
     );
 };
