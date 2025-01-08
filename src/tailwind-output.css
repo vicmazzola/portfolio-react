@@ -1362,29 +1362,9 @@ html {
   grid-row-end: auto;
 }
 
-.timeline-start {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin: 0.25rem;
-  align-self: flex-end;
-  justify-self: center;
-}
-
 .timeline-middle {
   grid-column-start: 2;
   grid-row-start: 2;
-}
-
-.timeline-end {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  margin: 0.25rem;
-  align-self: flex-start;
-  justify-self: center;
 }
 
 .avatar-group :where(.avatar) {
@@ -1819,21 +1799,6 @@ html {
   flex-direction: column;
 }
 
-.timeline-compact .timeline-start, .timeline-horizontal.timeline-compact .timeline-start {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  margin: 0.25rem;
-  align-self: flex-start;
-  justify-self: center;
-}
-
-.timeline-compact li:has(.timeline-start) .timeline-end, .timeline-horizontal.timeline-compact li:has(.timeline-start) .timeline-end {
-  grid-column-start: none;
-  grid-row-start: auto;
-}
-
 .timeline-vertical.timeline-compact > li {
   --timeline-col-start: 0;
 }
@@ -1895,24 +1860,6 @@ html {
 .timeline-vertical:where(.timeline-snap-icon) > li {
   --timeline-col-start: minmax(0, 1fr);
   --timeline-row-start: 0.5rem;
-}
-
-.timeline-horizontal .timeline-start {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  align-self: flex-end;
-  justify-self: center;
-}
-
-.timeline-horizontal .timeline-end {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  align-self: flex-start;
-  justify-self: center;
 }
 
 :where(.timeline-snap-icon) > li,
@@ -2279,6 +2226,10 @@ html {
   padding: 1.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2354,10 +2305,6 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.font-black {
-  font-weight: 900;
 }
 
 .font-bold {
@@ -2607,20 +2554,12 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .md\:place-self-center {
     place-self: center;
   }
 
   .md\:justify-self-end {
     justify-self: end;
-  }
-
-  .md\:text-end {
-    text-align: end;
   }
 }
 

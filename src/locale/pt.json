@@ -148,6 +148,16 @@
     },
     "aboutme": {
       "header": "Sobre Mim",
+      "school": {
+        "fiap": {
+          "company": "FIAP",
+          "location": "São Paulo, Brasil",
+          "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+          "date": "Fevereiro de 2023 - Dezembro de 2025",
+          "description": "Cursando tecnólogo com foco no desenvolvimento de habilidades técnicas em programação, desenvolvimento de software e análise de sistemas. Este curso oferece uma base sólida para uma carreira em tecnologia e engenharia de software."
+        }
+      },
+
       "job": {
         "goldnet": {
           "company": "Goldnet TI",

@@ -148,6 +148,15 @@
     },
     "aboutme": {
       "header": "About Me",
+      "school": {
+        "fiap": {
+          "company": "FIAP",
+          "location": "São Paulo, Brazil",
+          "title": "Associate Degree in Systems Analysis and Development",
+          "date": "February 2023 - December 2025",
+          "description": "Pursuing an associate degree focused on developing technical skills in programming, software development, and systems analysis. This program provides a strong foundation for a career in technology and software engineering."
+        }
+      },
       "job": {
         "goldnet": {
           "company": "Goldnet TI",

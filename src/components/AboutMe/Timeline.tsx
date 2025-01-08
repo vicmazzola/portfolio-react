@@ -12,6 +12,13 @@ const Timeline: React.FC = () => {
             description: t("aboutme.job.goldnet.description"),
         },
         {
+            company: t("aboutme.school.fiap.company"),
+            location: t("aboutme.school.fiap.location"),
+            title: t("aboutme.school.fiap.title"),
+            date: t("aboutme.school.fiap.date"),
+            description: t("aboutme.school.fiap.description"),
+        },
+        {
             company: t("aboutme.job.evolution.company"),
             location: t("aboutme.job.evolution.location"),
             title: t("aboutme.job.evolution.title"),
@@ -42,7 +49,7 @@ const Timeline: React.FC = () => {
     ];
 
     return (
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white px-8">
             {timelineData.map((item, index) => (
                 <li key={index}>
                     <div className="timeline-middle">
@@ -60,7 +67,7 @@ const Timeline: React.FC = () => {
                         </svg>
                     </div>
                     <div className={`timeline-${index % 2 === 0 ? "start" : "end"} mb-10`}>
-                        <div className="font-bold text-xl">{item.company}</div>
+                        <div className="font-semibold text-xl">{item.company}</div>
                         <div className="italic">{item.location}</div>
                         <div className="font-semibold">{item.title}</div>
                         <time className="font-mono italic block">{item.date}</time>
