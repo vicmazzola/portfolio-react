@@ -14,105 +14,116 @@ export default function Certificates() {
             description: t("aboutme.certificates.javascriptConcurrentOOP.description"),
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javascriptConcurrentOOP.modalContent"),
-            githubRepo:  t("aboutme.certificates.javascriptConcurrentOOP.githubRepo"),
-            liveDemo:  t("aboutme.certificates.javascriptConcurrentOOP.liveDemo"),
+            certificateLink: t("aboutme.certificates.javascriptConcurrentOOP.certificateLink"),
+
         },
         {
-            image: images.reactJSXHooks, // Replace with the correct image import name
+            image: images.reactJSXHooks,
             title: t("aboutme.certificates.reactJSXHooks.title"),
             description: t("aboutme.certificates.reactJSXHooks.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.reactJSXHooks.modalContent"),
-            githubRepo: null,
-            liveDemo: null,
+            certificateLink: t("aboutme.certificates.reactJSXHooks.certificateLink"),
+
         },
         {
-            image: images.javascriptFrontEnd, // Replace with the correct image name
+            image: images.javascriptFrontEnd,
             title: t("aboutme.certificates.javascriptFrontEnd.title"),
             description: t("aboutme.certificates.javascriptFrontEnd.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javascriptFrontEnd.modalContent"),
-            githubRepo: null,
-            liveDemo: "null"
+            certificateLink: t("aboutme.certificates.javascriptFrontEnd.certificateLink"),
+
         },
         {
-            image: images.htmlCssFromScratch, // Replace with the correct image name
+            image: images.htmlCssFromScratch,
             title: t("aboutme.certificates.htmlCssFromScratch.title"),
             description: t("aboutme.certificates.htmlCssFromScratch.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.javaFundamentals, // Replace with the correct image name
+            image: images.javaFundamentals,
             title: t("aboutme.certificates.javaFundamentals.title"),
             description: t("aboutme.certificates.javaFundamentals.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javaFundamentals.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
         },
         {
-            image: images.userExperience, // Replace with the correct image name
+            image: images.userExperience,
             title: t("aboutme.certificates.userExperience.title"),
             description: t("aboutme.certificates.userExperience.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.userExperience.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.programmingLogic, // Replace with the correct image name
+            image: images.programmingLogic,
             title: t("aboutme.certificates.programmingLogic.title"),
             description: t("aboutme.certificates.programmingLogic.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.programmingLogic.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.fortinetFCF, // Replace with the correct image name
+            image: images.fortinetFCF,
             title: t("aboutme.certificates.fortinetFCF.title"),
             description: t("aboutme.certificates.fortinetFCF.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.fortinetFCA,// Replace with the correct image name
+            image: images.fortinetFCA,
             title: t("aboutme.certificates.fortinetFCA.title"),
             description: t("aboutme.certificates.fortinetFCA.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCA.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
 
-            image: images.figmaUnderstanding, // Replace with the correct image name
+            image: images.figmaUnderstanding,
             title: t("aboutme.certificates.figmaUnderstanding.title"),
             description: t("aboutme.certificates.figmaUnderstanding.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.pythonFirstApp, // Replace with the correct image name
+            image: images.pythonFirstApp,
             title: t("aboutme.certificates.pythonFirstApp.title"),
             description: t("aboutme.certificates.pythonFirstApp.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.uxDesignProcess, // Replace with the correct image name
+            image: images.uxDesignProcess,
             title: t("aboutme.certificates.uxDesignProcess.title"),
             description: t("aboutme.certificates.uxDesignProcess.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxDesignProcess.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         },
         {
-            image: images.uxFoundations, // Replace with the correct image name
+            image: images.uxFoundations,
             title: t("aboutme.certificates.uxFoundations.title"),
             description: t("aboutme.certificates.uxFoundations.description"),
+            buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxFoundations.modalContent"),
-            githubRepo: null,
-            liveDemo: null
+            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+
         }
 
 

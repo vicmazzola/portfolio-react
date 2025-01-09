@@ -160,41 +160,46 @@
         }
       },
       "certificates": {
-        "button": "Check now!!!",
+        "button": "See Details",
         "javascriptConcurrentOOP": {
-          "title": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming",
-          "description": "Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming.",
-          "button": "Learn More",
-          "modalContent": "Completed the training 'Develop Web Applications in JavaScript with Concurrent Tasks and Object-Oriented Programming,' totaling 23 hours. This training allowed me to solidify my knowledge of JavaScript and Object-Oriented Programming (OOP).",
-          "githubRepo": "https://github.com/vicmazzola/guess-the-number",
-          "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
+          "title": "Develop Web Applications with JavaScript: Concurrency and OOP",
+          "description": "Master asynchronous requests, object manipulation, and advanced JavaScript techniques.",
+          "modalContent": "Completed the training 'Develop Scalable Applications with JavaScript: Concurrency and OOP,' totaling 23 hours. Gained expertise in concurrent programming, OOP fundamentals (classes, objects, inheritance), and asynchronous operations to build modern, responsive applications.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-aplicacoes-javascript-tarefas-concorrentes-orientadas-objetoss-543206/certificate?lang=en"
+
         },
         "reactJSXHooks": {
           "title": "React: Develop Web Applications Using JSX and Hooks",
-          "description": "React: Develop Web Applications Using JSX and Hooks.",
-          "button": "Learn More",
-          "modalContent": "Completed the training 'React: Develop Web Applications Using JSX and Hooks,' with 58 hours of learning. I learned to build dynamic pages, manipulate the DOM, and create React components with JSX, as well as configure projects with Node.js and Vite.",
-          "githubRepo": "https://github.com/vicmazzola/react-project",
-          "liveDemo": "https://lnkd.in/dsSj84Ee"
+          "description": "Learn to create dynamic, responsive web apps with React, leveraging modern tools and techniques.",
+          "modalContent": "This 58-hour course focused on building dynamic web applications with React. Key highlights include creating components with JSX, managing state and lifecycle, and configuring projects with Node.js and Vite. This experience strengthened my ability to design modern and interactive user interfaces.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-jsx-hooks-702713/certificate?lang=en"
+
         },
         "javascriptFrontEnd": {
           "title": "Front-end Development: courses to create web applications with HTML, CSS and JavaScript",
-          "description": "Completed 8 courses, totaling 61 hours of learning.",
-          "modalContent": "I learned from DOM manipulation to CRUD implementation with HTTP, exploring advanced features like ES6+ and the Node.js environment.",
-          "githubRepo": "https://lnkd.in/dzHQXCpg",
-          "liveDemo": null
+          "description": "Explore JavaScript from DOM manipulation to advanced ES6+ features across 61 hours of learning.",
+          "modalContent": "In this training, I developed skills in DOM manipulation, HTTP CRUD implementation, and asynchronous programming with promises and async/await. I also delved into advanced ES6+ features like destructuring, modules, and modern JavaScript tools like Webpack and Vite.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-javascript-front-end-v814363-814363/certificate?lang=en"
+
+        },
+        "htmlCssFromScratch": {
+          "title": "From scratch: beginner in programming",
+          "description": "Developed solid skills in building and styling web projects using HTML and CSS.",
+          "modalContent": "This training provided a comprehensive understanding of how to structure and design web projects from scratch using HTML and CSS. It laid the foundation for creating responsive and accessible websites. Special thanks to Alura and Mônica Hillman for this incredible learning journey.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-html-css-v527396-527396/certificate?lang=en"
+
         },
         "fortinetFCF": {
           "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
-          "description": "Certification that confirms mastery of cybersecurity fundamentals.",
-          "modalContent": "Covers the current digital threat landscape, strengthening essential skills in network security.",
+          "description": "Validates essential technical skills for entry-level cybersecurity roles.",
+          "modalContent": "This certification covers today's threat landscape and the fundamentals of cybersecurity, ensuring readiness for entry-level positions.",
           "githubRepo": null,
           "liveDemo": null
         },
         "fortinetFCA": {
           "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
-          "description": "Certification that validates skills in advanced FortiGate operations.",
-          "modalContent": "Focuses on essential configuration and monitoring features, strengthening network security competencies.",
+          "description": "Validates ability to execute high-level operations on FortiGate devices.",
+          "modalContent": "This certification focuses on fundamental operating procedures for common FortiGate features, enhancing network security competencies.",
           "githubRepo": null,
           "liveDemo": null
         },
@@ -212,38 +217,24 @@
           "githubRepo": null,
           "liveDemo": null
         },
-        "flexboxResponsive": {
-          "title": "CSS: Flexbox and Responsive Layouts",
-          "description": "Completed the CSS: Flexbox and Responsive Layouts course on the Alura platform.",
-          "modalContent": "In the course, I learned about the power of Flexbox, creating responsive footers, implementing mobile-first and flexible menus, and how to use the flex-grow property in videos. I developed the Mazzola Play project, based on the Alura Play project, to continue improving my skills.",
-          "githubRepo": "https://lnkd.in/dYbKSsVy",
-          "liveDemo": "https://lnkd.in/dBKwz9NV"
-        },
         "figmaUnderstanding": {
           "title": "Figma: Understanding the Tool",
-          "description": "Course to learn and explore the fundamental tools of Figma.",
-          "modalContent": "I learned to organize projects and user interfaces (UI), use variables and styles, and consolidate essential knowledge in the Figma tool.",
-          "githubRepo": null,
-          "liveDemo": null
+          "description": "Learned to use Figma's core tools to create and organize digital projects.",
+          "modalContent": "This course provided a comprehensive understanding of Figma, focusing on organizing projects, designing user interfaces (UI), and mastering variables and styles. It strengthened my foundation in UI design and digital product creation.",
+          "certificateLink": "https://cursos.alura.com.br/certificate/victormazzola2019/figma-conhecendo-ferramenta?lang=en"
+
         },
         "pythonFirstApp": {
           "title": "Python: Creating Your First Application",
-          "description": "Introductory course to create Python applications.",
-          "modalContent": "I learned string manipulation, modules and functions, lists and loops structures, exceptions, and dictionaries. This course consolidated essential Python development fundamentals.",
-          "githubRepo": null,
-          "liveDemo": null
+          "description": "Learned to create Python applications, exploring core programming concepts.",
+          "modalContent": "This course introduced Python fundamentals, including string manipulation, modules, functions, lists, loops, exceptions, and dictionaries. It provided a solid foundation for Python application development.",
+          "certificateLink": "https://cursos.alura.com.br/certificate/victormazzola2019/python-crie-sua-primeira-aplicacao?lang=en"
+
         },
         "programmingLogic": {
           "title": "Programming Logic (FIAP)",
           "description": "Course from FIAP issued in March 2024.",
           "modalContent": "I gained skills in logic programming, HTML, programming fundamentals, looping structures, code optimization, and function creation.",
-          "githubRepo": null,
-          "liveDemo": null
-        },
-        "htmlCssFromScratch": {
-          "title": "From Scratch: HTML and CSS for Web Projects",
-          "description": "Completed the Alura training to create web projects with HTML and CSS.",
-          "modalContent": "This course consolidated my knowledge in HTML and CSS to structure and style web projects from scratch. Thanks to Alura and Mônica Hillman for the excellent experience.",
           "githubRepo": null,
           "liveDemo": null
         },

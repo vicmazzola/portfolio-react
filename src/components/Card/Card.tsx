@@ -8,6 +8,8 @@ export type CardProps = {
     modalContent?: string;
     githubRepo?: string;
     liveDemo?: string;
+    certificateLink?: string;
+
 };
 
 export default function Card(props: CardProps) {
@@ -64,6 +66,19 @@ export default function Card(props: CardProps) {
                                 </a>
                             </p>
                         )}
+                        {props.certificateLink && (
+                            <p className="py-2">
+                                <a
+                                    href={props.certificateLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-500 underline"
+                                >
+                                    Certificate
+                                </a>
+                            </p>
+                        )}
+
                         <div className="modal-actions">
                             <button className="btn" onClick={handleModalToggle}>
                                 Close
