@@ -1,10 +1,18 @@
 import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
+import {useState} from "react";
 import {Icons} from "../../lib/icons.ts";
 
 
 export default function Header() {
     const {t, i18n} = useTranslation();
+    const [theme, setTheme] = useState("dark");
+
+    const handleThemeToggle = () => {
+        const newTheme = theme === "dark" ? "light" : "dark";
+        setTheme(newTheme);
+        document.documentElement.setAttribute("data-theme", newTheme);
+    }
 
     const handleLanguageChange = (selectedLanguage: "en" | "pt") => {
         // const newLanguage = i18n.language === "en" ? "pt" : "en";
@@ -12,6 +20,8 @@ export default function Header() {
     };
 
     const LanguageIcon = Icons.language;
+    const DarkMode = Icons.darkmode;
+    const LightMode = Icons.lightmode;
 
     return (
         <header>
@@ -80,8 +90,20 @@ export default function Header() {
                 {/* Navbar End */}
                 <div className="navbar-end">
                     <div className="dropdown dropdown-end">
+                        {/* Theme Toggle Button */}
+                        <button
+                            onClick={handleThemeToggle}
+                            className="btn bg-transparent text-2xl text-white m-1"
+                        >
+                            {theme === "dark" ? <LightMode/> : <DarkMode/>}
+                        </button>
+                    </div>
+
+                    {/* Language Button */}
+
+                    <div className="dropdown dropdown-end">
                         <div tabIndex={0} role="button" className="btn bg-transparent text-2xl text-white m-1">
-                            <LanguageIcon/></div>
+                        <LanguageIcon/></div>
                         <ul tabIndex={0}
                             className="dropdown-content menu bg-base-100 text-black rounded-box z-[1] w-52 p-2 shadow">
                             <li>

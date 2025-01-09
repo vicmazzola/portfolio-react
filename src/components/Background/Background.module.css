@@ -1,10 +1,21 @@
+:root {
+    --bg-image: url('/public/bg-img-space-2400.jpg');
+
+
+}
+
+[data-theme="light"] {
+    --bg-image: url('/public/bg-img-sky.jpg');
+
+}
+
 .background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/public/bg-img-space-2400.jpg');
+    background-image: var(--bg-image); /* Dynamic background image */
     background-size: cover;
     background-position: right;
     z-index: -1;

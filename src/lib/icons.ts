@@ -5,6 +5,8 @@ import {RiBootstrapLine, RiTailwindCssFill} from "react-icons/ri";
 import {VscVscode} from "react-icons/vsc";
 import {SiIntellijidea, SiWebstorm} from "react-icons/si";
 import {MdLanguage} from "react-icons/md";
+import { MdOutlineDarkMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 
 export const Icons = {
     react : FaReact,
@@ -19,6 +21,7 @@ export const Icons = {
     vscode: VscVscode,
     intellij: SiIntellijidea,
     language: MdLanguage,
-
+    darkmode: MdDarkMode,
+    lightmode: MdOutlineDarkMode
 
 }
