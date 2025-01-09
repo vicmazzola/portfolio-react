@@ -2,17 +2,37 @@ import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import {Icons} from "../../lib/icons.ts";
+import { useEffect } from "react";
 
 
 export default function Header() {
     const {t, i18n} = useTranslation();
     const [theme, setTheme] = useState("dark");
 
+
+    useEffect(() => {
+        document.documentElement.classList.add(theme === "dark" ? "dark-mode" : "light-mode");
+    }, []); // Runs only on mount
+
+
+
     const handleThemeToggle = () => {
         const newTheme = theme === "dark" ? "light" : "dark";
         setTheme(newTheme);
-        document.documentElement.setAttribute("data-theme", newTheme);
-    }
+
+        if (newTheme === "dark") {
+            document.documentElement.classList.add("dark-mode");
+            document.documentElement.classList.remove("light-mode");
+        } else {
+            document.documentElement.classList.add("light-mode");
+            document.documentElement.classList.remove("dark-mode");
+        }
+
+        console.log("HTML classes:", document.documentElement.className); // Logs current classes
+    };
+
+
+
 
     const handleLanguageChange = (selectedLanguage: "en" | "pt") => {
         // const newLanguage = i18n.language === "en" ? "pt" : "en";
@@ -89,15 +109,15 @@ export default function Header() {
 
                 {/* Navbar End */}
                 <div className="navbar-end">
-                    <div className="dropdown dropdown-end">
-                        {/* Theme Toggle Button */}
-                        <button
-                            onClick={handleThemeToggle}
-                            className="btn bg-transparent text-2xl text-white m-1"
-                        >
-                            {theme === "dark" ? <LightMode/> : <DarkMode/>}
-                        </button>
-                    </div>
+
+                    {/* Theme Toggle Button */}
+                    <button
+                        onClick={handleThemeToggle}
+                        className="btn bg-transparent text-2xl text-white m-1"
+                    >
+                        {theme === "dark" ? <LightMode /> : <DarkMode />}
+                    </button>
+
 
                     {/* Language Button */}
 
