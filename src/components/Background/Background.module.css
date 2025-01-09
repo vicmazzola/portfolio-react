@@ -1,15 +1,15 @@
 :root {
-    --bg-image: url('/public/bg-img-space-2400.jpg'); /* Default dark mode */
+    --bg-image: url('/bg-img-space-2400.jpg'); /* Correct path */
 }
 
 /* Dark mode */
 html.dark-mode .background {
-    background-image: url('/public/bg-img-space-2400.jpg');
+    background-image: url('/bg-img-space-2400.jpg'); /* Correct path */
 }
 
 /* Light mode */
 html.light-mode .background {
-    background-image: url('/public/bg-img-sky.jpg');
+    background-image: url('/bg-img-sky.jpg'); /* Correct path */
 }
 
 .background {

@@ -3,6 +3,9 @@ import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import {Icons} from "../../lib/icons.ts";
 import { useEffect } from "react";
+const bgImageDark = '/bg-img-space-2400.jpg'; // Public folder path
+const bgImageLight = '/bg-img-sky.jpg'; // Public folder path
+
 
 
 export default function Header() {
@@ -20,17 +23,11 @@ export default function Header() {
         const newTheme = theme === "dark" ? "light" : "dark";
         setTheme(newTheme);
 
-        if (newTheme === "dark") {
-            document.documentElement.classList.add("dark-mode");
-            document.documentElement.classList.remove("light-mode");
-        } else {
-            document.documentElement.classList.add("light-mode");
-            document.documentElement.classList.remove("dark-mode");
-        }
-
-        console.log("HTML classes:", document.documentElement.className); // Logs current classes
+        document.documentElement.style.setProperty(
+            '--bg-image',
+            `url(${newTheme === "dark" ? bgImageDark : bgImageLight})`
+        );
     };
-
 
 
 
