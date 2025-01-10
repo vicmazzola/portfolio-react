@@ -24,7 +24,9 @@
             blink 0.5s step-end infinite 6s;
 }
 
-@media screen and (width: 1280px) and (height: 720px) {
+
+
+@media screen and (min-width: 1024px) and (max-width: 1458px) and (min-height: 600px) and (max-height: 1024px) {
     .skills1280 {
         display: flex !important;
         flex-wrap: wrap !important;
