@@ -125,7 +125,7 @@ export default function Projects() {
             modalContent: t("projects.about-games.modalContent"),
             githubRepo: t("projects.about-games.githubRepo"),
             liveDemo: t("projects.about-games.liveDemo"),
-            tags: ["front-end", "vanilla-js","javascript", "html", "css"]
+            tags: ["front-end", "html", "css", "bootstrap"]
 
         },
         {
@@ -135,7 +135,8 @@ export default function Projects() {
             buttonText: t("projects.mazzola-play.button"),
             modalContent: t("projects.mazzola-play.modalContent"),
             githubRepo: t("projects.mazzola-play.githubRepo"),
-            liveDemo: t("projects.mazzola-play.liveDemo")
+            liveDemo: t("projects.mazzola-play.liveDemo"),
+            tags: ["front-end", "html", "css", "bootstrap"]
         },
         {
             image: images.fintech,
@@ -144,7 +145,8 @@ export default function Projects() {
             buttonText: t("projects.fintech.button"),
             modalContent: t("projects.fintech.modalContent"),
             githubRepo: t("projects.fintech.githubRepo"),
-            liveDemo: t("projects.fintech.liveDemo")
+            liveDemo: t("projects.fintech.liveDemo"),
+            tags: ["front-end", "html", "css", "bootstrap"]
         },
         {
             image: images.aluraBooks,
@@ -153,7 +155,8 @@ export default function Projects() {
             buttonText: t("projects.alurabooks.button"),
             modalContent: t("projects.alurabooks.modalContent"),
             githubRepo: t("projects.alurabooks.githubRepo"),
-            liveDemo: t("projects.alurabooks.liveDemo")
+            liveDemo: t("projects.alurabooks.liveDemo"),
+            tags: ["front-end", "html", "css", "vanilla-js","javascript",]
         },
         {
             image: images.guess,
@@ -162,7 +165,9 @@ export default function Projects() {
             buttonText: t("projects.guess.button"),
             modalContent: t("projects.guess.modalContent"),
             githubRepo: t("projects.guess.githubRepo"),
-            liveDemo: t("projects.guess.liveDemo")
+            liveDemo: t("projects.guess.liveDemo"),
+            tags: ["front-end", "html", "css", "vanilla-js","javascript","bootstrap"]
+
         },
     ];
 
