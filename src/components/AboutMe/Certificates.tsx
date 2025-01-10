@@ -1,11 +1,18 @@
 import Card, {CardProps} from "../Card/Card.tsx"
 import {useTranslation} from "react-i18next";
 import images from "../Card/CardImages.tsx"
+import Dropdown from "../Dropdown/Dropdown.tsx";
+import {useState} from "react";
 
 
 export default function Certificates() {
 
     const {t} = useTranslation();
+    const [selectedTag, setSelectedTag] = useState<string | null>(null);
+
+    const handleFilterChange = (tag: string | null) => {
+        setSelectedTag(tag);
+    };
 
     const cards: CardProps[] = [
         {
@@ -15,6 +22,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javascriptConcurrentOOP.modalContent"),
             certificateLink: t("aboutme.certificates.javascriptConcurrentOOP.certificateLink"),
+            tags: ["front-end","javascript"]
+
 
         },
         {
@@ -24,6 +33,7 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.reactJSXHooks.modalContent"),
             certificateLink: t("aboutme.certificates.reactJSXHooks.certificateLink"),
+            tags: ["front-end", "react","javascript"]
 
         },
         {
@@ -33,6 +43,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javascriptFrontEnd.modalContent"),
             certificateLink: t("aboutme.certificates.javascriptFrontEnd.certificateLink"),
+            tags: ["front-end","javascript","html", "css"]
+
 
         },
         {
@@ -42,6 +54,7 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["front-end", "html", "css"]
 
         },
         {
@@ -51,6 +64,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javaFundamentals.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["back-end", "java"]
+
         },
         {
             image: images.userExperience,
@@ -59,6 +74,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.userExperience.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["ux-design"]
+
 
         },
         {
@@ -77,6 +94,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["cybersecurity"]
+
 
         },
         {
@@ -86,6 +105,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCA.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["cybersecurity"],
+
 
         },
         {
@@ -96,6 +117,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["ux-design"]
+
 
         },
         {
@@ -105,6 +128,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["back-end", "python"]
+
 
         },
         {
@@ -114,6 +139,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxDesignProcess.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["ux-design"]
+
 
         },
         {
@@ -123,28 +150,59 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxFoundations.modalContent"),
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            tags: ["ux-design"]
+
 
         }
 
 
     ];
 
+
+    const filteredCards = selectedTag
+        ? cards.filter((card) => card.tags?.includes(selectedTag))
+        : cards;
+
+    const dropdownOptions = [
+        {label: "All", value: null},
+        {label: "Front-End", value: "front-end"},
+        {label: "Back-End", value: "back-end"},
+        {label: "React", value: "react"},
+        // {label: "TypeScript", value: "typescript"},
+        {label: "JavaScript", value: "javascript"},
+        {label: "CSS", value: "css"},
+        {label: "HTML", value: "html"},
+        {label: "Java", value: "java"},
+        {label: "Python", value: "python"},
+        {label: "Cybersecurity", value: "cybersecurity"},
+        {label: "Ux-Design", value: "ux-design"},
+
+    ];
+
+
     return (
-        <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 py-12 mx-6 my-2 overflow-x-hidden">
-            {cards.map((card, index) => (
-                <Card
-                    key={index}
-                    image={card.image}
-                    title={card.title}
-                    description={card.description}
-                    buttonText={card.buttonText}
-                    modalContent={card.modalContent}
-                    githubRepo={card.githubRepo}
-                    liveDemo={card.liveDemo}
-                />
-            ))}
-        </div>
+        <>
+            {/* Filter Dropdown */}
+            <div className="sticky top-0 bg-transparent z-10 flex justify-end mr-8 pb-2 pt-6 ">
+                <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
+            </div>
+
+
+            <div
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 py-12 mx-6 my-2 overflow-x-hidden">
+                {filteredCards.map((card, index) => (
+                    <Card
+                        key={index}
+                        image={card.image}
+                        title={card.title}
+                        description={card.description}
+                        buttonText={card.buttonText}
+                        modalContent={card.modalContent}
+                        certificateLink={card.certificateLink}
+                    />
+                ))}
+            </div>
+        </>
     );
 }
 
