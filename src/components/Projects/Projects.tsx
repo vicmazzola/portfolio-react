@@ -24,7 +24,7 @@ export default function Projects() {
             modalContent: t("projects.portfolio.modalContent"),
             githubRepo: t("projects.portfolio.githubRepo"),
             liveDemo: t("projects.portfolio.liveDemo"),
-            tags: ["front-end", "react"],
+            tags: ["front-end", "react","typescript","tailwind","html", "css"],
         },
         {
             image: images.calculator,
@@ -33,7 +33,8 @@ export default function Projects() {
             buttonText: t("projects.calculator.button"),
             modalContent: t("projects.calculator.modalContent"),
             githubRepo: t("projects.calculator.githubRepo"),
-            liveDemo: t("projects.calculator.liveDemo")
+            liveDemo: t("projects.calculator.liveDemo"),
+            tags: ["front-end", "react","javascript","pwa","html", "css"],
         },
         {
             image: images.shoppingList,
@@ -42,7 +43,8 @@ export default function Projects() {
             buttonText: t("projects.shopping-list.button"),
             modalContent: t("projects.shopping-list.modalContent"),
             githubRepo: t("projects.shopping-list.githubRepo"),
-            liveDemo: t("projects.shopping-list.liveDemo")
+            liveDemo: t("projects.shopping-list.liveDemo"),
+            tags: ["front-end", "vanilla-js","bootstrap", "javascript", "html", "css"],
         },
         {
             image: images.teamFlow,
@@ -51,7 +53,8 @@ export default function Projects() {
             buttonText: t("projects.teamflow.button"),
             modalContent: t("projects.teamflow.modalContent"),
             githubRepo: t("projects.teamflow.githubRepo"),
-            liveDemo: t("projects.teamflow.liveDemo")
+            liveDemo: t("projects.teamflow.liveDemo"),
+            tags: ["front-end", "react","javascript", "html", "css"],
         },
         {
             image: images.codeConnect,
@@ -60,7 +63,8 @@ export default function Projects() {
             buttonText: t("projects.codeconnect.button"),
             modalContent: t("projects.codeconnect.modalContent"),
             githubRepo: t("projects.codeconnect.githubRepo"),
-            liveDemo: t("projects.codeconnect.liveDemo")
+            liveDemo: t("projects.codeconnect.liveDemo"),
+            tags: ["front-end", "react","javascript", "html", "css"],
         },
         {
             image: images.codeConnectLogin,
@@ -69,7 +73,8 @@ export default function Projects() {
             buttonText: t("projects.codeconnect-login.button"),
             modalContent: t("projects.codeconnect-login.modalContent"),
             githubRepo: t("projects.codeconnect-login.githubRepo"),
-            liveDemo: t("projects.codeconnect-login.liveDemo")
+            liveDemo: t("projects.codeconnect-login.liveDemo"),
+            tags: ["front-end", "react","javascript", "html", "css"],
         },
         {
             image: images.codeConnectPost,
@@ -78,7 +83,8 @@ export default function Projects() {
             buttonText: t("projects.codeconnect-post.button"),
             modalContent: t("projects.codeconnect-post.modalContent"),
             githubRepo: t("projects.codeconnect-post.githubRepo"),
-            liveDemo: t("projects.codeconnect-post.liveDemo")
+            liveDemo: t("projects.codeconnect-post.liveDemo"),
+            tags: ["front-end", "react","javascript", "html", "css"],
         },
         {
             image: images.devDragons,
@@ -87,7 +93,9 @@ export default function Projects() {
             buttonText: t("projects.dev-dragons.button"),
             modalContent: t("projects.dev-dragons.modalContent"),
             githubRepo: t("projects.dev-dragons.githubRepo"),
-            liveDemo: t("projects.dev-dragons.liveDemo")
+            liveDemo: t("projects.dev-dragons.liveDemo"),
+            tags: ["front-end", "vanilla-js","javascript", "html", "css"],
+
         },
         {
             image: images.fokus,
@@ -96,7 +104,8 @@ export default function Projects() {
             buttonText: t("projects.fokus.button"),
             modalContent: t("projects.fokus.modalContent"),
             githubRepo: t("projects.fokus.githubRepo"),
-            liveDemo: t("projects.fokus.liveDemo")
+            liveDemo: t("projects.fokus.liveDemo"),
+            tags: ["front-end", "vanilla-js","javascript", "html", "css"],
         },
         {
             image: images.iFood,
@@ -105,7 +114,8 @@ export default function Projects() {
             buttonText: t("projects.ifood.button"),
             modalContent: t("projects.ifood.modalContent"),
             githubRepo: t("projects.ifood.githubRepo"),
-            liveDemo: t("projects.ifood.liveDemo")
+            liveDemo: t("projects.ifood.liveDemo"),
+            tags: ["front-end", "vanilla-js","javascript", "html", "css"],
         },
         {
             image: images.aboutGames,
@@ -114,7 +124,9 @@ export default function Projects() {
             buttonText: t("projects.about-games.button"),
             modalContent: t("projects.about-games.modalContent"),
             githubRepo: t("projects.about-games.githubRepo"),
-            liveDemo: t("projects.about-games.liveDemo")
+            liveDemo: t("projects.about-games.liveDemo"),
+            tags: ["front-end", "vanilla-js","javascript", "html", "css"]
+
         },
         {
             image: images.mazzolaPlay,
@@ -163,6 +175,14 @@ export default function Projects() {
         { label: "Front-End", value: "front-end" },
         { label: "Vanilla JS", value: "vanilla-js" },
         { label: "React", value: "react" },
+        { label: "Bootstrap", value: "bootstrap" },
+        { label: "Tailwind", value: "tailwind" },
+        { label: "PWA", value: "pwa" },
+        { label: "TypeScript", value: "typescript" },
+        { label: "JavaScript", value: "javascript" },
+        { label: "CSS", value: "css" },
+        { label: "HTML", value: "html" },
+
     ];
 
 
