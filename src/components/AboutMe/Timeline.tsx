@@ -50,6 +50,7 @@ const Timeline: React.FC = () => {
 
     return (
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white px-8">
+
             {timelineData.map((item, index) => (
                 <li key={index}>
                     <div className="timeline-middle">
@@ -66,7 +67,7 @@ const Timeline: React.FC = () => {
                             />
                         </svg>
                     </div>
-                    <div className={`timeline-${index % 2 === 0 ? "start" : "end"} mb-10`}>
+                    <div className={`timeline-${index % 2 === 0 ? "start" : "end"} mb-10 bg-black opacity-70 rounded-lg p-4`}>
                         <div className="font-semibold text-xl">{item.company}</div>
                         <div className="italic">{item.location}</div>
                         <div className="font-semibold">{item.title}</div>
