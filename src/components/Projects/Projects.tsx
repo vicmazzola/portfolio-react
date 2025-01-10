@@ -1,12 +1,17 @@
 import Card, {CardProps} from "../Card/Card.tsx"
 import {useTranslation} from "react-i18next";
+import {useState} from "react";
 import images from "../Card/CardImages.tsx"
 
 
 export default function Projects() {
 
     const {t} = useTranslation();
+    const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
+    const handleFilterChange = (tag: string | null) => {
+        setSelectedTag(tag);
+    };
 
     const cards: CardProps[] = [
         {
@@ -16,7 +21,8 @@ export default function Projects() {
             buttonText: t("projects.portfolio.button"),
             modalContent: t("projects.portfolio.modalContent"),
             githubRepo: t("projects.portfolio.githubRepo"),
-            liveDemo: t("projects.portfolio.liveDemo")
+            liveDemo: t("projects.portfolio.liveDemo"),
+            tags: ["front-end", "react"],
         },
         {
             image: images.calculator,
@@ -146,22 +152,42 @@ export default function Projects() {
         },
     ];
 
+    const filteredCards = selectedTag
+        ? cards.filter((card) => card.tags?.includes(selectedTag))
+        : cards;
+
 
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 py-12 mx-6 my-2 overflow-x-hidden">
-            {cards.map((card, index) => (
-                <Card
-                    key={index}
-                    image={card.image}
-                    title={card.title}
-                    description={card.description}
-                    buttonText={card.buttonText}
-                    modalContent={card.modalContent}
-                    githubRepo={card.githubRepo}
-                    liveDemo={card.liveDemo}
-                />
-            ))}
-        </div>
+        <>
+            {/* Filter Dropdown */}
+            <div className="mb-4">
+                <select
+                    className="select select-bordered"
+                    onChange={(e) => handleFilterChange(e.target.value || null)}
+                >
+                    <option value="">All</option>
+                    <option value="front-end">Front-End</option>
+                    <option value="vanilla-js">Vanilla JS</option>
+                    <option value="react">React</option>
+
+                </select>
+            </div>
+
+            {/* Filtered Projects */}
+            <div
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 py-12 mx-6 my-2 overflow-x-hidden"
+            >
+                {filteredCards.map((card, index) => (
+                    <Card
+                        key={index}
+                        {...card}
+                    />
+                ))}
+            </div>
+        </>
     );
 }
+
+
+

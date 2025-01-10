@@ -9,6 +9,7 @@ export type CardProps = {
     githubRepo?: string;
     liveDemo?: string;
     certificateLink?: string;
+    tags?: string [];
 
 };
 
