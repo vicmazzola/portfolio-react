@@ -5,6 +5,7 @@ import Tools, {ToolsProps} from "./Tools/Tools.tsx";
 import Languages, {LanguageProps} from "./Languages/Languages.tsx";
 import {Icons} from "../../lib/icons.ts";
 import avatar from "../../assets/avatar.jpg";
+import styles from './Home.module.css'
 
 
 export default function Home() {
@@ -130,7 +131,7 @@ export default function Home() {
             </div>
 
             {/*// SKILLS DESKTOP */}
-            <div className="flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex">
+            <div className={`flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex ${styles.skills1280} overflow-x-hidden w-full`}>
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}

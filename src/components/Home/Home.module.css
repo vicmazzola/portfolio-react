@@ -23,3 +23,13 @@
             erasing 3s steps(17, end) forwards 3s,
             blink 0.5s step-end infinite 6s;
 }
+
+@media screen and (width: 1280px) and (height: 720px) {
+    .skills1280 {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+        gap: 16px;
+        padding: 32px;
+    }
+}

@@ -2132,6 +2132,10 @@ html {
   width: 100%;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -2598,6 +2602,10 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .\31 280\:flex-col {
+    flex-direction: column;
+  }
+
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
