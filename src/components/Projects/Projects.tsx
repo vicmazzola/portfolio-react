@@ -2,6 +2,8 @@ import Card, {CardProps} from "../Card/Card.tsx"
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import images from "../Card/CardImages.tsx"
+import Dropdown from "../Dropdown/Dropdown.tsx";
+
 
 
 export default function Projects() {
@@ -156,22 +158,19 @@ export default function Projects() {
         ? cards.filter((card) => card.tags?.includes(selectedTag))
         : cards;
 
+    const dropdownOptions = [
+        { label: "All", value: null },
+        { label: "Front-End", value: "front-end" },
+        { label: "Vanilla JS", value: "vanilla-js" },
+        { label: "React", value: "react" },
+    ];
 
 
     return (
         <>
             {/* Filter Dropdown */}
-            <div className="mb-4">
-                <select
-                    className="select select-bordered"
-                    onChange={(e) => handleFilterChange(e.target.value || null)}
-                >
-                    <option value="">All</option>
-                    <option value="front-end">Front-End</option>
-                    <option value="vanilla-js">Vanilla JS</option>
-                    <option value="react">React</option>
-
-                </select>
+            <div className="sticky top-0 bg-transparent z-10 flex justify-end mr-8 pb-2 pt-6 ">
+                <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
             </div>
 
             {/* Filtered Projects */}
