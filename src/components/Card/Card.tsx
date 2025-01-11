@@ -26,7 +26,7 @@ export default function Card(props: CardProps) {
     };
 
     return (
-        <div className={`${styles.card} card bg-base-100 shadow-xl w-full sm:w-120 lg:w-220 xl:w-260`}>
+        <div className={`${styles.card} card bg-white text-white shadow-xl w-full sm:w-120 lg:w-220 xl:w-260`}>
             <figure>
                 <img src={props.image} alt={`Image of ${props.title}`}/>
             </figure>
@@ -49,9 +49,9 @@ export default function Card(props: CardProps) {
 
             {/* Modal */}
             {isModalOpen && (
-                <div className="modal modal-open" role="dialog" aria-labelledby="modal-title"
+                <div className="modal modal-open bg-white text-black" role="dialog" aria-labelledby="modal-title"
                      aria-describedby="modal-desc">
-                    <div className="modal-box">
+                    <div className="modal-box bg-white">
                         <h3 id="modal-title" className="text-lg font-bold">{props.title}</h3>
                         <p className="py-4">{props.modalContent || props.description}</p>
 
