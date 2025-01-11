@@ -11,6 +11,7 @@ export type CardProps = {
     githubRepo?: string;
     iconLiveDemo?: IconType;
     liveDemo?: string;
+    iconCertificateLink?: IconType;
     certificateLink?: string;
     tags?: string [];
 
@@ -109,21 +110,23 @@ export default function Card(props: CardProps) {
                                 <span>Live Demo</span>
                             </a>
                         )}
-                        </div>
+
 
                         {/* Certificate Link */}
                         {props.certificateLink && (
-                            <p className="py-2">
-                                <a
-                                    href={props.certificateLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-500 underline"
-                                >
-                                    Certificate
-                                </a>
-                            </p>
+                            <a
+                                href={props.certificateLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-outline btn-sm flex items-center space-x-2 text-blue-500"
+                            >
+                                {props.iconCertificateLink && (
+                                    <props.iconCertificateLink className="text-lg" aria-hidden="true" />
+                                )}
+                                <span>Certificate</span>
+                            </a>
                         )}
+                        </div>
 
                         <div className="modal-actions">
                             <button className="btn" onClick={handleModalToggle}>
