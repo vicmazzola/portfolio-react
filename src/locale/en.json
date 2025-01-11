@@ -25,10 +25,10 @@
     },
     "projects": {
       "header": "Projects",
+      "button": "Check Now",
       "portfolio": {
         "title": "Portfolio",
         "description": "Showcasing my projects and skills using React, TypeScript, Tailwind, and Vite.",
-        "button": "Check Now",
         "modalContent": "This portfolio showcases my growth as a developer. My first portfolio was built using HTML, CSS, and Bootstrap, but this new version applies my knowledge of React, TypeScript, Tailwind, and Vite.",
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
         "liveDemo": "https://your-live-demo-url"
@@ -36,7 +36,6 @@
       "calculator": {
         "title": "Calculator",
         "description": "A modern calculator app built with React and Vite, featuring offline functionality through PWA support. Responsive, fast, and easy to use.",
-        "button": "Check Now",
         "modalContent": "Calculator made using React and Vite. It features basic calculator operations for everyday needs, Progressive Web App (PWA) functionality for offline use and installation, and a responsive design for seamless use across devices. Powered by React for a modular UI and Vite for blazing-fast performance",
         "githubRepo": "https://github.com/vicmazzola/react-calc-app",
         "liveDemo": "https://react-calc-app-seven.vercel.app/"
@@ -44,7 +43,6 @@
       "shopping-list": {
         "title": "Shopping List",
         "description": "Manage shopping items dynamically using HTML, CSS, JavaScript, and SweetAlert2.",
-        "button": "Explore",
         "modalContent": "Shopping List simplifies shopping management. Add, edit, delete, and mark items as purchased, with creation dates displayed. Built with HTML, CSS, JavaScript, and SweetAlert2, it's responsive and user-friendly.",
         "githubRepo": "https://github.com/vicmazzola/shopping-list",
         "liveDemo": "https://shopping-list-wine-eta.vercel.app/"
@@ -52,7 +50,6 @@
       "teamflow": {
         "title": "TeamFlow",
         "description": "A React app with reusable components, state management, and responsive design. Built with Vite and deployed on Vercel.",
-        "button": "Check Now",
         "modalContent": "Manage teams with collaborative cards, dropdowns, and forms in a dynamic, responsive interface.",
         "githubRepo": "https://github.com/vicmazzola/TeamFlow",
         "liveDemo": "https://team-flow-tan.vercel.app/"
@@ -60,7 +57,6 @@
       "codeconnect": {
         "title": "CodeConnect",
         "description": "A React project with dynamic components, state management, and hooks. Built with Vite for fast development.",
-        "button": "Discover More",
         "modalContent": "Create navigation, search, filters, and cards with dynamic React components and efficient state management.",
         "githubRepo": "https://github.com/vicmazzola/codeconnect",
         "liveDemo": "https://codeconnect-feed-seven.vercel.app/"
@@ -68,7 +64,6 @@
       "codeconnect-login": {
         "title": "CodeConnect Login",
         "description": "Login module for CodeConnect, showcasing reusable components and modular CSS styling.",
-        "button": "Try It Out",
         "modalContent": "Build forms, inputs, and buttons dynamically using React components and state. Modular CSS ensures a clean, responsive layout.",
         "githubRepo": "https://github.com/vicmazzola/code-connect-react",
         "liveDemo": "https://code-connect-react-five.vercel.app/"
@@ -76,7 +71,6 @@
       "dev-dragons": {
         "title": "Dev Dragons",
         "description": "RPG-themed app showcasing object-oriented principles like inheritance and dynamic rendering.",
-        "button": "Play Now",
         "modalContent": "An RPG app with OOP concepts, dynamic character cards, and an interactive battle system.",
         "githubRepo": "https://github.com/vicmazzola/dev-dragons",
         "liveDemo": "https://dev-dragons-chi.vercel.app/"
@@ -84,7 +78,6 @@
       "codeconnect-post": {
         "title": "CodeConnect Post",
         "description": "A web app for managing posts with dynamic forms and async features.",
-        "button": "Check Posts",
         "modalContent": "Manage posts dynamically with image uploads, live previews, tag validation, and responsive forms.",
         "githubRepo": "https://github.com/vicmazzola/code-connect",
         "liveDemo": "https://code-connect-ten-mu.vercel.app/"
@@ -92,7 +85,6 @@
       "fokus": {
         "title": "Fokus",
         "description": "A Pomodoro timer with dynamic intervals, audio feedback, and interactive buttons.",
-        "button": "Start Focusing",
         "modalContent": "A minimalist Pomodoro timer with dynamic styles, responsive interface, and integrated audio feedback.",
         "githubRepo": "https://github.com/vicmazzola/fokus",
         "liveDemo": "https://fokus-tau-rouge.vercel.app/"
@@ -100,7 +92,6 @@
       "ifood": {
         "title": "iFood Back-office Solution",
         "description": "A back-office solution for financial management, built with React and secure features.",
-        "button": "Order Now",
         "modalContent": "A project for iFood partners to manage digital transactions securely and efficiently.",
         "githubRepo": "https://github.com/vicmazzola/challenge_ifood",
         "liveDemo": "https://challengeifood-rosy.vercel.app/"
@@ -108,7 +99,6 @@
       "about-games": {
         "title": "About Games",
         "description": "A simple site for practicing HTML, CSS, and Bootstrap skills effectively.",
-        "button": "Learn More",
         "modalContent": "A practice project using HTML, CSS, and Bootstrap to improve layout and responsiveness.",
         "githubRepo": "https://github.com/vicmazzola/projeto-ferias",
         "liveDemo": "https://games-consoles.vercel.app/"
@@ -116,7 +106,6 @@
       "mazzola-play": {
         "title": "Mazzola's Play",
         "description": "A basic webpage built using HTML, CSS, and responsive Flexbox layouts.",
-        "button": "Play Now",
         "modalContent": "A simple webpage built as part of Flexbox learning with Alura, showcasing responsive designs.",
         "githubRepo": "https://github.com/vicmazzola/mazzolas-play",
         "liveDemo": "https://mazzolas-play.vercel.app/"
@@ -124,7 +113,6 @@
       "fintech": {
         "title": "FinPlus",
         "description": "A fintech landing page built using HTML, CSS, and Bootstrap components.",
-        "button": "Explore",
         "modalContent": "A single-page fintech solution designed with responsive layouts and Bootstrap for front-end class.",
         "githubRepo": "https://github.com/vicmazzola/Fintech",
         "liveDemo": "https://fintechfinplus.vercel.app/"
@@ -132,7 +120,6 @@
       "alurabooks": {
         "title": "AluraBooks",
         "description": "An e-commerce platform showcasing books with advanced JavaScript filtering and sorting.",
-        "button": "Shop Now",
         "modalContent": "An advanced e-commerce site with JavaScript array methods for filtering, sorting, and responsiveness.",
         "githubRepo": "https://github.com/vicmazzola/alura-books-js",
         "liveDemo": "https://alura-books-js-xi.vercel.app/"
@@ -140,7 +127,6 @@
       "guess": {
         "title": "Guess the Number",
         "description": "A guessing game built with HTML, CSS, and JavaScript for practice.",
-        "button": "Play Now",
         "modalContent": "An improved number guessing game featuring dynamic feedback and responsive design for fun interaction.",
         "githubRepo": "https://github.com/vicmazzola/guess-the-number",
         "liveDemo": "https://guess-the-number-gamma-ochre.vercel.app/"
