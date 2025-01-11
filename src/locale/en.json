@@ -275,6 +275,11 @@
           "description": "Professor Adoniro Ladeira State School is an educational institution providing quality education to middle and high school students.\n\nAs an Apprentice, my responsibilities included:\n\n· Assisting students from middle school and high school with their computer classes.\n· Helping teachers in the preparation of presentations.\n\nThis experience allowed me to develop my passion for computers."
         }
       }
+    },
+    "pagination": {
+      "home": "Home",
+      "projects": "Projects",
+      "aboutme": "About Me"
     }
   }
 }

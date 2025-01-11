@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer.tsx";
 import AboutMe from "./components/AboutMe/AboutMe.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 import Background from "./components/Background/Background.tsx";
+import ScrollToTop  from "./components/ScrollToTop/ScrollToTop.tsx";
 
 
 function Main() {
@@ -15,6 +16,7 @@ function Main() {
         <>
 
             <BrowserRouter>
+                <ScrollToTop />
                 <Background/>
                 <Header/>
                 <Routes>

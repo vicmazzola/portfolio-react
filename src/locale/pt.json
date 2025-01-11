@@ -269,6 +269,11 @@
           "description": "A Escola Estadual Professor Adoniro Ladeira é uma instituição educacional que oferece ensino de qualidade para estudantes do ensino fundamental e médio.\n\nComo Aprendiz, minhas responsabilidades incluíam:\n\n· Auxiliar estudantes do ensino médio e superior em suas aulas de informática.\n· Assistir os professores na preparação"
         }
       }
+    },
+    "pagination": {
+      "home": "Home",
+      "projects": "Projetos",
+      "aboutme": "Sobre Mim"
     }
   }
 }

@@ -200,7 +200,7 @@ export default function Home() {
 
 
             <div className="join flex justify-center py-6">
-                <button className="join-item btn bg-black opacity-60 text-white">Home</button>
+                <button className="join-item btn bg-black opacity-60 text-white">{t("pagination.home")}</button>
                 <Link to="/projects" className="join-item btn bg-black opacity-60 text-white">»</Link>
             </div>
 
