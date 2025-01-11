@@ -2444,16 +2444,16 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
 }
 
 .block {
@@ -2582,6 +2582,11 @@ html {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .fill-current {

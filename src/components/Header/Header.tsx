@@ -64,7 +64,7 @@ export default function Header() {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                            className="menu menu-sm dropdown-content bg-white text-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
                         >
                             <li>
                                 <Link to="/">{t("home.header")}</Link>
@@ -122,7 +122,7 @@ export default function Header() {
                         <div tabIndex={0} role="button" className="btn bg-transparent text-2xl text-white m-1">
                         <LanguageIcon/></div>
                         <ul tabIndex={0}
-                            className="dropdown-content menu bg-base-100 text-black rounded-box z-[1] w-52 p-2 shadow">
+                            className="dropdown-content menu bg-white text-black rounded-box z-[1] w-52 p-2 shadow">
                             <li>
                                 <a onClick={() => handleLanguageChange("en")}
                                    className={i18n.language === "en" ? "font-bold" : ""}

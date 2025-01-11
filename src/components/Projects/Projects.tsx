@@ -227,7 +227,7 @@ export default function Projects() {
     return (
         <>
             {/* Filter Dropdown */}
-            <div className="sticky top-0 bg-transparent z-10 flex justify-start ml-8 pb-2 pt-6 ">
+            <div className="sticky top-0 bg-transparent z-10 flex justify-center pb-2 pt-6 ">
                 <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
             </div>
 
