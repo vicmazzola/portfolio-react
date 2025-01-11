@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import styles from "./Dropdown.module.css";
 
 interface DropdownProps {
     options: { label: string; value: string | null }[];
@@ -36,7 +37,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options, onSelect }) => {
                 Filter Projects
             </button>
             {isOpen && (
-                <ul className="dropdown-content menu bg-base-100 rounded-box z-[1] w-35 p-2 shadow">
+                <ul className={`${styles.dropdown} dropdown-content menu bg-base-100 rounded-box z-[1] w-35 p-2 shadow`}>
                     {options.map((option) => (
                         <li key={option.value || "all"}>
                             <button
