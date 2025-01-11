@@ -1,4 +1,3 @@
-
 export default function Footer() {
     return (
         <div>
@@ -6,7 +5,6 @@ export default function Footer() {
                 <aside className="grid-flow-col items-center">
                     <p>Copyright © {new Date().getFullYear()} - All rights reserved</p>
                 </aside>
-
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     {/* GitHub Link */}
                     <a href="https://github.com/vicmazzola" target="_blank" rel="noopener noreferrer"

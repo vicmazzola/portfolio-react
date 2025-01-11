@@ -2,10 +2,10 @@ import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import {Icons} from "../../lib/icons.ts";
-import { useEffect } from "react";
+import {useEffect} from "react";
+
 const bgImageDark = '/bg-img-space-2400.jpg'; // Public folder path
 const bgImageLight = '/bg-img-sky.jpg'; // Public folder path
-
 
 
 export default function Header() {
@@ -18,7 +18,6 @@ export default function Header() {
     }, []); // Runs only on mount
 
 
-
     const handleThemeToggle = () => {
         const newTheme = theme === "dark" ? "light" : "dark";
         setTheme(newTheme);
@@ -28,7 +27,6 @@ export default function Header() {
             `url(${newTheme === "dark" ? bgImageDark : bgImageLight})`
         );
     };
-
 
 
     const handleLanguageChange = (selectedLanguage: "en" | "pt") => {
@@ -75,6 +73,9 @@ export default function Header() {
                             <li>
                                 <Link to="/aboutme">{t("aboutme.header")}</Link>
                             </li>
+                            <li>
+                                <Link to="/contact">{t("contact.header")}</Link>
+                            </li>
                         </ul>
                     </div>
 
@@ -99,7 +100,11 @@ export default function Header() {
                                 {t("aboutme.header")}
                             </Link>
                         </li>
-
+                        <li>
+                            <Link to="/contact" className="text-xl hover:text-white focus:text-white active:text-white">
+                                {t("contact.header")}
+                            </Link>
+                        </li>
                     </ul>
                 </div>
 
@@ -112,7 +117,7 @@ export default function Header() {
                         onClick={handleThemeToggle}
                         className="btn bg-transparent text-2xl text-white m-1"
                     >
-                        {theme === "dark" ? <LightMode /> : <DarkMode />}
+                        {theme === "dark" ? <LightMode/> : <DarkMode/>}
                     </button>
 
 
@@ -120,7 +125,7 @@ export default function Header() {
 
                     <div className="dropdown dropdown-end">
                         <div tabIndex={0} role="button" className="btn bg-transparent text-2xl text-white m-1">
-                        <LanguageIcon/></div>
+                            <LanguageIcon/></div>
                         <ul tabIndex={0}
                             className="dropdown-content menu bg-white text-black rounded-box z-[1] w-52 p-2 shadow">
                             <li>

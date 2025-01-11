@@ -276,10 +276,20 @@
         }
       }
     },
+    "contact": {
+      "header": "Contact-Me",
+      "button": "Send",
+      "placeholder": {
+        "name": "Name",
+        "email": "Your Email",
+        "message": "Type your message!"
+      }
+    },
     "pagination": {
       "home": "Home",
       "projects": "Projects",
-      "aboutme": "About Me"
+      "aboutme": "About Me",
+      "contact": "Contact Me"
     }
   }
 }

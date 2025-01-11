@@ -270,10 +270,22 @@
         }
       }
     },
+    "contact": {
+      "header": "Contato",
+      "button": "Enviar",
+      "placeholder": {
+        "name": "Nome",
+        "email": "Email",
+        "message": "Digite sua mensagem!"
+      }
+
+    },
     "pagination": {
       "home": "Home",
       "projects": "Projetos",
-      "aboutme": "Sobre Mim"
+      "aboutme": "Sobre Mim",
+      "contact": "Contato"
+
     }
   }
 }

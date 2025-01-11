@@ -27,6 +27,7 @@ const AboutMe: React.FC = () => {
             <div className="join flex justify-center py-6">
                 <Link to="/projects" className="join-item btn bg-black opacity-80 text-white">«</Link>
                 <button className="join-item btn bg-black opacity-80 text-white">{t("pagination.aboutme")}</button>
+                <Link to="/contact" className="join-item btn bg-black opacity-80 text-white">»</Link>
             </div>
 
         </section>

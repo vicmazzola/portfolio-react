@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe/AboutMe.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 import Background from "./components/Background/Background.tsx";
 import ScrollToTop  from "./components/ScrollToTop/ScrollToTop.tsx";
+import ContactMe from "./components/ContactMe/ContactMe.tsx";
 
 
 function Main() {
@@ -23,6 +24,7 @@ function Main() {
                     <Route index element={<Home/>}/>
                     <Route path="/aboutme" element={<AboutMe/>}/>
                     <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/contact" element={<ContactMe/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
