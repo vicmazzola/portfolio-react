@@ -3,6 +3,9 @@ import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import images from "../Card/CardImages.tsx"
 import Dropdown from "../Dropdown/Dropdown.tsx";
+import {FaGithub} from "react-icons/fa";
+import {FiExternalLink } from "react-icons/fi";
+
 
 
 
@@ -22,6 +25,8 @@ export default function Projects() {
             description: t("projects.portfolio.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.portfolio.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.portfolio.githubRepo"),
             liveDemo: t("projects.portfolio.liveDemo"),
             tags: ["front-end", "react","typescript","tailwind","html", "css"],
@@ -32,6 +37,8 @@ export default function Projects() {
             description: t("projects.calculator.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.calculator.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.calculator.githubRepo"),
             liveDemo: t("projects.calculator.liveDemo"),
             tags: ["front-end", "react","javascript","pwa","html", "css"],
@@ -42,6 +49,8 @@ export default function Projects() {
             description: t("projects.shopping-list.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.shopping-list.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.shopping-list.githubRepo"),
             liveDemo: t("projects.shopping-list.liveDemo"),
             tags: ["front-end", "vanilla-js","bootstrap", "javascript", "html", "css"],
@@ -52,6 +61,8 @@ export default function Projects() {
             description: t("projects.teamflow.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.teamflow.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.teamflow.githubRepo"),
             liveDemo: t("projects.teamflow.liveDemo"),
             tags: ["front-end", "react","javascript", "html", "css"],
@@ -62,6 +73,8 @@ export default function Projects() {
             description: t("projects.codeconnect.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.codeconnect.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.codeconnect.githubRepo"),
             liveDemo: t("projects.codeconnect.liveDemo"),
             tags: ["front-end", "react","javascript", "html", "css"],
@@ -72,6 +85,8 @@ export default function Projects() {
             description: t("projects.codeconnect-login.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.codeconnect-login.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.codeconnect-login.githubRepo"),
             liveDemo: t("projects.codeconnect-login.liveDemo"),
             tags: ["front-end", "react","javascript", "html", "css"],
@@ -82,6 +97,8 @@ export default function Projects() {
             description: t("projects.codeconnect-post.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.codeconnect-post.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.codeconnect-post.githubRepo"),
             liveDemo: t("projects.codeconnect-post.liveDemo"),
             tags: ["front-end", "react","javascript", "html", "css"],
@@ -92,6 +109,8 @@ export default function Projects() {
             description: t("projects.dev-dragons.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.dev-dragons.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.dev-dragons.githubRepo"),
             liveDemo: t("projects.dev-dragons.liveDemo"),
             tags: ["front-end", "vanilla-js","javascript", "html", "css"],
@@ -103,6 +122,8 @@ export default function Projects() {
             description: t("projects.fokus.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.fokus.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.fokus.githubRepo"),
             liveDemo: t("projects.fokus.liveDemo"),
             tags: ["front-end", "vanilla-js","javascript", "html", "css"],
@@ -113,6 +134,8 @@ export default function Projects() {
             description: t("projects.ifood.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.ifood.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.ifood.githubRepo"),
             liveDemo: t("projects.ifood.liveDemo"),
             tags: ["front-end", "vanilla-js","javascript", "html", "css"],
@@ -123,6 +146,8 @@ export default function Projects() {
             description: t("projects.about-games.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.about-games.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.about-games.githubRepo"),
             liveDemo: t("projects.about-games.liveDemo"),
             tags: ["front-end", "html", "css", "bootstrap"]
@@ -134,6 +159,8 @@ export default function Projects() {
             description: t("projects.mazzola-play.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.mazzola-play.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.mazzola-play.githubRepo"),
             liveDemo: t("projects.mazzola-play.liveDemo"),
             tags: ["front-end", "html", "css", "bootstrap"]
@@ -144,6 +171,8 @@ export default function Projects() {
             description: t("projects.fintech.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.fintech.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.fintech.githubRepo"),
             liveDemo: t("projects.fintech.liveDemo"),
             tags: ["front-end", "html", "css", "bootstrap"]
@@ -154,6 +183,8 @@ export default function Projects() {
             description: t("projects.alurabooks.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.alurabooks.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.alurabooks.githubRepo"),
             liveDemo: t("projects.alurabooks.liveDemo"),
             tags: ["front-end", "html", "css", "vanilla-js","javascript",]
@@ -164,6 +195,8 @@ export default function Projects() {
             description: t("projects.guess.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.guess.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.guess.githubRepo"),
             liveDemo: t("projects.guess.liveDemo"),
             tags: ["front-end", "html", "css", "vanilla-js","javascript","bootstrap"]

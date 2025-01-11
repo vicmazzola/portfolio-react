@@ -31,7 +31,7 @@
         "description": "Mostrando meus projetos e habilidades com React, TypeScript, Tailwind e Vite.",
         "modalContent": "Este portfólio destaca meu crescimento como desenvolvedor. Meu primeiro portfólio foi criado com HTML, CSS e Bootstrap, mas esta nova versão aplica meu conhecimento em React, TypeScript, Tailwind e Vite.",
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
-        "liveDemo": "https://your-live-demo-url"
+        "liveDemo": "https://portfolio-react-delta-eight.vercel.app/"
       },
       "calculator": {
         "title": "Calculadora",

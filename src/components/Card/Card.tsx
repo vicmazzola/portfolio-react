@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {IconType} from "react-icons";
 
 export type CardProps = {
     image: string;
@@ -6,7 +7,9 @@ export type CardProps = {
     description: string;
     buttonText: string;
     modalContent?: string;
+    iconGithub?: IconType;
     githubRepo?: string;
+    iconLiveDemo?: IconType;
     liveDemo?: string;
     certificateLink?: string;
     tags?: string [];
@@ -17,7 +20,6 @@ export default function Card(props: CardProps) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleModalToggle = () => {
-        console.log("Modal toggled! Current state:", isModalOpen);
         setIsModalOpen(!isModalOpen);
     };
 
@@ -34,7 +36,6 @@ export default function Card(props: CardProps) {
                     <button
                         className="btn btn-primary"
                         onClick={() => {
-                            console.log("Button clicked for card:", props.title);
                             handleModalToggle();
                         }}
                     >
@@ -51,22 +52,66 @@ export default function Card(props: CardProps) {
                     <div className="modal-box">
                         <h3 id="modal-title" className="text-lg font-bold">{props.title}</h3>
                         <p className="py-4">{props.modalContent || props.description}</p>
+
+                        {/* Links Container */}
+
+                        <div className="flex flex-wrap gap-2 py-4">
+                        {/*{props.githubRepo && (*/}
+                        {/*    <a*/}
+                        {/*        href={props.githubRepo}*/}
+                        {/*        target="_blank"*/}
+                        {/*        rel="noopener noreferrer"*/}
+                        {/*        className="btn btn-ghost btn-circle text-blue-500"*/}
+                        {/*        aria-label="GitHub Repository"*/}
+                        {/*    >*/}
+                        {/*        {props.icon && <props.icon className="text-xl" aria-hidden="true" />}*/}
+                        {/*    </a>*/}
+                        {/*)}*/}
+
+
+                        {/* GitHub Link */}
                         {props.githubRepo && (
-                            <p className="py-2">
-                                <a href={props.githubRepo} target="_blank" rel="noopener noreferrer"
-                                   className="text-blue-500 underline">
-                                    GitHub Repository
-                                </a>
-                            </p>
+                            <a
+                                href={props.githubRepo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-outline btn-sm flex items-center space-x-2 text-blue-500"
+                            >
+                                {props.iconGithub && <props.iconGithub className="text-lg" aria-hidden="true" />}
+                                <span>GitHub</span>
+                            </a>
                         )}
+
+                        {/*{props.githubRepo && (*/}
+                        {/*    <a*/}
+                        {/*        href={props.githubRepo}*/}
+                        {/*        target="_blank"*/}
+                        {/*        rel="noopener noreferrer"*/}
+                        {/*        className="badge badge-outline flex items-center space-x-2 text-blue-500"*/}
+                        {/*    >*/}
+                        {/*        {props.icon && <props.icon className="text-lg" aria-hidden="true" />}*/}
+                        {/*        <span>GitHub</span>*/}
+                        {/*    </a>*/}
+                        {/*)}*/}
+
+
+                        {/* Live Demo */}
                         {props.liveDemo && (
-                            <p className="py-2">
-                                <a href={props.liveDemo} target="_blank" rel="noopener noreferrer"
-                                   className="text-blue-500 underline">
-                                    Live Demo
-                                </a>
-                            </p>
+                            <a
+                                href={props.liveDemo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-outline btn-sm flex items-center space-x-2 text-blue-500"
+                            >
+                                {props.iconLiveDemo && (
+                                    <props.iconLiveDemo className="text-lg" aria-hidden="true" />
+                                )}
+                                <span>Live Demo</span>
+                            </a>
                         )}
+                        </div>
+
+                        {/* Certificate Link */}
                         {props.certificateLink && (
                             <p className="py-2">
                                 <a
