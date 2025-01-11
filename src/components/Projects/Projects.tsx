@@ -5,6 +5,7 @@ import images from "../Card/CardImages.tsx"
 import Dropdown from "../Dropdown/Dropdown.tsx";
 import {FaGithub} from "react-icons/fa";
 import {FiExternalLink } from "react-icons/fi";
+import {Link} from "react-router";
 
 
 
@@ -242,6 +243,12 @@ export default function Projects() {
                         {...card}
                     />
                 ))}
+            </div>
+
+            <div className="join flex justify-center py-6">
+                <Link to="/" className="join-item btn bg-black opacity-80 text-white">«</Link>
+                <button className="join-item btn bg-black opacity-80 text-white">Projects</button>
+                <Link to="/aboutme" className="join-item btn bg-black opacity-80 text-white">»</Link>
             </div>
 
         </>

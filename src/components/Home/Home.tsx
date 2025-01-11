@@ -6,6 +6,7 @@ import Languages, {LanguageProps} from "./Languages/Languages.tsx";
 import {Icons} from "../../lib/icons.ts";
 import avatar from "../../assets/avatar.jpg";
 import styles from './Home.module.css'
+import {Link} from "react-router";
 
 
 export default function Home() {
@@ -131,7 +132,8 @@ export default function Home() {
             </div>
 
             {/*// SKILLS DESKTOP */}
-            <div className={`flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex ${styles.skills1280} overflow-x-hidden w-full`}>
+            <div
+                className={`flex-col lg:flex-row gap-4 py-12 px-4 justify-center hidden lg:flex ${styles.skills1280} overflow-x-hidden w-full`}>
                 {skillsArray.map((skill, index) => (
                     <Skill
                         key={index}
@@ -196,6 +198,11 @@ export default function Home() {
 
             </div>
 
+
+            <div className="join flex justify-center py-6">
+                <button className="join-item btn bg-black opacity-60 text-white">Home</button>
+                <Link to="/projects" className="join-item btn bg-black opacity-60 text-white">»</Link>
+            </div>
 
         </>
     );
