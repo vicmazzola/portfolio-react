@@ -179,29 +179,27 @@
           "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
           "description": "Validates essential technical skills for entry-level cybersecurity roles.",
           "modalContent": "This certification covers today's threat landscape and the fundamentals of cybersecurity, ensuring readiness for entry-level positions.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.credly.com/badges/77e81017-87f0-409f-814b-15a6219532ba"
         },
         "fortinetFCA": {
           "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
           "description": "Validates ability to execute high-level operations on FortiGate devices.",
           "modalContent": "This certification focuses on fundamental operating procedures for common FortiGate features, enhancing network security competencies.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.credly.com/badges/25ab537f-ee4e-4818-aa1f-34d22e93ed41"
         },
         "javaFundamentals": {
-          "title": "Enhancing the Fundamentals of Java",
+          "title": "Java Fundamentals",
           "description": "Extra course at FIAP to deepen knowledge beyond graduation.",
           "modalContent": "I learned about object-oriented programming and how to connect to a database, consolidating essential skills in Java.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/128744/e132292f182164e0a27396aeff0ee5d7/certificado.png"
+
         },
         "userExperience": {
-          "title": "User Experience Course at FIAP",
+          "title": "User Experience",
           "description": "Enhancing knowledge in areas of interest beyond the degree.",
           "modalContent": "I learned to create impactful experiences and apply UX fundamentals in future projects.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/125339/b61d5d81ca9bca2d7a17e20934fc4b03/certificado.png"
+
         },
         "figmaUnderstanding": {
           "title": "Figma: Understanding the Tool",
@@ -218,25 +216,24 @@
 
         },
         "programmingLogic": {
-          "title": "Programming Logic (FIAP)",
+          "title": "Programming Logic",
           "description": "Course from FIAP issued in March 2024.",
           "modalContent": "I gained skills in logic programming, HTML, programming fundamentals, looping structures, code optimization, and function creation.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nivelamento/certificado_nivelamento/1506/015fc77bb2dc0af76fbb4e0b639338c5/certificado.png"
+
         },
         "uxDesignProcess": {
-          "title": "Start the UX Design Process: Empathize, Define, and Ideate (Google)",
+          "title": "Start the UX Design Process: Empathize, Define, and Ideate",
           "description": "Certification focused on empathy mapping, user journeys, and user experience.",
           "modalContent": "This Google certification trained me in empathy mapping, defining, and ideating in the UX design process. I learned to develop user journeys and improve user-centered experiences.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/KKV8SKXUDFDW"
+
         },
         "uxFoundations": {
-          "title": "Foundations of User Experience (UX) Design (Google)",
+          "title": "Foundations of User Experience (UX) Design",
           "description": "Certification focused on UX research, usability testing, and user-centered design.",
           "modalContent": "I learned the foundations of UX design, including research, usability testing, user-centered design, and design thinking. This certification strengthened my skills in crafting impactful experiences.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/CT3KLCQGP4M4"
         }
 
 

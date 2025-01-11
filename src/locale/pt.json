@@ -159,83 +159,77 @@
           "button": "Veja Mais",
           "modalContent": "Essa formação de 58 horas foi focada no desenvolvimento de aplicações web dinâmicas com React. Entre os destaques, estão a criação de componentes com JSX, gerenciamento de estado e ciclo de vida, além da configuração de projetos com Node.js e Vite. Essa experiência fortaleceu minha capacidade de projetar interfaces modernas e interativas.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-jsx-hooks-702713/certificate?lang=pt"
-
         },
         "javascriptFrontEnd": {
           "title": "Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript",
           "description": "Explore o JavaScript desde a manipulação do DOM até recursos avançados do ES6+ em 61 horas de aprendizado.",
           "modalContent": "Nesta formação, desenvolvi habilidades em manipulação do DOM, implementação de CRUDs com HTTP e programação assíncrona com promises e async/await. Também aprofundei o uso de recursos avançados do ES6+, como destructuring, módulos e ferramentas modernas como Webpack e Vite.",
-          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-html-css-v527396-527396/certificate?lang=pt"
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-javascript-front-end-v814363-814363/certificate?lang=pt_BR"
         },
         "htmlCssFromScratch": {
           "title": "A partir do zero: iniciante em programação",
           "description": "Desenvolvi habilidades sólidas para criar e estilizar projetos web utilizando HTML e CSS.",
           "modalContent": "Essa formação me proporcionou uma compreensão completa de como estruturar e estilizar projetos web do zero usando HTML e CSS. Foi a base para criar sites responsivos e acessíveis. Agradeço à Alura e à Mônica Hillman por essa incrível jornada de aprendizado.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-html-css-v527396-527396/certificate?lang=pt"
         },
         "fortinetFCF": {
           "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
           "description": "Valida habilidades técnicas essenciais para funções iniciais em cibersegurança.",
           "modalContent": "Esta certificação abrange o panorama atual das ameaças e os fundamentos da cibersegurança, garantindo prontidão para posições de nível inicial.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.credly.com/badges/77e81017-87f0-409f-814b-15a6219532ba"
         },
         "fortinetFCA": {
           "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
           "description": "Valida a capacidade de executar operações de alto nível em dispositivos FortiGate.",
           "modalContent": "Esta certificação foca nos procedimentos operacionais fundamentais para recursos comuns do FortiGate, aprimorando competências em segurança de rede.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.credly.com/badges/25ab537f-ee4e-4818-aa1f-34d22e93ed41"
         },
         "javaFundamentals": {
-          "title": "Aprimorando os Fundamentos de Java",
+          "title": "Java Fundamentos",
           "description": "Curso extra na FIAP para aprofundar conhecimentos além da graduação.",
           "modalContent": "Aprendi sobre orientação a objetos e como conectar a um banco de dados, consolidando habilidades essenciais em Java.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/128744/e132292f182164e0a27396aeff0ee5d7/certificado.png"
         },
         "userExperience": {
-          "title": "Curso em User Experience na FIAP",
+          "title": "Curso em User Experience",
           "description": "Aprimorando conhecimentos em áreas de interesse além da formação.",
           "modalContent": "Aprendi a criar experiências impactantes e a aplicar fundamentos de UX em projetos futuros.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/125339/b61d5d81ca9bca2d7a17e20934fc4b03/certificado.png"
         },
         "figmaUnderstanding": {
           "title": "Figma: Entendendo a Ferramenta",
           "description": "Aprendi a usar as ferramentas principais do Figma para criar e organizar projetos digitais.",
           "modalContent": "Este curso me proporcionou uma compreensão completa do Figma, com foco na organização de projetos, design de interfaces de usuário (UI) e no domínio de variáveis e estilos. Fortaleceu minha base em design de UI e criação de produtos digitais.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/figma-conhecendo-ferramenta/certificate?lang=pt_BR"
+
         },
         "pythonFirstApp": {
           "title": "Python: Crie a sua primeira aplicação",
           "description": "Aprendi a criar aplicações em Python, explorando conceitos fundamentais de programação.",
           "modalContent": "Este curso apresentou os fundamentos do Python, incluindo manipulação de strings, módulos, funções, listas, loops, exceções e dicionários. Foi uma base sólida para o desenvolvimento de aplicações em Python.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/python-crie-sua-primeira-aplicacao/certificate?lang=pt_BR"
+
         },
         "programmingLogic": {
-          "title": "Lógica de Programação (FIAP)",
+          "title": "Lógica de Programação",
           "description": "Curso da FIAP emitido em Março de 2024.",
           "modalContent": "Adquiri habilidades como lógica de programação, HTML, fundamentos de programação, estruturas de repetição, otimização de código e criação de funções.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nivelamento/certificado_nivelamento/1506/015fc77bb2dc0af76fbb4e0b639338c5/certificado.png"
+
         },
         "uxDesignProcess": {
-          "title": "Inicie o Processo de Design UX: Empatizar, Definir e Idear (Google)",
+          "title": "Inicie o Processo de Design UX: Empatizar, Definir e Idear",
           "description": "Certificação obtida com foco em mapeamento de empatia, jornadas do usuário e experiência do usuário.",
           "modalContent": "Esta certificação da Google me capacitou em mapeamento de empatia, definição e ideação no processo de design de UX. Aprendi a desenvolver jornadas do usuário e aprimorar experiências centradas no usuário.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/KKV8SKXUDFDW"
+
         },
         "uxFoundations": {
-          "title": "Fundamentos do Design de Experiência do Usuário (UX) (Google)",
+          "title": "Fundamentos do Design de Experiência do Usuário (UX) ",
           "description": "Certificação obtida com foco em pesquisa de UX, testes de usabilidade e design centrado no usuário.",
           "modalContent": "Aprendi os fundamentos do design de UX, incluindo pesquisa, testes de usabilidade, design centrado no usuário e pensamento de design. Esta certificação fortaleceu minhas habilidades em projetar experiências impactantes.",
-          "githubRepo": null,
-          "liveDemo": null
+          "certificateLink": "https://www.coursera.org/account/accomplishments/verify/CT3KLCQGP4M4"
+
         }
       },
       "job": {

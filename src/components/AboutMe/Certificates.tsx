@@ -26,8 +26,6 @@ export default function Certificates() {
             iconCertificateLink:TbCertificate,
             certificateLink: t("aboutme.certificates.javascriptConcurrentOOP.certificateLink"),
             tags: ["front-end","javascript"]
-
-
         },
         {
             image: images.reactJSXHooks,
@@ -49,8 +47,6 @@ export default function Certificates() {
             iconCertificateLink:TbCertificate,
             certificateLink: t("aboutme.certificates.javascriptFrontEnd.certificateLink"),
             tags: ["front-end","javascript","html", "css"]
-
-
         },
         {
             image: images.htmlCssFromScratch,
@@ -61,7 +57,6 @@ export default function Certificates() {
             iconCertificateLink:TbCertificate,
             certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
             tags: ["front-end", "html", "css"]
-
         },
         {
             image: images.javaFundamentals,
@@ -70,9 +65,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.javaFundamentals.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.javaFundamentals.certificateLink"),
             tags: ["back-end", "java"]
-
         },
         {
             image: images.userExperience,
@@ -81,10 +75,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.userExperience.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.userExperience.certificateLink"),
             tags: ["ux-design"]
-
-
         },
         {
             image: images.programmingLogic,
@@ -93,8 +85,7 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.programmingLogic.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
-
+            certificateLink: t("aboutme.certificates.programmingLogic.certificateLink"),
         },
         {
             image: images.fortinetFCF,
@@ -103,10 +94,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCF.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.fortinetFCF.certificateLink"),
             tags: ["cybersecurity"]
-
-
         },
         {
             image: images.fortinetFCA,
@@ -115,10 +104,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.fortinetFCA.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.fortinetFCA.certificateLink"),
             tags: ["cybersecurity"],
-
-
         },
         {
 
@@ -128,10 +115,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.figmaUnderstanding.certificateLink"),
             tags: ["ux-design"]
-
-
         },
         {
             image: images.pythonFirstApp,
@@ -140,10 +125,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.pythonFirstApp.certificateLink"),
             tags: ["back-end", "python"]
-
-
         },
         {
             image: images.uxDesignProcess,
@@ -152,10 +135,8 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxDesignProcess.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.uxDesignProcess.certificateLink"),
             tags: ["ux-design"]
-
-
         },
         {
             image: images.uxFoundations,
@@ -164,13 +145,9 @@ export default function Certificates() {
             buttonText: t("aboutme.certificates.button"),
             modalContent: t("aboutme.certificates.uxFoundations.modalContent"),
             iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
+            certificateLink: t("aboutme.certificates.uxFoundations.certificateLink"),
             tags: ["ux-design"]
-
-
         }
-
-
     ];
 
 
@@ -191,7 +168,6 @@ export default function Certificates() {
         {label: "Python", value: "python"},
         {label: "Cybersecurity", value: "cybersecurity"},
         {label: "Ux-Design", value: "ux-design"},
-
     ];
 
 
@@ -201,8 +177,6 @@ export default function Certificates() {
             <div className="sticky top-0 bg-transparent z-10 flex justify-end mr-8 pb-2 pt-6 ">
                 <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
             </div>
-
-
             <div
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 py-12 mx-6 my-2 overflow-x-hidden">
                 {filteredCards.map((card, index) => (
