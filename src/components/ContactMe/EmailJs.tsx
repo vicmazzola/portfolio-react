@@ -1,13 +1,14 @@
-import { useRef } from 'react';
+import {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
-import { Link } from 'react-router'; // Corrected import
+import { Link } from 'react-router';
 
 interface EmailJsProps {
-    t: (key: string) => string; // Prop type for translation function
+    t: (key: string) => string;
 }
 
 export const EmailJs: React.FC<EmailJsProps> = ({ t }) => {
     const form = useRef<HTMLFormElement | null>(null);
+    const [feedbackMessage, setFeedbackMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
 
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -22,10 +23,20 @@ export const EmailJs: React.FC<EmailJsProps> = ({ t }) => {
                 )
                 .then(
                     () => {
-                        console.log('SUCCESS!');
+                        setFeedbackMessage({
+                            text: t('contact.success'),
+                            type: 'success',
+                        }); // Show success message
+                        form.current?.reset(); // Reset the form
+                        setTimeout(() => setFeedbackMessage(null), 5000); // Auto-hide after 5 seconds
                     },
                     (error) => {
+                        setFeedbackMessage({
+                            text: t('contact.error'),
+                            type: 'error',
+                        }); // Show error message
                         console.log('FAILED...', error.text);
+                        setTimeout(() => setFeedbackMessage(null), 5000); // Auto-hide after 5 seconds
                     }
                 );
         }
@@ -34,16 +45,29 @@ export const EmailJs: React.FC<EmailJsProps> = ({ t }) => {
     return (
         <>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center gap-4 mt-4">
+
+                {/* Feedback Message */}
+                {feedbackMessage && (
+                    <div
+                        className={`alert ${
+                            feedbackMessage.type === 'success' ? 'alert-success' : 'alert-error'
+                        } w-full max-w-xs`}
+                    >
+                        <span>{feedbackMessage.text}</span>
+                    </div>
+                )}
+
+
                 <input
                     type="text"
-                    name="user_name"
+                    name="from_name"
                     placeholder={t('contact.placeholder.name')}
                     className="input input-bordered w-full max-w-xs"
                     required
                 />
                 <input
                     type="email"
-                    name="user_email"
+                    name="reply_to"
                     placeholder={t('contact.placeholder.email')}
                     className="input input-bordered w-full max-w-xs"
                     required
@@ -60,6 +84,7 @@ export const EmailJs: React.FC<EmailJsProps> = ({ t }) => {
                 </button>
             </form>
 
+            {/* Pagination  */}
             <div className="join flex justify-center py-6">
                 <Link to="/aboutme" className="join-item btn bg-black opacity-80 text-white">«</Link>
                 <button className="join-item btn bg-black opacity-80 text-white">

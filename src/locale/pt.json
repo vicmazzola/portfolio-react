@@ -277,8 +277,8 @@
         "name": "Nome",
         "email": "Email",
         "message": "Digite sua mensagem!"
-      }
-
+      },
+      "success": "Sua mensagem foi enviada com sucesso! Obrigado por entrar em contato."
     },
     "pagination": {
       "home": "Home",
