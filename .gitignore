@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# EmailJS Configuration
+src/components/ContactMe/EmailJs.tsx
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
