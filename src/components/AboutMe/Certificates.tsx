@@ -174,7 +174,7 @@ export default function Certificates() {
     return (
         <>
             {/* Filter Dropdown */}
-            <div className="bg-transparent z-10 flex justify-end mr-8 pb-2 pt-6 ">
+            <div className="bg-transparent z-10 flex justify-end mr-8 pb-2 pt-6 hidden">
                 <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
             </div>
             <div

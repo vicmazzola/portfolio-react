@@ -229,7 +229,7 @@ export default function Projects() {
         <>
 
             {/* Filter Dropdown */}
-            <div className=" top-0 bg-transparent z-10 flex justify-start py-4 px-6">
+            <div className=" top-0 bg-transparent z-10 flex justify-start py-4 px-6 hidden">
                 <Dropdown options={dropdownOptions} onSelect={handleFilterChange}/>
             </div>
 
