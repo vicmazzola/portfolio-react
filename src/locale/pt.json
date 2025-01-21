@@ -33,6 +33,13 @@
         "githubRepo": "https://github.com/vicmazzola/portfolio-react",
         "liveDemo": "https://portfolio-react-delta-eight.vercel.app/"
       },
+      "react-hangman": {
+        "title": "React-Hangman",
+        "description": "Um jogo da forca moderno e interativo, desenvolvido com React e TypeScript. Aproveite um design elegante, ótimo desempenho e jogabilidade responsiva em qualquer dispositivo.",
+        "modalContent": "React-Hangman foi desenvolvido com React e TypeScript para um código escalável, Vite para builds rápidos e Styled Components para um estilo responsivo. Como PWA, oferece suporte offline e instalação em desktop ou mobile.",
+        "githubRepo": "https://github.com/vicmazzola/react-hangman",
+        "liveDemo": "https://react-hangman-five.vercel.app/"
+      },
       "calculator": {
         "title": "Calculadora",
         "description": "Um aplicativo de calculadora moderno desenvolvido com React e Vite, com suporte offline graças à funcionalidade PWA. Responsivo, rápido e fácil de usar.",

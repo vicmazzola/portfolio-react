@@ -21,6 +21,18 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
+            image: images.reactHangman,
+            title: t("projects.react-hangman.title"),
+            description: t("projects.react-hangman.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.react-hangman.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
+            githubRepo: t("projects.react-hangman.githubRepo"),
+            liveDemo: t("projects.react-hangman.liveDemo"),
+            tags: ["front-end", "react","typescript","pwa","html", "css"],
+        },
+        {
             image: images.portfolio,
             title: t("projects.portfolio.title"),
             description: t("projects.portfolio.description"),
