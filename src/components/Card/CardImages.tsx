@@ -28,6 +28,7 @@ import javaFundamentals from "../../assets/javaFundamentals.png";
 import uxDesignProcess from "../../assets/uxDesignProcess.jpeg";
 import uxFoundations from "../../assets/uxFoundations.png";
 import reactHangman from "../../assets/react-hangman.png";
+import weatherApp from "../../assets/weather.png";
 
 const images = {
     portfolio,
@@ -59,7 +60,8 @@ const images = {
     programmingLogic,
     uxDesignProcess,
     uxFoundations,
-    reactHangman
+    reactHangman,
+    weatherApp
 
 };
 

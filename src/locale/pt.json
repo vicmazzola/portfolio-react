@@ -40,6 +40,13 @@
         "githubRepo": "https://github.com/vicmazzola/react-hangman",
         "liveDemo": "https://react-hangman-five.vercel.app/"
       },
+      "weather": {
+        "title": "Weather App",
+        "description": "Um aplicativo de clima desenvolvido com React, Vite, Axios, Tailwind CSS e API OpenWeather, oferecendo atualizações climáticas em tempo real e uma interface elegante e responsiva.",
+        "modalContent": "O Weather App obtém dados em tempo real usando Axios e a API OpenWeather. Ele exibe informações detalhadas do clima, como temperatura, umidade e velocidade do vento. As buscas recentes são armazenadas no localStorage para acesso rápido. Construído com Tailwind CSS para design responsivo e inclui funcionalidade PWA para uso offline e instalação. Implantado com Vercel para hospedagem rápida.",
+        "githubRepo": "https://github.com/vicmazzola/weather-app",
+        "liveDemo": "https://weather-app-ten-nu-10.vercel.app/"
+      },
       "calculator": {
         "title": "Calculadora",
         "description": "Um aplicativo de calculadora moderno desenvolvido com React e Vite, com suporte offline graças à funcionalidade PWA. Responsivo, rápido e fácil de usar.",

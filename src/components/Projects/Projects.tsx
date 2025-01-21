@@ -21,6 +21,18 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
+            image: images.portfolio,
+            title: t("projects.portfolio.title"),
+            description: t("projects.portfolio.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.portfolio.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
+            githubRepo: t("projects.portfolio.githubRepo"),
+            liveDemo: t("projects.portfolio.liveDemo"),
+            tags: ["front-end", "react","typescript","tailwind","html", "css"],
+        },
+        {
             image: images.reactHangman,
             title: t("projects.react-hangman.title"),
             description: t("projects.react-hangman.description"),
@@ -33,16 +45,16 @@ export default function Projects() {
             tags: ["front-end", "react","typescript","pwa","html", "css"],
         },
         {
-            image: images.portfolio,
-            title: t("projects.portfolio.title"),
-            description: t("projects.portfolio.description"),
+            image: images.weatherApp,
+            title: t("projects.weather.title"),
+            description: t("projects.weather.description"),
             buttonText: t("projects.button"),
-            modalContent: t("projects.portfolio.modalContent"),
+            modalContent: t("projects.weather.modalContent"),
             iconGithub: FaGithub,
             iconLiveDemo:FiExternalLink,
-            githubRepo: t("projects.portfolio.githubRepo"),
-            liveDemo: t("projects.portfolio.liveDemo"),
-            tags: ["front-end", "react","typescript","tailwind","html", "css"],
+            githubRepo: t("projects.weather.githubRepo"),
+            liveDemo: t("projects.weather.liveDemo"),
+            tags: ["front-end", "react","javascript","pwa","html", "css"],
         },
         {
             image: images.calculator,
@@ -66,7 +78,7 @@ export default function Projects() {
             iconLiveDemo:FiExternalLink,
             githubRepo: t("projects.shopping-list.githubRepo"),
             liveDemo: t("projects.shopping-list.liveDemo"),
-            tags: ["front-end", "vanilla-js","bootstrap", "javascript", "html", "css"],
+            tags: ["front-end", "vanilla-js","bootstrap","pwa", "javascript", "html", "css"],
         },
         {
             image: images.teamFlow,

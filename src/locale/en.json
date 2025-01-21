@@ -35,10 +35,17 @@
       },
       "react-hangman": {
         "title": "React-Hangman",
-        "description": "A modern and interactive hangman game built with React and TypeScript. Enjoy a sleek design, smooth performance, and responsive gameplay on any device.",
+        "description": "An interactive hangman game built with React and TypeScript. Enjoy a sleek design, smooth performance, and responsive gameplay on any device.",
         "modalContent": "React-Hangman is built with React and TypeScript for a scalable codebase, Vite for fast builds, and Styled Components for responsive styling. As a PWA, it supports offline play and installation on desktop or mobile.",
         "githubRepo": "https://github.com/vicmazzola/react-hangman",
         "liveDemo": "https://react-hangman-five.vercel.app/"
+      },
+      "weather": {
+        "title": "Weather App",
+        "description": "A weather application built with React, Vite, Axios, Tailwind CSS and OpenWeather API providing real-time weather updates and a sleek, responsive interface.",
+        "modalContent": "The Weather App fetches real-time data using Axios and the OpenWeather API. It displays detailed weather information such as temperature, humidity, and wind speed. Recent searches are stored in localStorage for quick access. Built with Tailwind CSS for responsive design and includes PWA functionality for offline use and installation. Deployed with Vercel for fast hosting.",
+        "githubRepo": "https://github.com/vicmazzola/weather-app",
+        "liveDemo": "https://weather-app-ten-nu-10.vercel.app/"
       },
       "calculator": {
         "title": "Calculator",
