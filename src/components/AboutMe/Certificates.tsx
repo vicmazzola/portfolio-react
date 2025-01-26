@@ -18,6 +18,16 @@ export default function Certificates() {
 
     const cards: CardProps[] = [
         {
+            image: images.exploreReactWithJavaScript,
+            title: t("aboutme.certificates.exploreReactWithJavaScript.title"),
+            description: t("aboutme.certificates.exploreReactWithJavaScript.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.exploreReactWithJavaScript.modalContent"),
+            iconCertificateLink:TbCertificate,
+            certificateLink: t("aboutme.certificates.exploreReactWithJavaScript.certificateLink"),
+            tags: ["front-end","javascript"]
+        },
+        {
             image: images.javascriptConcurrentOOP,
             title: t("aboutme.certificates.javascriptConcurrentOOP.title"),
             description: t("aboutme.certificates.javascriptConcurrentOOP.description"),

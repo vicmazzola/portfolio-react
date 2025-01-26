@@ -168,6 +168,13 @@
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-aplicacoes-javascript-tarefas-concorrentes-orientadas-objetoss-543206/certificate?lang=en"
 
         },
+        "exploreReactWithJavaScript": {
+          "title": "Explore React with JavaScript",
+          "description": "I learned to create dynamic, responsive web apps with React, using modern tools and techniques.",
+          "modalContent": "I completed a 68-hour course on building React applications from scratch to deployment. I learned to create components with JSX, set up routing with React Router, manage state with Context API, style with Styled Components, and migrate projects to TypeScript. This experience enhanced my skills in designing modern and interactive user interfaces.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-javascript-700230/certificate?lang=en"
+
+        },
         "reactJSXHooks": {
           "title": "React: Develop Web Applications Using JSX and Hooks",
           "description": "Learn to create dynamic, responsive web apps with React, leveraging modern tools and techniques.",

@@ -29,6 +29,7 @@ import uxDesignProcess from "../../assets/uxDesignProcess.jpeg";
 import uxFoundations from "../../assets/uxFoundations.png";
 import reactHangman from "../../assets/react-hangman.png";
 import weatherApp from "../../assets/weather.png";
+import exploreReactWithJavaScript from "../../assets/exploreReactWithJavaScript.png";
 
 const images = {
     portfolio,
@@ -47,6 +48,7 @@ const images = {
     aluraBooks,
     guess,
     javascriptConcurrentOOP,
+    exploreReactWithJavaScript,
     alura,
     reactJSXHooks,
     fortinetFCF,

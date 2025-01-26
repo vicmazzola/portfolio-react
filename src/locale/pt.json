@@ -163,20 +163,27 @@
         "button": "Ver Detalhes",
         "javascriptConcurrentOOP": {
           "title": "Desenvolva Aplicações Escaláveis com JavaScript: Concorrência e POO",
-          "description": "Domine requisições assíncronas, manipulação de objetos e técnicas avançadas de JavaScript.",
+          "description": "Dominei requisições assíncronas, manipulação de objetos e técnicas avançadas de JavaScript.",
           "modalContent": "Concluí a formação 'Desenvolva Aplicações Escaláveis com JavaScript: Concorrência e POO,' totalizando 23 horas. Aprimorei habilidades em programação concorrente, fundamentos de POO (classes, objetos, herança) e operações assíncronas para criar aplicações modernas e responsivas.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-aplicacoes-javascript-tarefas-concorrentes-orientadas-objetoss-543206/certificate?lang=pt"
         },
+        "exploreReactWithJavaScript": {
+          "title": "Explore React com JavaScript",
+          "description": "Aprendi a criar aplicações web dinâmicas e responsivas com React, utilizando ferramentas e técnicas modernas.",
+          "modalContent": "Concluí um curso de 68 horas sobre desenvolvimento de aplicações com React, começando do zero até o deploy. Aprendi a criar componentes com JSX, configurar rotas com React Router, gerenciar estados com Context API, estilizar com Styled Components e migrar projetos para TypeScript. Essa experiência ampliou minhas habilidades em criar interfaces modernas e interativas.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-javascript-700230/certificate?lang=en"
+
+        },
         "reactJSXHooks": {
           "title": "React: Desenvolva Aplicações Web Usando JSX e Hooks",
-          "description": "Aprenda a desenvolver aplicações web dinâmicas e responsivas com React, utilizando ferramentas modernas.",
+          "description": "Aprendi a desenvolver aplicações web dinâmicas e responsivas com React, utilizando ferramentas modernas.",
           "button": "Veja Mais",
           "modalContent": "Essa formação de 58 horas foi focada no desenvolvimento de aplicações web dinâmicas com React. Entre os destaques, estão a criação de componentes com JSX, gerenciamento de estado e ciclo de vida, além da configuração de projetos com Node.js e Vite. Essa experiência fortaleceu minha capacidade de projetar interfaces modernas e interativas.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-jsx-hooks-702713/certificate?lang=pt"
         },
         "javascriptFrontEnd": {
           "title": "Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript",
-          "description": "Explore o JavaScript desde a manipulação do DOM até recursos avançados do ES6+ em 61 horas de aprendizado.",
+          "description": "Explorei o JavaScript desde a manipulação do DOM até recursos avançados do ES6+ em 61 horas de aprendizado.",
           "modalContent": "Nesta formação, desenvolvi habilidades em manipulação do DOM, implementação de CRUDs com HTTP e programação assíncrona com promises e async/await. Também aprofundei o uso de recursos avançados do ES6+, como destructuring, módulos e ferramentas modernas como Webpack e Vite.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-javascript-front-end-v814363-814363/certificate?lang=pt_BR"
         },
