@@ -56,7 +56,7 @@
       },
       "shopping-list": {
         "title": "Lista de Compras",
-        "description": "Gerencie itens de compras dinamicamente com HTML, CSS, JavaScript e SweetAlert2.",
+        "description": "Gerencie itens de compras dinamicamente com HTML, CSS, JavaScript, SweetAlert2 e suporte PWA.",
         "modalContent": "Shopping List simplifica o gerenciamento de compras. Adicione, edite, exclua e marque itens como comprados, com datas de criação exibidas. Feito com HTML, CSS, JavaScript e SweetAlert2, é responsivo e fácil de usar.",
         "githubRepo": "https://github.com/vicmazzola/shopping-list",
         "liveDemo": "https://shopping-list-wine-eta.vercel.app/"

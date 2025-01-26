@@ -56,7 +56,7 @@
       },
       "shopping-list": {
         "title": "Shopping List",
-        "description": "Manage shopping items dynamically using HTML, CSS, JavaScript, and SweetAlert2.",
+        "description": "Manage shopping items dynamically using HTML, CSS, JavaScript, SweetAlert2 and PWA support.",
         "modalContent": "Shopping List simplifies shopping management. Add, edit, delete, and mark items as purchased, with creation dates displayed. Built with HTML, CSS, JavaScript, and SweetAlert2, it's responsive and user-friendly.",
         "githubRepo": "https://github.com/vicmazzola/shopping-list",
         "liveDemo": "https://shopping-list-wine-eta.vercel.app/"
