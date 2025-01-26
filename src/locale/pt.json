@@ -63,7 +63,7 @@
       },
       "teamflow": {
         "title": "TeamFlow",
-        "description": "Um app React com componentes reutilizáveis, gerenciamento de estado e design responsivo. Criado com Vite e implantado no Vercel.",
+        "description": "Uma aplicação React com componentes reutilizáveis, gerenciamento de estado e design responsivo. Construída com Vite em JavaScript, posteriormente migrada para TypeScript, e implantada no Vercel.",
         "modalContent": "Gerencie equipes com cards, dropdowns e formulários em uma interface dinâmica e responsiva.",
         "githubRepo": "https://github.com/vicmazzola/TeamFlow",
         "liveDemo": "https://team-flow-tan.vercel.app/"

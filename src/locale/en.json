@@ -63,7 +63,7 @@
       },
       "teamflow": {
         "title": "TeamFlow",
-        "description": "A React app with reusable components, state management, and responsive design. Built with Vite and deployed on Vercel.",
+        "description": "A React app with reusable components, state management, and responsive design. Built with Vite in JavaScript, later migrated to TypeScript, and deployed on Vercel.",
         "modalContent": "Manage teams with collaborative cards, dropdowns, and forms in a dynamic, responsive interface.",
         "githubRepo": "https://github.com/vicmazzola/TeamFlow",
         "liveDemo": "https://team-flow-tan.vercel.app/"
