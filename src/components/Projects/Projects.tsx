@@ -21,6 +21,18 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
+            image: images.mernTalk,
+            title: t("projects.mern-talk.title"),
+            description: t("projects.mern-talk.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.mern-talk.modalContent"),
+            iconGithub: FaGithub,
+            iconLiveDemo:FiExternalLink,
+            githubRepo: t("projects.mern-talk.githubRepo"),
+            liveDemo: t("projects.mern-talk.liveDemo"),
+            tags: ["react","javascript","tailwind","html", "css"],
+        },
+        {
             image: images.portfolio,
             title: t("projects.portfolio.title"),
             description: t("projects.portfolio.description"),

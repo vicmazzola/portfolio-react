@@ -26,6 +26,13 @@
     "projects": {
       "header": "Projects",
       "button": "Check Now",
+      "mern-talk": {
+        "title": "Mern Talk",
+        "description": "A real-time chat app built with React, Node.js, Express, and MongoDB, featuring instant messaging, authentication, and online user tracking.",
+        "modalContent": "Mern Talk is a real-time chat app using the MERN stack and Socket.io for instant messaging and online status tracking. It features JWT authentication, Zustand for state management, and a theme switcher for customization. Built with React, Node.js, Express, and MongoDB, it ensures smooth performance and security.",
+        "githubRepo": "https://github.com/vicmazzola/mern-talk",
+        "liveDemo": "https://mern-talk.onrender.com/"
+      },
       "portfolio": {
         "title": "Portfolio",
         "description": "Showcasing my projects and skills using React, TypeScript, Tailwind, and Vite.",
