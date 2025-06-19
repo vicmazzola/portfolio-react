@@ -3,7 +3,7 @@ import {BsFiletypeSql} from "react-icons/bs";
 import {TbBrandTypescript, TbBrandVite} from "react-icons/tb";
 import {RiBootstrapLine, RiTailwindCssFill} from "react-icons/ri";
 import {VscVscode} from "react-icons/vsc";
-import {SiIntellijidea, SiWebstorm} from "react-icons/si";
+import {SiAndroidstudio, SiIntellijidea, SiWebstorm} from "react-icons/si";
 import {MdLanguage} from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
@@ -19,6 +19,7 @@ export const Icons = {
     github: FaGithub,
     webstorm: SiWebstorm,
     vscode: VscVscode,
+    androidstudio: SiAndroidstudio,
     intellij: SiIntellijidea,
     language: MdLanguage,
     darkmode: MdDarkMode,

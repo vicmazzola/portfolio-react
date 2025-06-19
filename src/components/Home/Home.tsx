@@ -14,10 +14,6 @@ export default function Home() {
     console.log("Language selected:", i18n.language);
     const skillsArray: SkillProps[] = [
         new SkillProps(
-            Icons.react,
-            "React",
-        ),
-        new SkillProps(
             Icons.java,
             "Java",
         ),
@@ -25,6 +21,11 @@ export default function Home() {
             Icons.sql,
             "SQL",
         ),
+        new SkillProps(
+            Icons.react,
+            "React",
+        ),
+
         new SkillProps(
             Icons.typescript,
             "TypeScript",
@@ -36,30 +37,27 @@ export default function Home() {
         new SkillProps(
             Icons.tailwind,
             "Tailwind CSS",
-        ),
-        new SkillProps(
-            Icons.vite,
-            "Vite",
         )
     ];
 
     const toolsArray: ToolsProps[] = [
         new ToolsProps(
-            Icons.github,
-            "Github",
+            Icons.androidstudio,
+            "Android Studio",
         ),
+
         new ToolsProps(
             Icons.webstorm,
             "WebStorm",
         ),
         new ToolsProps(
-            Icons.vscode,
-            "VS Code",
-        ),
-        new ToolsProps(
             Icons.intellij,
             "IntelliJ IDEA",
-        )
+        ),
+        new ToolsProps(
+            Icons.github,
+            "Github",
+        ),
     ];
 
     const languagesArray: LanguageProps[] = [
@@ -91,8 +89,7 @@ export default function Home() {
                         <div className="p-6 text-xl text-center lg:hidden">
                             <Type
                                 strings={[
-                                    t("home.roles.developer"),
-                                    t("home.roles.helpdesk"),
+                                    t("home.roles.developer")
                                 ]}
                             />
                         </div>
@@ -102,8 +99,7 @@ export default function Home() {
                         <div className="py-6 text-3xl hidden lg:flex">
                             <Type
                                 strings={[
-                                    t("home.roles.developer"),
-                                    t("home.roles.helpdesk"),
+                                    t("home.roles.developer")
                                 ]}
                             />
                         </div>
