@@ -5,8 +5,7 @@
       "hello": "Olá!",
       "name": "Sou o Victor Mazzola",
       "roles": {
-        "developer": "Desenvolvedor de Software",
-        "helpdesk": "Estagiário de Helpdesk"
+        "developer": "Desenvolvedor Android"
       },
       "text": "Sempre buscando aprimorar meu entendimento sobre desenvolvimento para entregar soluções inovadoras para todos",
       "skills": "Habilidades Profissionais",
@@ -261,11 +260,19 @@
         }
       },
       "job": {
+        "bitbyte": {
+          "company": "Bitbyte Informática",
+          "location": "Jundiaí, São Paulo, Brasil",
+          "title": "Desenvolvedor Android",
+          "date": "Abril de 2025 - Presente",
+          "description": "Atualmente atuando como Desenvolvedor Android no aplicativo BBI Food, desenvolvido pela Bitbyte Informática.\n\nMinhas responsabilidades incluem:\n\n· Desenvolvimento e manutenção de aplicações Android utilizando Java.\n· Implementação da lógica de negócio e persistência de dados com SQL.\n· Criação de interfaces móveis responsivas e escaláveis com XML.\n· Colaboração com equipes multidisciplinares para melhorar a qualidade do código.\n· Aprendizado contínuo e evolução como parte do time Android.",
+          "techStack": ["Java", "SQL", "Android SDK", "XML", "Git", "Android Studio"]
+        },
         "goldnet": {
           "company": "Goldnet TI",
           "location": "Jundiaí, São Paulo, Brasil",
           "title": "Helpdesk TI",
-          "date": "Agosto 2024 - Presente",
+          "date": "Agosto 2024 - Março 2025",
           "description": "A Goldnet TI é um fornecedor líder de serviços de TI, oferecendo soluções técnicas para empresas.\n\nComo Helpdesk TI, fui responsável por:\n\n· Suporte técnico presencial e remoto para resolução de problemas relacionados a sistemas e equipamentos.\n· Configuração, manutenção e suporte de impressoras.\n· Atendimento de suporte Help Desk de nível 1, auxiliando usuários na solução de problemas técnicos.\n· Gestão de criação, exclusão e ajuste de permissões em contas de sistemas internos.\n· Realização de primeiro atendimento, oferecendo suporte geral aos usuários."
         },
         "evolution": {

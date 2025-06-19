@@ -5,8 +5,7 @@
       "hello": "Hello there!",
       "name": "I am Victor Mazzola",
       "roles": {
-        "developer": "Software Developer",
-        "helpdesk": "IT Helpdesk Intern"
+        "developer": "Android Developer"
       },
       "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone",
       "skills": "Professional Skills",
@@ -267,11 +266,19 @@
 
       },
       "job": {
+        "bitbyte": {
+          "company": "Bitbyte Informática",
+          "location": "Jundiaí, São Paulo, Brazil",
+          "title": "Android Developer",
+          "date": "April 2025 - Present",
+          "description": "Currently working as an Android Developer for BBI Food, an application developed by Bitbyte Informática.\n\nAs an Android Developer, my responsibilities include:\n\n· Developing and maintaining Android applications using Java.\n· Implementing business logic and managing data persistence with SQL.\n· Designing responsive and scalable mobile UIs with XML.\n· Collaborating with cross-functional teams to improve code quality.\n· Continuously learning and evolving as part of the Android team.",
+          "techStack": ["Java", "SQL", "Android SDK", "XML", "Git", "Android Studio"]
+        },
         "goldnet": {
           "company": "Goldnet TI",
           "location": "Jundiaí, São Paulo, Brazil",
           "title": "Helpdesk IT",
-          "date": "August 2024 - Present",
+          "date": "August 2024 - March 2025",
           "description": "Goldnet TI is a leading IT services provider offering technical solutions for businesses.\n\nAs a Helpdesk IT, I was responsible for:\n\n· On-site and remote technical support for system and equipment issues.\n· Configuration, maintenance, and support of printers.\n· Level 1 Help Desk support, assisting users with technical issues.\n· Management of account creation, deletion, and permission adjustments in internal systems.\n· First-line support, providing general user assistance."
         },
         "evolution": {
