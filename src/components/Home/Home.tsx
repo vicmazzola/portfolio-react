@@ -18,6 +18,10 @@ export default function Home() {
             "Java",
         ),
         new SkillProps(
+            Icons.spring,
+            "Spring",
+        ),
+        new SkillProps(
             Icons.sql,
             "SQL",
         ),
@@ -25,14 +29,9 @@ export default function Home() {
             Icons.react,
             "React",
         ),
-
         new SkillProps(
             Icons.typescript,
             "TypeScript",
-        ),
-        new SkillProps(
-            Icons.bootstrap,
-            "Bootstrap",
         ),
         new SkillProps(
             Icons.tailwind,
