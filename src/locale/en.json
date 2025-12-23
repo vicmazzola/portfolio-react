@@ -25,6 +25,12 @@
     "projects": {
       "header": "Projects",
       "button": "Check Now",
+      "spring-ecowatt": {
+        "title": "EcoWatt API",
+        "description": "Spring Boot REST API built with Java 21, using authentication, validation, Oracle DB, and Docker for ESG energy consumption data.",
+        "modalContent": "RESTful API built with Java 21 and Spring Boot, featuring full CRUD operations, input validation, centralized exception handling, basic authentication, Oracle Database persistence, Flyway migrations, and Dockerized execution.",
+        "githubRepo": "https://github.com/vicmazzola/spring-ecowatt"
+      },
       "mern-talk": {
         "title": "Mern Talk",
         "description": "A real-time chat app built with React, Node.js, Express, and MongoDB, featuring instant messaging, authentication, and online user tracking.",

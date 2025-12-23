@@ -25,6 +25,12 @@
     "projects": {
       "header": "Projetos",
       "button": "Confira Agora!",
+      "spring-ecowatt": {
+        "title": "EcoWatt API",
+        "description": "API REST em Spring Boot construída com Java 21, utilizando autenticação, validação de dados, Oracle DB e Docker para gerenciamento de consumo de energia voltado a ESG.",
+        "modalContent": "API REST desenvolvida com Java 21 e Spring Boot, com operações CRUD completas, validação de dados, tratamento centralizado de exceções, autenticação básica, persistência em Oracle Database, migrações com Flyway e execução em ambiente Docker.",
+        "githubRepo": "https://github.com/vicmazzola/spring-ecowatt"
+      },
       "mern-talk": {
         "title": "Mern Talk",
         "description": "Um aplicativo de chat em tempo real desenvolvido com React, Node.js, Express e MongoDB, oferecendo mensagens instantâneas, autenticação e rastreamento de usuários online.",
@@ -178,7 +184,6 @@
           "description": "Aprendi a criar aplicações web dinâmicas e responsivas com React, utilizando ferramentas e técnicas modernas.",
           "modalContent": "Concluí um curso de 68 horas sobre desenvolvimento de aplicações com React, começando do zero até o deploy. Aprendi a criar componentes com JSX, configurar rotas com React Router, gerenciar estados com Context API, estilizar com Styled Components e migrar projetos para TypeScript. Essa experiência ampliou minhas habilidades em criar interfaces modernas e interativas.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-javascript-700230/certificate?lang=en"
-
         },
         "reactJSXHooks": {
           "title": "React: Desenvolva Aplicações Web Usando JSX e Hooks",
@@ -228,35 +233,30 @@
           "description": "Aprendi a usar as ferramentas principais do Figma para criar e organizar projetos digitais.",
           "modalContent": "Este curso me proporcionou uma compreensão completa do Figma, com foco na organização de projetos, design de interfaces de usuário (UI) e no domínio de variáveis e estilos. Fortaleceu minha base em design de UI e criação de produtos digitais.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/figma-conhecendo-ferramenta/certificate?lang=pt_BR"
-
         },
         "pythonFirstApp": {
           "title": "Python: Crie a sua primeira aplicação",
           "description": "Aprendi a criar aplicações em Python, explorando conceitos fundamentais de programação.",
           "modalContent": "Este curso apresentou os fundamentos do Python, incluindo manipulação de strings, módulos, funções, listas, loops, exceções e dicionários. Foi uma base sólida para o desenvolvimento de aplicações em Python.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/python-crie-sua-primeira-aplicacao/certificate?lang=pt_BR"
-
         },
         "programmingLogic": {
           "title": "Lógica de Programação",
           "description": "Curso da FIAP emitido em Março de 2024.",
           "modalContent": "Adquiri habilidades como lógica de programação, HTML, fundamentos de programação, estruturas de repetição, otimização de código e criação de funções.",
           "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nivelamento/certificado_nivelamento/1506/015fc77bb2dc0af76fbb4e0b639338c5/certificado.png"
-
         },
         "uxDesignProcess": {
           "title": "Inicie o Processo de Design UX: Empatizar, Definir e Idear",
           "description": "Certificação obtida com foco em mapeamento de empatia, jornadas do usuário e experiência do usuário.",
           "modalContent": "Esta certificação da Google me capacitou em mapeamento de empatia, definição e ideação no processo de design de UX. Aprendi a desenvolver jornadas do usuário e aprimorar experiências centradas no usuário.",
           "certificateLink": "https://www.coursera.org/account/accomplishments/verify/KKV8SKXUDFDW"
-
         },
         "uxFoundations": {
           "title": "Fundamentos do Design de Experiência do Usuário (UX) ",
           "description": "Certificação obtida com foco em pesquisa de UX, testes de usabilidade e design centrado no usuário.",
           "modalContent": "Aprendi os fundamentos do design de UX, incluindo pesquisa, testes de usabilidade, design centrado no usuário e pensamento de design. Esta certificação fortaleceu minhas habilidades em projetar experiências impactantes.",
           "certificateLink": "https://www.coursera.org/account/accomplishments/verify/CT3KLCQGP4M4"
-
         }
       },
       "job": {
@@ -266,7 +266,14 @@
           "title": "Desenvolvedor Android",
           "date": "Abril de 2025 - Presente",
           "description": "Atuo como Desenvolvedor Android no aplicativo BBI Food, uma solução desenvolvida pela Bitbyte Informática para o setor alimentício.\n\nMinhas principais atividades incluem:\n\n· Desenvolvimento de funcionalidades e manutenção de aplicações Android utilizando Java.\n· Implementação de regras de negócio e persistência de dados com SQL.\n· Criação de interfaces modernas e responsivas utilizando XML.\n· Colaboração com times multidisciplinares para entrega de soluções eficientes e escaláveis.\n· Participação ativa na melhoria contínua do código e nos processos internos da equipe de desenvolvimento.",
-          "techStack": ["Java", "SQL", "Android SDK", "XML", "Git", "Android Studio"]
+          "techStack": [
+            "Java",
+            "SQL",
+            "Android SDK",
+            "XML",
+            "Git",
+            "Android Studio"
+          ]
         },
         "goldnet": {
           "company": "Goldnet TI",
@@ -320,7 +327,6 @@
       "projects": "Projetos",
       "aboutme": "Sobre Mim",
       "contact": "Contato"
-
     }
   }
 }

@@ -4,10 +4,8 @@ import {useState} from "react";
 import images from "../Card/CardImages.tsx"
 import Dropdown from "../Dropdown/Dropdown.tsx";
 import {FaGithub} from "react-icons/fa";
-import {FiExternalLink } from "react-icons/fi";
+import {FiExternalLink} from "react-icons/fi";
 import {Link} from "react-router";
-
-
 
 
 export default function Projects() {
@@ -21,16 +19,27 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
+            image: images.cardSpringJavaDockerSql,
+            title: t("projects.spring-ecowatt.title"),
+            description: t("projects.spring-ecowatt.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.spring-ecowatt.modalContent"),
+            iconGithub: FaGithub,
+            githubRepo: t("projects.spring-ecowatt.githubRepo"),
+            tags: ["back-end", "java", "spring-boot", "spring-security"
+                , "jpa", "oracle", "flyway", "docker", "rest-api"],
+        },
+        {
             image: images.mernTalk,
             title: t("projects.mern-talk.title"),
             description: t("projects.mern-talk.description"),
             buttonText: t("projects.button"),
             modalContent: t("projects.mern-talk.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.mern-talk.githubRepo"),
             liveDemo: t("projects.mern-talk.liveDemo"),
-            tags: ["react","javascript","tailwind","html", "css"],
+            tags: ["react", "javascript", "tailwind", "html", "css"],
         },
         {
             image: images.portfolio,
@@ -39,10 +48,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.portfolio.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.portfolio.githubRepo"),
             liveDemo: t("projects.portfolio.liveDemo"),
-            tags: ["front-end", "react","typescript","tailwind","html", "css"],
+            tags: ["front-end", "react", "typescript", "tailwind", "html", "css"],
         },
         {
             image: images.reactHangman,
@@ -51,10 +60,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.react-hangman.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.react-hangman.githubRepo"),
             liveDemo: t("projects.react-hangman.liveDemo"),
-            tags: ["front-end", "react","typescript","pwa","html", "css"],
+            tags: ["front-end", "react", "typescript", "pwa", "html", "css"],
         },
         {
             image: images.weatherApp,
@@ -63,10 +72,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.weather.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.weather.githubRepo"),
             liveDemo: t("projects.weather.liveDemo"),
-            tags: ["front-end", "react","javascript","pwa","html", "css"],
+            tags: ["front-end", "react", "javascript", "pwa", "html", "css"],
         },
         {
             image: images.calculator,
@@ -75,10 +84,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.calculator.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.calculator.githubRepo"),
             liveDemo: t("projects.calculator.liveDemo"),
-            tags: ["front-end", "react","javascript","pwa","html", "css"],
+            tags: ["front-end", "react", "javascript", "pwa", "html", "css"],
         },
         {
             image: images.shoppingList,
@@ -87,10 +96,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.shopping-list.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.shopping-list.githubRepo"),
             liveDemo: t("projects.shopping-list.liveDemo"),
-            tags: ["front-end", "vanilla-js","bootstrap","pwa", "javascript", "html", "css"],
+            tags: ["front-end", "vanilla-js", "bootstrap", "pwa", "javascript", "html", "css"],
         },
         {
             image: images.teamFlow,
@@ -99,10 +108,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.teamflow.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.teamflow.githubRepo"),
             liveDemo: t("projects.teamflow.liveDemo"),
-            tags: ["front-end", "react","javascript", "html", "css"],
+            tags: ["front-end", "react", "javascript", "html", "css"],
         },
         {
             image: images.devDragons,
@@ -111,10 +120,10 @@ export default function Projects() {
             buttonText: t("projects.button"),
             modalContent: t("projects.dev-dragons.modalContent"),
             iconGithub: FaGithub,
-            iconLiveDemo:FiExternalLink,
+            iconLiveDemo: FiExternalLink,
             githubRepo: t("projects.dev-dragons.githubRepo"),
             liveDemo: t("projects.dev-dragons.liveDemo"),
-            tags: ["front-end", "vanilla-js","javascript", "html", "css"],
+            tags: ["front-end", "vanilla-js", "javascript", "html", "css"],
 
         },
 
@@ -125,17 +134,17 @@ export default function Projects() {
         : cards;
 
     const dropdownOptions = [
-        { label: "All", value: null },
-        { label: "Front-End", value: "front-end" },
-        { label: "Vanilla JS", value: "vanilla-js" },
-        { label: "React", value: "react" },
-        { label: "Bootstrap", value: "bootstrap" },
-        { label: "Tailwind", value: "tailwind" },
-        { label: "PWA", value: "pwa" },
-        { label: "TypeScript", value: "typescript" },
-        { label: "JavaScript", value: "javascript" },
-        { label: "CSS", value: "css" },
-        { label: "HTML", value: "html" },
+        {label: "All", value: null},
+        {label: "Front-End", value: "front-end"},
+        {label: "Vanilla JS", value: "vanilla-js"},
+        {label: "React", value: "react"},
+        {label: "Bootstrap", value: "bootstrap"},
+        {label: "Tailwind", value: "tailwind"},
+        {label: "PWA", value: "pwa"},
+        {label: "TypeScript", value: "typescript"},
+        {label: "JavaScript", value: "javascript"},
+        {label: "CSS", value: "css"},
+        {label: "HTML", value: "html"},
 
     ];
 
