@@ -21,7 +21,9 @@ import reactHangman from "../../assets/react-hangman.png";
 import weatherApp from "../../assets/weather.png";
 import exploreReactWithJavaScript from "../../assets/exploreReactWithJavaScript.png";
 import mernTalk from "../../assets/mern-talk.png";
-import cardSpringJavaDockerSql from "../../assets/cardSpringJavaDockerSql.jpeg";
+import springEcowatt from "../../assets/spring-ecowatt.png";
+import springMicroservices from "../../assets/spring-microservices.png";
+import springContacts from "../../assets/spring-contact.png";
 
 const images = {
     portfolio,
@@ -47,7 +49,9 @@ const images = {
     reactHangman,
     weatherApp,
     mernTalk,
-    cardSpringJavaDockerSql
+    springEcowatt,
+    springMicroservices,
+    springContacts
 };
 
 export default images;

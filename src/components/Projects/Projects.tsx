@@ -19,7 +19,33 @@ export default function Projects() {
 
     const cards: CardProps[] = [
         {
-            image: images.cardSpringJavaDockerSql,
+            image: images.springContacts,
+            title: t("projects.spring-contacts.title"),
+            description: t("projects.spring-contacts.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.spring-contacts.modalContent"),
+            iconGithub: FaGithub,
+            githubRepo: t("projects.spring-contacts.githubRepo"),
+            tags: [
+                "back-end", "java", "spring-boot", "spring-security", "jwt",
+                "jpa", "oracle", "flyway", "rest-api"
+            ],
+        },
+        {
+            image: images.springMicroservices,
+            title: t("projects.spring-microservices.title"),
+            description: t("projects.spring-microservices.description"),
+            buttonText: t("projects.button"),
+            modalContent: t("projects.spring-microservices.modalContent"),
+            iconGithub: FaGithub,
+            githubRepo: t("projects.spring-microservices.githubRepo"),
+            tags: [
+                "back-end", "java", "spring-boot", "microservices",
+                "jpa", "hibernate", "mysql", "flyway", "eureka", "rest-api"
+            ],
+        },
+        {
+            image: images.springEcowatt,
             title: t("projects.spring-ecowatt.title"),
             description: t("projects.spring-ecowatt.description"),
             buttonText: t("projects.button"),

@@ -25,6 +25,18 @@
     "projects": {
       "header": "Projetos",
       "button": "Confira Agora!",
+      "spring-contacts": {
+        "title": "Spring Contacts API",
+        "description": "API REST em Spring Boot construída com Java, com operações CRUD, autenticação JWT, validação e persistência em Oracle Database.",
+        "modalContent": "API REST desenvolvida com Spring Boot para gerenciamento de contatos, incluindo operações CRUD completas, busca por nome e intervalo de datas de aniversário, validação de dados e autenticação com Spring Security e JWT. Utiliza Oracle Database para persistência e Flyway para versionamento do banco.",
+        "githubRepo": "https://github.com/vicmazzola/spring-contacts"
+      },
+      "spring-microservices": {
+        "title": "Spring Microservices",
+        "description": "Arquitetura de microsserviços em Spring Boot construída com Java 21, com descoberta de serviços, persistência e migrações de banco.",
+        "modalContent": "Arquitetura baseada em microsserviços desenvolvida com Java 21 e Spring Boot, composta por order-service e delivery-service independentes. Inclui APIs REST, persistência com JPA e Hibernate, migrações de banco com Flyway, integração com MySQL e descoberta de serviços utilizando Netflix Eureka.",
+        "githubRepo": "https://github.com/vicmazzola/spring-microservices"
+      },
       "spring-ecowatt": {
         "title": "EcoWatt API",
         "description": "API REST em Spring Boot construída com Java 21, utilizando autenticação, validação de dados, Oracle DB e Docker para gerenciamento de consumo de energia voltado a ESG.",
