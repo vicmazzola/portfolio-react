@@ -289,7 +289,7 @@
           "location": "Jundiaí, São Paulo, Brazil",
           "title": "Android Developer",
           "date": "April 2025 - Present",
-          "description": "I work as an Android Developer on BBI Food, a mobile application developed by Bitbyte Informática for the food industry.\n\nMy main responsibilities include:\n\n· Developing new features and maintaining Android applications using Java.\n· Implementing business rules and managing data persistence with SQL.\n· Designing modern, responsive user interfaces using XML.\n· Collaborating with cross-functional teams to deliver scalable and effective solutions.\n· Actively contributing to code quality improvements and the internal development workflow.",
+          "description": "I work as an Android Developer on BBI Food, a mobile solution developed by Bitbyte Informática for the food industry.\n\nMy responsibilities include developing and maintaining Android applications using Java, with a strong focus on business rules, local data persistence with SQL, and integration with REST APIs. I design responsive user interfaces using XML, prioritizing performance, usability, and stability in production environments.\n\nI have extensive experience integrating payment acquirer SDKs (PagBank, Bin/Sitef, Rede, Cielo, Clover, Vero, Safra, and Stone), as well as handling Bluetooth communication, multi-device POS printing workflows, and local synchronization with SQLite. I actively contribute to code reviews, exception handling, structured logging, and optimization of asynchronous flows, ensuring scalable, reliable, and high-performance mobile applications.",
           "techStack": ["Java", "SQL", "Android SDK", "XML", "Git", "Android Studio"]
         },
         "goldnet": {
