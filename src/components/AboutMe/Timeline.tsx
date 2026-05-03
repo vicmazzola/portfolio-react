@@ -5,6 +5,20 @@ const Timeline: React.FC = () => {
 
     const timelineData = [
         {
+            company: t("aboutme.job.foxconn.company"),
+            location: t("aboutme.job.foxconn.location"),
+            title: t("aboutme.job.foxconn.title"),
+            date: t("aboutme.job.foxconn.date"),
+            description: t("aboutme.job.foxconn.description"),
+        },
+        {
+            company: t("aboutme.school.postgrad.company"),
+            location: t("aboutme.school.postgrad.location"),
+            title: t("aboutme.school.postgrad.title"),
+            date: t("aboutme.school.postgrad.date"),
+            description: t("aboutme.school.postgrad.description"),
+        },
+        {
             company: t("aboutme.job.bitbyte.company"),
             location: t("aboutme.job.bitbyte.location"),
             title: t("aboutme.job.bitbyte.title"),
