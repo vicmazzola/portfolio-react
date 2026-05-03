@@ -5,7 +5,7 @@
       "hello": "Hello there!",
       "name": "I am Victor Mazzola",
       "roles": {
-        "developer": "Junior Full-Stack Developer"
+        "developer": "Java Backend Developer | Spring Boot, REST APIs, SQL | React"
       },
       "text": "Always seeking to enhance my understanding of development to deliver innovative solutions for everyone",
       "skills": "Professional Skills",
@@ -179,8 +179,15 @@
           "company": "FIAP",
           "location": "São Paulo, Brazil",
           "title": "Associate Degree in Systems Analysis and Development",
-          "date": "February 2023 - December 2025",
+          "date": "February 2024 - December 2025",
           "description": "Pursuing an associate degree focused on developing technical skills in programming, software development, and systems analysis. This program provides a strong foundation for a career in technology and software engineering."
+        },
+        "postgrad": {
+          "company": "FIAP",
+          "location": "São Paulo, Brazil",
+          "title": "Postgraduate in Java Architecture and Development",
+          "date": "February 2026 - December 2026",
+          "description": "Postgraduate program focused on advanced Java development and backend architecture.\n\nCovers topics such as object-oriented design, clean architecture, REST API development, and best practices using Java and Spring ecosystem. Emphasis on building scalable, maintainable, and production-ready applications aligned with enterprise standards."
         }
       },
       "certificates": {
@@ -284,11 +291,19 @@
 
       },
       "job": {
+        "foxconn": {
+          "company": "Foxconn",
+          "location": "Jundiaí, São Paulo, Brazil",
+          "title": "Java Backend Developer",
+          "date": "April 2026 - Present",
+          "description": "I work as a Java Backend Developer in enterprise manufacturing systems.\n\nMy responsibilities include developing and maintaining backend services using Java and Spring Boot, as well as designing and consuming REST APIs for system integrations. I work with Oracle databases, writing and optimizing SQL queries focused on performance and data consistency.\n\nI also maintain and improve legacy systems built with JSF, JSP, and EJB, ensuring stability in production environments. Additionally, I contribute to frontend features using React when required.\n\nI actively troubleshoot production issues and work on improving system reliability and performance in a real-world enterprise environment.",
+          "techStack": ["Java", "Spring Boot", "REST APIs", "Oracle SQL", "React", "JSF", "JSP", "EJB", "Git"]
+        },
         "bitbyte": {
           "company": "Bitbyte Informática",
           "location": "Jundiaí, São Paulo, Brazil",
           "title": "Android Developer",
-          "date": "April 2025 - Present",
+          "date": "April 2025 - April 2026",
           "description": "I work as an Android Developer on BBI Food, a mobile solution developed by Bitbyte Informática for the food industry.\n\nMy responsibilities include developing and maintaining Android applications using Java, with a strong focus on business rules, local data persistence with SQL, and integration with REST APIs. I design responsive user interfaces using XML, prioritizing performance, usability, and stability in production environments.\n\nI have extensive experience integrating payment acquirer SDKs (PagBank, Bin/Sitef, Rede, Cielo, Clover, Vero, Safra, and Stone), as well as handling Bluetooth communication, multi-device POS printing workflows, and local synchronization with SQLite. I actively contribute to code reviews, exception handling, structured logging, and optimization of asynchronous flows, ensuring scalable, reliable, and high-performance mobile applications.",
           "techStack": ["Java", "SQL", "Android SDK", "XML", "Git", "Android Studio"]
         },

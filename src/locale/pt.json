@@ -5,7 +5,7 @@
       "hello": "Olá!",
       "name": "Sou o Victor Mazzola",
       "roles": {
-        "developer": "Desenvolvedor Full-Stack Júnior"
+        "developer": "Desenvolvedor Backend Java | Spring Boot, APIs REST, SQL | React"
       },
       "text": "Sempre buscando aprimorar meu entendimento sobre desenvolvimento para entregar soluções inovadoras para todos",
       "skills": "Habilidades Profissionais",
@@ -179,8 +179,15 @@
           "company": "FIAP",
           "location": "São Paulo, Brasil",
           "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-          "date": "Fevereiro de 2023 - Dezembro de 2025",
+          "date": "Fevereiro de 2024 - Dezembro de 2025",
           "description": "Cursando tecnólogo com foco no desenvolvimento de habilidades técnicas em programação, desenvolvimento de software e análise de sistemas. Este curso oferece uma base sólida para uma carreira em tecnologia e engenharia de software."
+        },
+        "postgrad": {
+          "company": "FIAP",
+          "location": "São Paulo, Brasil",
+          "title": "Pós-graduação em Arquitetura e Desenvolvimento em Java",
+          "date": "Fevereiro 2026 - Dezembro 2026",
+          "description": "Pós-graduação focada em desenvolvimento backend com Java e arquitetura de software.\n\nAborda design orientado a objetos, princípios de clean architecture, desenvolvimento de APIs REST e boas práticas com o ecossistema Spring. Ênfase na construção de aplicações escaláveis, manuteníveis e alinhadas com padrões corporativos."
         }
       },
       "certificates": {
@@ -272,6 +279,14 @@
         }
       },
       "job": {
+        "foxconn": {
+          "company": "Foxconn",
+          "location": "Jundiaí, São Paulo, Brasil",
+          "title": "Desenvolvedor Backend Java",
+          "date": "Abril 2026 - Presente",
+          "description": "Atuo como Desenvolvedor Backend Java em sistemas corporativos do setor de manufatura.\n\nMinhas responsabilidades incluem desenvolver e manter serviços backend utilizando Java e Spring Boot, além de projetar e consumir APIs REST para integração entre sistemas. Trabalho com banco de dados Oracle, escrevendo e otimizando consultas SQL com foco em performance e consistência dos dados.\n\nTambém atuo na manutenção e melhoria de sistemas legados desenvolvidos com JSF, JSP e EJB, garantindo estabilidade em ambientes de produção. Além disso, contribuo com funcionalidades de frontend utilizando React quando necessário.\n\nAtuo na resolução de problemas em produção e na melhoria contínua da confiabilidade e performance dos sistemas.",
+          "techStack": ["Java", "Spring Boot", "APIs REST", "Oracle SQL", "React", "JSF", "JSP", "EJB", "Git"]
+        },
         "bitbyte": {
           "company": "Bitbyte Informática",
           "location": "Jundiaí, São Paulo, Brasil",
