@@ -255,7 +255,6 @@
         "reactJSXHooks": {
           "title": "React: Desenvolva Aplicações Web Usando JSX e Hooks",
           "description": "Aprendi a desenvolver aplicações web dinâmicas e responsivas utilizando React e ferramentas modernas.",
-          "button": "Veja Mais",
           "modalContent": "Formação focada em aplicações React utilizando JSX, Hooks, gerenciamento de estado, ciclo de vida e configuração de projetos com Node.js e Vite.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-jsx-hooks-702713/certificate?lang=pt"
         },
