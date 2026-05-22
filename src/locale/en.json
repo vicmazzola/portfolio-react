@@ -192,6 +192,61 @@
       },
       "certificates": {
         "button": "See Details",
+        "degree": {
+          "title": "Associate Degree in Systems Analysis and Development",
+          "description": "Degree focused on software development, Java backend, databases, APIs, web applications, mobile development, and software architecture.",
+          "modalContent": "Associate degree completed at FIAP covering software engineering fundamentals, Java development, object-oriented programming, SQL and NoSQL databases, REST APIs, Spring Boot, mobile development with Kotlin and Jetpack Compose, cloud computing, DevOps, IoT, artificial intelligence, systems analysis, web development, and software architecture concepts.",
+          "certificateLink": "https://www.fiap.com.br/graduacao/consulta-publica-de-diplomas"
+        },
+
+        "fiapWeb20": {
+          "title": "Web 2.0 Development and Design",
+          "description": "Built responsive web interfaces using HTML, CSS, JavaScript, and modern UI design principles.",
+          "modalContent": "<strong>Certificate ID:</strong> DEEE366E<br/><br/>Certification focused on front-end development fundamentals, responsive web design, user experience principles, HTML, CSS, JavaScript, semantic layouts, grids, forms, and modern Web 2.0 concepts.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+
+        "fiapSystemsAnalysis": {
+          "title": "Systems Analysis and Web Prototyping",
+          "description": "Focused on systems analysis, Java OOP, SQL databases, JSP integration, and software architecture fundamentals.",
+          "modalContent": "<strong>Certificate ID:</strong> B414EB14<br/><br/>Certification covering systems analysis, object-oriented programming with Java, SQL databases, data persistence, JSP integration, backend fundamentals, chatbot concepts, software architecture, and web prototyping techniques.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+
+        "javaDevelopmentFiap": {
+          "title": "Java Development",
+          "description": "Developed backend applications using Java, OOP principles, collections, and database integration.",
+          "modalContent": "Certification focused on Java development fundamentals including object-oriented programming, collections, exception handling, database integration, and backend application development concepts.",
+          "certificateLink": "https://on.fiap.com.br/local/nanocourses/validar-certificado?chave=a99e6aa0294d432f96703bc31ce0ecc4"
+        },
+
+        "javaAdvancedFrameworks": {
+          "title": "Java Advanced Frameworks",
+          "description": "Advanced backend development with Java frameworks, REST APIs, Spring ecosystem, and enterprise concepts.",
+          "modalContent": "Certification focused on advanced Java backend development, enterprise frameworks, RESTful APIs, Spring ecosystem concepts, persistence, security, and scalable application architecture.",
+          "certificateLink": "https://on.fiap.com.br/local/nanocourses/validar-certificado?chave=9b785ef0adb5052b928275f4372565d3"
+        },
+
+        "mobileDevelopmentFiap": {
+          "title": "Mobile Application Development",
+          "description": "Built Android applications using Kotlin, Jetpack Compose, REST APIs, and local data persistence.",
+          "modalContent": "<strong>Certificate ID:</strong> 26AEBF48<br/><strong>FIAP Certificate in Mobile Application Developer</strong><br/><br/>Certification focused on Android mobile development using Kotlin and Jetpack Compose, covering navigation, state management, API consumption, local persistence, animations, REST APIs, Spring Boot integration, cloud deployment, and microservices concepts.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+
+        "aiIoTStrategy": {
+          "title": "Strategy and Technological Innovation with AI and IoT",
+          "description": "Focused on AI, IoT, cloud computing, DevOps, NoSQL databases, and emerging technologies.",
+          "modalContent": "<strong>Certificate ID:</strong> BD24CF97<br/><strong>FIAP Certificate in Strategy and Technological Innovation with AI and IoT applications</strong><br/><br/>Certification covering artificial intelligence, IoT, DevOps, cloud computing, MongoDB, Big Data, CI/CD, Azure DevOps, software quality, security, and emerging technology strategies applied to modern software solutions.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+
+        "javaSpringBootAlura": {
+          "title": "Java Web: Build Applications with Spring Boot",
+          "description": "Built full-stack Java web applications with Spring Boot, REST APIs, PostgreSQL, JPA, JPQL, and Maven.",
+          "modalContent": "Comprehensive training focused on Java and Spring Boot development, covering REST APIs, PostgreSQL persistence with Spring Data JPA, JPQL queries, entity relationships, Maven dependency management, Java Streams, and backend-to-frontend integration. Included hands-on experience building CRUD applications and deploying web services.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-java-web-spring-boot-596328/certificate?lang=en"
+        },
         "javascriptConcurrentOOP": {
           "title": "Develop Web Applications with JavaScript: Concurrency and OOP",
           "description": "Master asynchronous requests, object manipulation, and advanced JavaScript techniques.",

@@ -5,14 +5,10 @@ import devDragons from "../../assets/dev-dragons.png";
 import teamFlow from "../../assets/teamFlow.png";
 import javascriptConcurrentOOP from "../../assets/javascriptConcurrentOOP.png";
 import javascriptFrontEnd from "../../assets/javascriptFrontEnd.png";
-import figmaUnderstanding from "../../assets/figmaUnderstanding.png";
-import pythonFirstApp from "../../assets/pythonFirstApp.png";
-import htmlCssFromScratch from "../../assets/htmlCssFromScratch.png";
 import alura from "../../assets/alura.png";
 import reactJSXHooks from "../../assets/reactJSXHooks.png";
 import fortinetFCF from "../../assets/FCF.png";
 import fortinetFCA from "../../assets/FCA.png";
-import programmingLogic from "../../assets/programmingLogic.png";
 import userExperience from "../../assets/userExperience.png";
 import javaFundamentals from "../../assets/javaFundamentals.png";
 import uxDesignProcess from "../../assets/uxDesignProcess.jpeg";
@@ -24,6 +20,14 @@ import mernTalk from "../../assets/mern-talk.png";
 import springEcowatt from "../../assets/spring-ecowatt.png";
 import springMicroservices from "../../assets/spring-microservices.png";
 import springContacts from "../../assets/spring-contact.png";
+import fiapWeb20 from "../../assets/fiapweb20.png";
+import fiapSystemsAnalysis from "../../assets/fiapSystemsAnalysis.png";
+import javaDevelopmentFiap from "../../assets/javaDevelopment.png";
+import javaAdvancedFrameworks from "../../assets/javaAdvancedFrameworks.png";
+import mobileDevelopmentFiap from "../../assets/mobileDevelopmentFiap.png";
+import aiIoTStrategy from "../../assets/aiIoTStrategy.png";
+import javaSpringBootAlura from "../../assets/javaSpringBootAlura.png";
+import degree from "../../assets/degree.png";
 
 const images = {
     portfolio,
@@ -38,12 +42,8 @@ const images = {
     fortinetFCF,
     fortinetFCA,
     javascriptFrontEnd,
-    figmaUnderstanding,
-    pythonFirstApp,
-    htmlCssFromScratch,
     javaFundamentals,
     userExperience,
-    programmingLogic,
     uxDesignProcess,
     uxFoundations,
     reactHangman,
@@ -51,7 +51,15 @@ const images = {
     mernTalk,
     springEcowatt,
     springMicroservices,
-    springContacts
+    springContacts,
+    fiapWeb20,
+    fiapSystemsAnalysis,
+    javaDevelopmentFiap,
+    javaAdvancedFrameworks,
+    mobileDevelopmentFiap,
+    aiIoTStrategy,
+    javaSpringBootAlura,
+    degree
 };
 
 export default images;

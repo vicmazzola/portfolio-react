@@ -53,8 +53,11 @@ export default function Card(props: CardProps) {
                      aria-describedby="modal-desc">
                     <div className="modal-box bg-white">
                         <h3 id="modal-title" className="text-lg font-bold">{props.title}</h3>
-                        <p className="py-4">{props.modalContent || props.description}</p>
-
+                        {/*<p className="py-4">{props.modalContent || props.description}</p>*/}
+                        <div
+                            className="py-4"
+                            dangerouslySetInnerHTML={{ __html: props.modalContent || props.description }}
+                        />
                         {/* Links Container */}
 
                         <div className="flex flex-wrap gap-2 py-4">

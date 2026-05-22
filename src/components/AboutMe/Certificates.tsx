@@ -18,6 +18,96 @@ export default function Certificates() {
 
     const cards: CardProps[] = [
         {
+            image: images.degree,
+            title: t("aboutme.certificates.degree.title"),
+            description: t("aboutme.certificates.degree.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.degree.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.degree.certificateLink"),
+        },
+        {
+            image: images.javaSpringBootAlura,
+            title: t("aboutme.certificates.javaSpringBootAlura.title"),
+            description: t("aboutme.certificates.javaSpringBootAlura.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.javaSpringBootAlura.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.javaSpringBootAlura.certificateLink"),
+            tags: ["back-end", "java", "spring"]
+        },
+        {
+            image: images.javaAdvancedFrameworks,
+            title: t("aboutme.certificates.javaAdvancedFrameworks.title"),
+            description: t("aboutme.certificates.javaAdvancedFrameworks.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.javaAdvancedFrameworks.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.javaAdvancedFrameworks.certificateLink"),
+            tags: ["back-end", "java"]
+        },
+        {
+            image: images.javaDevelopmentFiap,
+            title: t("aboutme.certificates.javaDevelopmentFiap.title"),
+            description: t("aboutme.certificates.javaDevelopmentFiap.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.javaDevelopmentFiap.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.javaDevelopmentFiap.certificateLink"),
+            tags: ["back-end", "java"]
+        },
+        {
+            image: images.javaFundamentals,
+            title: t("aboutme.certificates.javaFundamentals.title"),
+            description: t("aboutme.certificates.javaFundamentals.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.javaFundamentals.modalContent"),
+            iconCertificateLink:TbCertificate,
+            certificateLink: t("aboutme.certificates.javaFundamentals.certificateLink"),
+            tags: ["back-end", "java"]
+        },
+        {
+            image: images.mobileDevelopmentFiap,
+            title: t("aboutme.certificates.mobileDevelopmentFiap.title"),
+            description: t("aboutme.certificates.mobileDevelopmentFiap.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.mobileDevelopmentFiap.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.mobileDevelopmentFiap.certificateLink"),
+            tags: ["android", "kotlin", "jetpack-compose", "mobile", "rest-api"]
+        },
+        {
+            image: images.aiIoTStrategy,
+            title: t("aboutme.certificates.aiIoTStrategy.title"),
+            description: t("aboutme.certificates.aiIoTStrategy.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.aiIoTStrategy.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.aiIoTStrategy.certificateLink"),
+            tags: ["ai", "iot", "cloud", "devops", "mongodb"]
+        },
+        {
+            image: images.fiapWeb20,
+            title: t("aboutme.certificates.fiapWeb20.title"),
+            description: t("aboutme.certificates.fiapWeb20.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.fiapWeb20.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.fiapWeb20.certificateLink"),
+            tags: ["html", "css", "javascript", "frontend", "responsive-design"]
+        },
+        {
+            image: images.fiapSystemsAnalysis,
+            title: t("aboutme.certificates.fiapSystemsAnalysis.title"),
+            description: t("aboutme.certificates.fiapSystemsAnalysis.description"),
+            buttonText: t("aboutme.certificates.button"),
+            modalContent: t("aboutme.certificates.fiapSystemsAnalysis.modalContent"),
+            iconCertificateLink: TbCertificate,
+            certificateLink: t("aboutme.certificates.fiapSystemsAnalysis.certificateLink"),
+            tags: ["java", "oop", "sql", "jsp", "backend"]
+        },
+
+        {
             image: images.exploreReactWithJavaScript,
             title: t("aboutme.certificates.exploreReactWithJavaScript.title"),
             description: t("aboutme.certificates.exploreReactWithJavaScript.description"),
@@ -59,26 +149,6 @@ export default function Certificates() {
             tags: ["front-end","javascript","html", "css"]
         },
         {
-            image: images.htmlCssFromScratch,
-            title: t("aboutme.certificates.htmlCssFromScratch.title"),
-            description: t("aboutme.certificates.htmlCssFromScratch.description"),
-            buttonText: t("aboutme.certificates.button"),
-            modalContent: t("aboutme.certificates.htmlCssFromScratch.modalContent"),
-            iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.htmlCssFromScratch.certificateLink"),
-            tags: ["front-end", "html", "css"]
-        },
-        {
-            image: images.javaFundamentals,
-            title: t("aboutme.certificates.javaFundamentals.title"),
-            description: t("aboutme.certificates.javaFundamentals.description"),
-            buttonText: t("aboutme.certificates.button"),
-            modalContent: t("aboutme.certificates.javaFundamentals.modalContent"),
-            iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.javaFundamentals.certificateLink"),
-            tags: ["back-end", "java"]
-        },
-        {
             image: images.userExperience,
             title: t("aboutme.certificates.userExperience.title"),
             description: t("aboutme.certificates.userExperience.description"),
@@ -87,15 +157,6 @@ export default function Certificates() {
             iconCertificateLink:TbCertificate,
             certificateLink: t("aboutme.certificates.userExperience.certificateLink"),
             tags: ["ux-design"]
-        },
-        {
-            image: images.programmingLogic,
-            title: t("aboutme.certificates.programmingLogic.title"),
-            description: t("aboutme.certificates.programmingLogic.description"),
-            buttonText: t("aboutme.certificates.button"),
-            modalContent: t("aboutme.certificates.programmingLogic.modalContent"),
-            iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.programmingLogic.certificateLink"),
         },
         {
             image: images.fortinetFCF,
@@ -116,27 +177,6 @@ export default function Certificates() {
             iconCertificateLink:TbCertificate,
             certificateLink: t("aboutme.certificates.fortinetFCA.certificateLink"),
             tags: ["cybersecurity"],
-        },
-        {
-
-            image: images.figmaUnderstanding,
-            title: t("aboutme.certificates.figmaUnderstanding.title"),
-            description: t("aboutme.certificates.figmaUnderstanding.description"),
-            buttonText: t("aboutme.certificates.button"),
-            modalContent: t("aboutme.certificates.figmaUnderstanding.modalContent"),
-            iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.figmaUnderstanding.certificateLink"),
-            tags: ["ux-design"]
-        },
-        {
-            image: images.pythonFirstApp,
-            title: t("aboutme.certificates.pythonFirstApp.title"),
-            description: t("aboutme.certificates.pythonFirstApp.description"),
-            buttonText: t("aboutme.certificates.button"),
-            modalContent: t("aboutme.certificates.pythonFirstApp.modalContent"),
-            iconCertificateLink:TbCertificate,
-            certificateLink: t("aboutme.certificates.pythonFirstApp.certificateLink"),
-            tags: ["back-end", "python"]
         },
         {
             image: images.uxDesignProcess,

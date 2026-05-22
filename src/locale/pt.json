@@ -192,89 +192,137 @@
       },
       "certificates": {
         "button": "Ver Detalhes",
+        "degree": {
+          "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+          "description": "Graduação focada em desenvolvimento de software, backend Java, bancos de dados, APIs, aplicações web, mobile e arquitetura de software.",
+          "modalContent": "<strong>Código de Verificação:</strong> 852.852.1790fdieae6d<br/><br/>Graduação concluída na FIAP abordando fundamentos de engenharia de software, desenvolvimento Java, programação orientada a objetos, bancos SQL e NoSQL, APIs REST, Spring Boot, desenvolvimento mobile com Kotlin e Jetpack Compose, computação em nuvem, DevOps, IoT, inteligência artificial, análise de sistemas, desenvolvimento web e conceitos de arquitetura de software.",
+          "certificateLink": "https://www.fiap.com.br/graduacao/consulta-publica-de-diplomas"
+        },
+        "fiapWeb20": {
+          "title": "Desenvolvimento e Design Web 2.0",
+          "description": "Desenvolvimento de interfaces web responsivas utilizando HTML, CSS, JavaScript e princípios modernos de UI.",
+          "modalContent": "<strong>Certificate ID:</strong> DEEE366E<br/><br/>Certificação focada em fundamentos de desenvolvimento front-end, design responsivo, experiência do usuário, HTML, CSS, JavaScript, layouts semânticos, grids, formulários e conceitos modernos de Web 2.0.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+        "fiapSystemsAnalysis": {
+          "title": "Análise de Sistemas e Prototipação Web",
+          "description": "Foco em análise de sistemas, POO com Java, bancos SQL, integração JSP e fundamentos de arquitetura de software.",
+          "modalContent": "<strong>Certificate ID:</strong> B414EB14<br/><br/>Certificação abordando análise de sistemas, programação orientada a objetos com Java, bancos de dados SQL, persistência de dados, integração JSP, fundamentos backend, conceitos de chatbot, arquitetura de software e técnicas de prototipação web.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+        "javaDevelopmentFiap": {
+          "title": "Desenvolvimento Java",
+          "description": "Desenvolvimento de aplicações backend utilizando Java, princípios de POO, coleções e integração com banco de dados.",
+          "modalContent": "<strong>Certificate ID:</strong> a99e6aa0294d432f96703bc31ce0ecc4<br/><br/>Certificação focada em fundamentos de desenvolvimento Java incluindo programação orientada a objetos, collections, tratamento de exceções, integração com banco de dados e conceitos de desenvolvimento backend.",
+          "certificateLink": "https://on.fiap.com.br/local/nanocourses/validar-certificado?chave=a99e6aa0294d432f96703bc31ce0ecc4"
+        },
+        "javaAdvancedFrameworks": {
+          "title": "Frameworks Avançados Java",
+          "description": "Desenvolvimento backend avançado com frameworks Java, APIs REST, ecossistema Spring e conceitos enterprise.",
+          "modalContent": "<strong>Certificate ID:</strong> 9b785ef0adb5052b928275f4372565d3<br/><br/>Certificação focada em desenvolvimento backend avançado com Java, frameworks enterprise, APIs RESTful, conceitos do ecossistema Spring, persistência, segurança e arquitetura escalável de aplicações.",
+          "certificateLink": "https://on.fiap.com.br/local/nanocourses/validar-certificado?chave=9b785ef0adb5052b928275f4372565d3"
+        },
+        "mobileDevelopmentFiap": {
+          "title": "Desenvolvimento de Aplicações Mobile",
+          "description": "Desenvolvimento de aplicações Android utilizando Kotlin, Jetpack Compose, APIs REST e persistência local.",
+          "modalContent": "<strong>Certificate ID:</strong> 26AEBF48<br/><strong>FIAP Certificate in Mobile Application Developer</strong><br/><br/>Certificação focada em desenvolvimento mobile Android com Kotlin e Jetpack Compose, abordando navegação, gerenciamento de estado, consumo de APIs, persistência local, animações, integração com Spring Boot, deploy em cloud e conceitos de microsserviços.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+        "aiIoTStrategy": {
+          "title": "Estratégia e Inovação Tecnológica com IA e IoT",
+          "description": "Foco em IA, IoT, computação em nuvem, DevOps, bancos NoSQL e tecnologias emergentes.",
+          "modalContent": "<strong>Certificate ID:</strong> BD24CF97<br/><strong>FIAP Certificate in Strategy and Technological Innovation with AI and IoT applications</strong><br/><br/>Certificação abordando inteligência artificial, IoT, DevOps, computação em nuvem, MongoDB, Big Data, CI/CD, Azure DevOps, qualidade de software, segurança e estratégias de tecnologias emergentes aplicadas a soluções modernas.",
+          "certificateLink": "https://www.fiap.com.br/consultadocumento"
+        },
+        "javaSpringBootAlura": {
+          "title": "Java Web: Crie Aplicações com Spring Boot",
+          "description": "Desenvolvimento de aplicações web full-stack com Spring Boot, APIs REST, PostgreSQL, JPA, JPQL e Maven.",
+          "modalContent": "Formação completa focada em desenvolvimento Java com Spring Boot, abordando APIs REST, persistência com PostgreSQL e Spring Data JPA, consultas JPQL, relacionamentos entre entidades, gerenciamento de dependências com Maven, Java Streams e integração backend/frontend. Incluiu experiência prática no desenvolvimento de aplicações CRUD e deploy de serviços web.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-java-web-spring-boot-596328/certificate?lang=pt"
+        },
         "javascriptConcurrentOOP": {
           "title": "Desenvolva Aplicações Escaláveis com JavaScript: Concorrência e POO",
           "description": "Dominei requisições assíncronas, manipulação de objetos e técnicas avançadas de JavaScript.",
-          "modalContent": "Concluí a formação 'Desenvolva Aplicações Escaláveis com JavaScript: Concorrência e POO,' totalizando 23 horas. Aprimorei habilidades em programação concorrente, fundamentos de POO (classes, objetos, herança) e operações assíncronas para criar aplicações modernas e responsivas.",
+          "modalContent": "Concluí a formação 'Desenvolva Aplicações Escaláveis com JavaScript: Concorrência e POO', totalizando 23 horas. Aprimorei habilidades em programação concorrente, fundamentos de POO (classes, objetos, herança) e operações assíncronas para criar aplicações modernas e responsivas.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-aplicacoes-javascript-tarefas-concorrentes-orientadas-objetoss-543206/certificate?lang=pt"
         },
         "exploreReactWithJavaScript": {
           "title": "Explore React com JavaScript",
-          "description": "Aprendi a criar aplicações web dinâmicas e responsivas com React, utilizando ferramentas e técnicas modernas.",
-          "modalContent": "Concluí um curso de 68 horas sobre desenvolvimento de aplicações com React, começando do zero até o deploy. Aprendi a criar componentes com JSX, configurar rotas com React Router, gerenciar estados com Context API, estilizar com Styled Components e migrar projetos para TypeScript. Essa experiência ampliou minhas habilidades em criar interfaces modernas e interativas.",
-          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-javascript-700230/certificate?lang=en"
+          "description": "Aprendi a criar aplicações web dinâmicas e responsivas com React utilizando ferramentas modernas.",
+          "modalContent": "Concluí um curso de 68 horas sobre desenvolvimento de aplicações React, desde a criação até o deploy. Aprendi JSX, React Router, Context API, Styled Components e migração para TypeScript.",
+          "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-javascript-700230/certificate?lang=pt"
         },
         "reactJSXHooks": {
           "title": "React: Desenvolva Aplicações Web Usando JSX e Hooks",
-          "description": "Aprendi a desenvolver aplicações web dinâmicas e responsivas com React, utilizando ferramentas modernas.",
+          "description": "Aprendi a desenvolver aplicações web dinâmicas e responsivas utilizando React e ferramentas modernas.",
           "button": "Veja Mais",
-          "modalContent": "Essa formação de 58 horas foi focada no desenvolvimento de aplicações web dinâmicas com React. Entre os destaques, estão a criação de componentes com JSX, gerenciamento de estado e ciclo de vida, além da configuração de projetos com Node.js e Vite. Essa experiência fortaleceu minha capacidade de projetar interfaces modernas e interativas.",
+          "modalContent": "Formação focada em aplicações React utilizando JSX, Hooks, gerenciamento de estado, ciclo de vida e configuração de projetos com Node.js e Vite.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-react-jsx-hooks-702713/certificate?lang=pt"
         },
         "javascriptFrontEnd": {
           "title": "Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript",
-          "description": "Explorei o JavaScript desde a manipulação do DOM até recursos avançados do ES6+ em 61 horas de aprendizado.",
-          "modalContent": "Nesta formação, desenvolvi habilidades em manipulação do DOM, implementação de CRUDs com HTTP e programação assíncrona com promises e async/await. Também aprofundei o uso de recursos avançados do ES6+, como destructuring, módulos e ferramentas modernas como Webpack e Vite.",
+          "description": "Explorei o JavaScript desde manipulação do DOM até recursos avançados do ES6+.",
+          "modalContent": "Formação focada em manipulação de DOM, CRUD HTTP, programação assíncrona, promises, async/await, módulos ES6+, Webpack e Vite.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-javascript-front-end-v814363-814363/certificate?lang=pt_BR"
         },
         "htmlCssFromScratch": {
           "title": "A partir do zero: iniciante em programação",
           "description": "Desenvolvi habilidades sólidas para criar e estilizar projetos web utilizando HTML e CSS.",
-          "modalContent": "Essa formação me proporcionou uma compreensão completa de como estruturar e estilizar projetos web do zero usando HTML e CSS. Foi a base para criar sites responsivos e acessíveis. Agradeço à Alura e à Mônica Hillman por essa incrível jornada de aprendizado.",
+          "modalContent": "Essa formação me proporcionou uma compreensão completa de como estruturar e estilizar projetos web do zero usando HTML e CSS.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/degree-html-css-v527396-527396/certificate?lang=pt"
         },
         "fortinetFCF": {
           "title": "Fortinet Certified Fundamentals in Cybersecurity (FCF)",
           "description": "Valida habilidades técnicas essenciais para funções iniciais em cibersegurança.",
-          "modalContent": "Esta certificação abrange o panorama atual das ameaças e os fundamentos da cibersegurança, garantindo prontidão para posições de nível inicial.",
+          "modalContent": "Esta certificação abrange fundamentos de cibersegurança e panorama atual de ameaças.",
           "certificateLink": "https://www.credly.com/badges/77e81017-87f0-409f-814b-15a6219532ba"
         },
         "fortinetFCA": {
           "title": "Fortinet Certified Associate in Cybersecurity (FCA)",
-          "description": "Valida a capacidade de executar operações de alto nível em dispositivos FortiGate.",
-          "modalContent": "Esta certificação foca nos procedimentos operacionais fundamentais para recursos comuns do FortiGate, aprimorando competências em segurança de rede.",
+          "description": "Valida a capacidade de executar operações em dispositivos FortiGate.",
+          "modalContent": "Certificação focada em procedimentos operacionais fundamentais para recursos FortiGate.",
           "certificateLink": "https://www.credly.com/badges/25ab537f-ee4e-4818-aa1f-34d22e93ed41"
         },
         "javaFundamentals": {
           "title": "Java Fundamentos",
-          "description": "Curso extra na FIAP para aprofundar conhecimentos além da graduação.",
-          "modalContent": "Aprendi sobre orientação a objetos e como conectar a um banco de dados, consolidando habilidades essenciais em Java.",
+          "description": "Curso extra na FIAP para aprofundar conhecimentos em Java.",
+          "modalContent": "Aprendi orientação a objetos e integração com banco de dados.",
           "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/128744/e132292f182164e0a27396aeff0ee5d7/certificado.png"
         },
         "userExperience": {
           "title": "Curso em User Experience",
-          "description": "Aprimorando conhecimentos em áreas de interesse além da formação.",
-          "modalContent": "Aprendi a criar experiências impactantes e a aplicar fundamentos de UX em projetos futuros.",
+          "description": "Aprimoramento em fundamentos de UX e experiência do usuário.",
+          "modalContent": "Aprendi fundamentos de UX e criação de experiências digitais impactantes.",
           "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/125339/b61d5d81ca9bca2d7a17e20934fc4b03/certificado.png"
         },
         "figmaUnderstanding": {
           "title": "Figma: Entendendo a Ferramenta",
-          "description": "Aprendi a usar as ferramentas principais do Figma para criar e organizar projetos digitais.",
-          "modalContent": "Este curso me proporcionou uma compreensão completa do Figma, com foco na organização de projetos, design de interfaces de usuário (UI) e no domínio de variáveis e estilos. Fortaleceu minha base em design de UI e criação de produtos digitais.",
+          "description": "Aprendi organização de projetos e fundamentos de UI no Figma.",
+          "modalContent": "Curso focado em Figma, design de interfaces, variáveis e estilos.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/figma-conhecendo-ferramenta/certificate?lang=pt_BR"
         },
         "pythonFirstApp": {
           "title": "Python: Crie a sua primeira aplicação",
-          "description": "Aprendi a criar aplicações em Python, explorando conceitos fundamentais de programação.",
-          "modalContent": "Este curso apresentou os fundamentos do Python, incluindo manipulação de strings, módulos, funções, listas, loops, exceções e dicionários. Foi uma base sólida para o desenvolvimento de aplicações em Python.",
+          "description": "Aprendi fundamentos de Python e desenvolvimento de aplicações.",
+          "modalContent": "Curso cobrindo strings, módulos, listas, loops, exceções e dicionários.",
           "certificateLink": "https://cursos.alura.com.br/user/victormazzola2019/course/python-crie-sua-primeira-aplicacao/certificate?lang=pt_BR"
         },
         "programmingLogic": {
           "title": "Lógica de Programação",
-          "description": "Curso da FIAP emitido em Março de 2024.",
-          "modalContent": "Adquiri habilidades como lógica de programação, HTML, fundamentos de programação, estruturas de repetição, otimização de código e criação de funções.",
+          "description": "Curso da FIAP focado em fundamentos de programação.",
+          "modalContent": "Aprendi lógica de programação, HTML, estruturas de repetição e funções.",
           "certificateLink": "https://on.fiap.com.br/pluginfile.php/1/local_nivelamento/certificado_nivelamento/1506/015fc77bb2dc0af76fbb4e0b639338c5/certificado.png"
         },
         "uxDesignProcess": {
           "title": "Inicie o Processo de Design UX: Empatizar, Definir e Idear",
-          "description": "Certificação obtida com foco em mapeamento de empatia, jornadas do usuário e experiência do usuário.",
-          "modalContent": "Esta certificação da Google me capacitou em mapeamento de empatia, definição e ideação no processo de design de UX. Aprendi a desenvolver jornadas do usuário e aprimorar experiências centradas no usuário.",
+          "description": "Certificação focada em empatia, ideação e jornadas do usuário.",
+          "modalContent": "Certificação Google focada em UX, jornadas do usuário e design centrado no usuário.",
           "certificateLink": "https://www.coursera.org/account/accomplishments/verify/KKV8SKXUDFDW"
         },
         "uxFoundations": {
-          "title": "Fundamentos do Design de Experiência do Usuário (UX) ",
-          "description": "Certificação obtida com foco em pesquisa de UX, testes de usabilidade e design centrado no usuário.",
-          "modalContent": "Aprendi os fundamentos do design de UX, incluindo pesquisa, testes de usabilidade, design centrado no usuário e pensamento de design. Esta certificação fortaleceu minhas habilidades em projetar experiências impactantes.",
+          "title": "Fundamentos do Design de Experiência do Usuário (UX)",
+          "description": "Certificação focada em pesquisa UX, testes e design centrado no usuário.",
+          "modalContent": "Aprendi fundamentos de UX, pesquisa, testes de usabilidade e design thinking.",
           "certificateLink": "https://www.coursera.org/account/accomplishments/verify/CT3KLCQGP4M4"
         }
       },
@@ -285,7 +333,17 @@
           "title": "Desenvolvedor Backend Java",
           "date": "Abril 2026 - Presente",
           "description": "Atuo como Desenvolvedor Backend Java em sistemas corporativos do setor de manufatura.\n\nMinhas responsabilidades incluem desenvolver e manter serviços backend utilizando Java e Spring Boot, além de projetar e consumir APIs REST para integração entre sistemas. Trabalho com banco de dados Oracle, escrevendo e otimizando consultas SQL com foco em performance e consistência dos dados.\n\nTambém atuo na manutenção e melhoria de sistemas legados desenvolvidos com JSF, JSP e EJB, garantindo estabilidade em ambientes de produção. Além disso, contribuo com funcionalidades de frontend utilizando React quando necessário.\n\nAtuo na resolução de problemas em produção e na melhoria contínua da confiabilidade e performance dos sistemas.",
-          "techStack": ["Java", "Spring Boot", "APIs REST", "Oracle SQL", "React", "JSF", "JSP", "EJB", "Git"]
+          "techStack": [
+            "Java",
+            "Spring Boot",
+            "APIs REST",
+            "Oracle SQL",
+            "React",
+            "JSF",
+            "JSP",
+            "EJB",
+            "Git"
+          ]
         },
         "bitbyte": {
           "company": "Bitbyte Informática",
