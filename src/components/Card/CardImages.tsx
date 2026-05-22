@@ -20,7 +20,7 @@ import mernTalk from "../../assets/mern-talk.png";
 import springEcowatt from "../../assets/spring-ecowatt.png";
 import springMicroservices from "../../assets/spring-microservices.png";
 import springContacts from "../../assets/spring-contact.png";
-import fiapWeb20 from "../../assets/fiapweb20.png";
+import fiapWeb20 from "../../assets/fiapWeb20.png";
 import fiapSystemsAnalysis from "../../assets/fiapSystemsAnalysis.png";
 import javaDevelopmentFiap from "../../assets/javaDevelopment.png";
 import javaAdvancedFrameworks from "../../assets/javaAdvancedFrameworks.png";
